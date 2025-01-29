@@ -9,9 +9,11 @@ interface WeekSelectorProps {
 }
 
 export default function WeekSelector({ weeks, selectedWeek, onSelectWeek }: WeekSelectorProps) {
+  console.log('week', weeks[0]);
+  const weeks_ = weeks ?? [];
   return (
     <div className="flex gap-4 overflow-x-auto pb-4">
-      {weeks.map((week) => (
+      {weeks_.map((week) => (
         <button
           key={week.weekNumber}
           onClick={() => onSelectWeek(week)}

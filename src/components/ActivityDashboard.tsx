@@ -1,14 +1,14 @@
 "use client";
 
-import { useState } from 'react';
-import { motion } from 'framer-motion';
 import { ActivityData, WeekData } from '@/types/activity';
-import WeeklyOverview from './WeeklyOverview';
+import { motion } from 'framer-motion';
+import { useState } from 'react';
 import ActivityList from './ActivityList';
-import WeekSelector from './WeekSelector';
-import InsightCards from './InsightCards';
 import GlobalEvolution from './GlobalEvolution';
 import GoalComparison from './GoalComparison';
+import InsightCards from './InsightCards';
+import WeeklyOverview from './WeeklyOverview';
+import WeekSelector from './WeekSelector';
 
 interface ActivityDashboardProps {
   data: ActivityData;
@@ -40,24 +40,24 @@ export default function ActivityDashboard({ data }: ActivityDashboardProps) {
   const [selectedWeek, setSelectedWeek] = useState<WeekData>(data[data.length - 1]);
 
   return (
-    <motion.div 
+    <motion.div
       className="container mx-auto px-4 py-8 space-y-8"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
     >
-      <motion.h1 
+      <motion.h1
         className="text-3xl font-bold"
         variants={itemVariants}
       >
         Activity Insights
       </motion.h1>
-      
+
       <motion.div variants={itemVariants}>
-        <WeekSelector 
-          weeks={data} 
-          selectedWeek={selectedWeek} 
-          onSelectWeek={setSelectedWeek} 
+        <WeekSelector
+          weeks={data ?? []}
+          selectedWeek={selectedWeek}
+          onSelectWeek={setSelectedWeek}
         />
       </motion.div>
 
@@ -69,7 +69,7 @@ export default function ActivityDashboard({ data }: ActivityDashboardProps) {
         <motion.div variants={itemVariants}>
           <GoalComparison weekData={selectedWeek} />
         </motion.div>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <motion.div variants={itemVariants}>
             <WeeklyOverview weekData={selectedWeek} />
@@ -80,7 +80,7 @@ export default function ActivityDashboard({ data }: ActivityDashboardProps) {
         </div>
 
         <motion.div variants={itemVariants}>
-          <ActivityList 
+          <ActivityList
             activities={selectedWeek.activities}
           />
         </motion.div>

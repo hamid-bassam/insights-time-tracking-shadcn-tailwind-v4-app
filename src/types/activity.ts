@@ -3,7 +3,7 @@ export type TimeValue = {
   minutes: number;
 };
 
-export type ActivityType = 'beneficial' | 'destructive';
+export type ActivityType = 'productive' | 'passive' | 'ressource' | 'neutral';
 
 export type Activity = {
   name: string;

@@ -102,7 +102,7 @@ export default function WeeklyOverview({ weekData }: WeeklyOverviewProps) {
                 {chartData.map((entry, index) => (
                   <Cell
                     key={`cell-${index}`}
-                    fill={entry.type === 'beneficial' ? 'hsl(var(--chart-1))' : 'hsl(var(--chart-2))'}
+                    fill={entry.type === 'productive' ? 'hsl(var(--chart-1))' : 'hsl(var(--chart-2))'}
                   />
                 ))}
               </Bar>
