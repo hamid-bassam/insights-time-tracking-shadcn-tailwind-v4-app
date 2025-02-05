@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
 import {
@@ -22,7 +23,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { ActivityData } from "@/types/activity";
-import { timeToMinutes } from "@/utils/time";
+import { formatTime, minutesToTime, timeToMinutes } from "@/utils/time";
 import { TrendingDown, TrendingUp } from "lucide-react";
 import { useState } from "react";
 import {
@@ -33,6 +34,8 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { Label } from "./ui/label";
+import { Switch } from "./ui/switch";
 
 interface GlobalEvolutionProps {
   data: ActivityData;
@@ -45,8 +48,35 @@ type ChartDataType = {
   [key: string]: string | number;
 };
 
+const getType = (activity: string) => {
+  const split = activity.split('–');
+  const split_ = activity.split('-');
+  let type = "neutral";
+  if (split.length > 1) {
+    type = split[1].trim().includes("productive") ? "productive" : split[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : "neutral";
+  } else if (split_.length > 1) {
+    type = split_[1].trim().includes("productive") ? "productive" : split_[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : "neutral";
+  }
+  else {
+    type = "neutral";
+  }
+  return type;
+}
+
 export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
   const [selectedActivity, setSelectedActivity] = useState<string>("all");
+  const [typedActivity, setTypedActivity] = useState<string>("all");
+  const [stack, setStack] = useState<boolean>(true);
+  const [displayGoal, setDisplayGoal] = useState<boolean>(false);
+
+  const switchStack = () => {
+    setStack(prev => !prev);
+  }
+
+  const switchDisplayGoal = () => {
+    setDisplayGoal(prev => !prev);
+  }
+
 
   const allActivities = Array.from(
     new Set(data.flatMap((week) => week.activities.map((a) => a.name)))
@@ -65,6 +95,10 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
         : typeof activity.trackedAvgPerDay === "number" && activity.trackedAvgPerDay !== -1
           ? activity.trackedAvgPerDay
           : 0;
+
+      weekData[`${activity.name}_goalAvg`] = typeof activity.goalAvgPerDay === "object"
+        ? timeToMinutes(activity.goalAvgPerDay)
+        : 0;
     });
 
     return weekData;
@@ -87,45 +121,95 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
       "hsl(var(--chart-4))",
       "hsl(var(--chart-5))",
     ];
+    const split = activity.split('–');
+    const split_ = activity.split('-');
+    let type = "neutral";
+    if (split.length > 1) {
+      type = split[1].trim().includes("productive") ? "productive" : split[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : "neutral";
+    } else if (split_.length > 1) {
+      type = split_[1].trim().includes("productive") ? "productive" : split_[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : "neutral";
+    }
+    else {
+      type = "neutral";
+    }
+
+    // const type = activity.split('-')[1].includes("productive") ? "productive" : "distracting";
     acc[activity] = {
-      label: activity,
-      color: colors[index % colors.length],
+      label: activity.split('–')[0] || activity.split('-')[0],
+      color: type === "productive" ? "hsl(var(--chart-1))" : type === "passive" ? "hsl(var(--destructive))" : type === "ressource" ? "hsl(var(--chart-3))" : "hsl(var(--chart-4))",
+      // color: colors[index % colors.length],
     };
     return acc;
   }, {} as ChartConfig);
+  // const filteredActivities = allActivities.filter((activity) => activity.includes(typedActivity));
 
-  const displayedActivities = selectedActivity === "all" ? allActivities : [selectedActivity];
+  const typedActivities = typedActivity === "all" ? allActivities : allActivities.filter((activity) => getType(activity) === typedActivity);
+
+
+  const filteredActivities = selectedActivity === "all" ? allActivities : [selectedActivity];
+
+  const displayedActivities = typedActivities.filter((activity) => filteredActivities.includes(activity));
+  const displayedGoalActivities = displayedActivities.map((activity) => `${activity}_goalAvg`);
 
   return (
     <Card>
       <CardHeader>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center ">
           <div>
             <CardTitle>Global Evolution</CardTitle>
             <CardDescription>Activity tracking progress over time</CardDescription>
           </div>
-          <Select defaultValue="all" onValueChange={setSelectedActivity}>
-            <SelectTrigger className="w-[180px]">
-              <SelectValue placeholder="Select activity" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">All Activities</SelectItem>
-              {allActivities.map((activity) => (
-                <SelectItem key={activity} value={activity}>
-                  {activity}
+          <div className="flex flex-col gap-2">
+            <Select defaultValue="all" onValueChange={setTypedActivity}>
+              <SelectTrigger className="w-[180px]">
+                <SelectValue placeholder="Select type" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All Activities</SelectItem>
+
+                <SelectItem key={"productive"} value={"productive"}>
+                  productive
                 </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+                <SelectItem key={"passive"} value={"passive"}>
+                  passive
+                </SelectItem>
+                <SelectItem key={"ressource"} value={"ressource"}>
+                  ressource
+                </SelectItem>
+
+              </SelectContent>
+            </Select>
+            <Select defaultValue="all" onValueChange={setSelectedActivity}>
+              <SelectTrigger className="w-[180px]">
+                <SelectValue placeholder="Select activity" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All Activities</SelectItem>
+                {allActivities.map((activity) => (
+                  <SelectItem key={activity} value={activity}>
+                    {activity}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <div className="flex items-center space-x-2">
+              <Switch id="airplane-mode" checked={stack} onCheckedChange={() => { switchStack(); console.log(stack) }} />
+              <Label htmlFor="airplane-mode">Stack Charts</Label>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Switch id="airplane-mode" checked={displayGoal} onCheckedChange={switchDisplayGoal} />
+              <Label htmlFor="airplane-mode">Display Goal</Label>
+            </div>
+          </div>
         </div>
       </CardHeader>
       <CardContent>
         <ChartContainer config={chartConfig}>
           <ResponsiveContainer width="100%" height={400}>
-            <AreaChart data={chartData}>
+            <AreaChart data={chartData} >
               <CartesianGrid vertical={false} />
               <XAxis dataKey="week" tickLine={false} axisLine={false} tickMargin={8} />
-              <YAxis tickMargin={8} tickFormatter={(value) => `${value}min`} />
+              <YAxis tickMargin={8} tickFormatter={(value) => formatTime(minutesToTime(value))} />
               <ChartTooltip content={<ChartTooltipContent indicator="dot" />} />
               {displayedActivities.map((activity) => (
                 <Area
@@ -134,10 +218,27 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
                   type="monotone"
                   stroke={chartConfig[activity].color}
                   fill={chartConfig[activity].color}
-                  stackId="a"
+                  stackId={stack ? "activities" : undefined}
                   fillOpacity={0.4}
                 />
               ))}
+
+              {displayGoal && displayedGoalActivities.map((goalActivity) => {
+                const baseActivity = goalActivity.replace("_goalAvg", "");
+                return (
+                  <Area
+                    key={goalActivity}
+                    dataKey={goalActivity}
+                    type="monotone"
+                    stroke={chartConfig[baseActivity].color}
+                    // fill={chartConfig[baseActivity].color}
+                    fill="none" // No fill for goal lines
+                    strokeDasharray="4 4" // Dashed line to distinguish goals
+                    fillOpacity={0.2} // Lighter fill for goal lines
+                    stackId={stack ? "goals" : undefined}
+                  />
+                );
+              })}
             </AreaChart>
           </ResponsiveContainer>
         </ChartContainer>
