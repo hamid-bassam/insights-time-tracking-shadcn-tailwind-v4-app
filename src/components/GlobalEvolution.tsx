@@ -53,9 +53,9 @@ const getType = (activity: string) => {
   const split_ = activity.split('-');
   let type = "neutral";
   if (split.length > 1) {
-    type = split[1].trim().includes("productive") ? "productive" : split[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : "neutral";
+    type = split[1].trim().includes("productive") ? "productive" : split[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : split[1].trim().includes("blocks") ? "blocks" : "neutral";
   } else if (split_.length > 1) {
-    type = split_[1].trim().includes("productive") ? "productive" : split_[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : "neutral";
+    type = split_[1].trim().includes("productive") ? "productive" : split_[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : split[1].trim().includes("blocks") ? "blocks" : "neutral";
   }
   else {
     type = "neutral";
@@ -125,9 +125,9 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
     const split_ = activity.split('-');
     let type = "neutral";
     if (split.length > 1) {
-      type = split[1].trim().includes("productive") ? "productive" : split[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : "neutral";
+      type = split[1].trim().includes("productive") ? "productive" : split[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : split[1].trim().includes("blocks") ? "blocks" : "neutral";
     } else if (split_.length > 1) {
-      type = split_[1].trim().includes("productive") ? "productive" : split_[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : "neutral";
+      type = split_[1].trim().includes("productive") ? "productive" : split_[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : split[1].trim().includes("blocks") ? "blocks" : "neutral";
     }
     else {
       type = "neutral";
@@ -136,7 +136,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
     // const type = activity.split('-')[1].includes("productive") ? "productive" : "distracting";
     acc[activity] = {
       label: activity.split('–')[0] || activity.split('-')[0],
-      color: type === "productive" ? "hsl(var(--chart-1))" : type === "passive" ? "hsl(var(--destructive))" : type === "ressource" ? "hsl(var(--chart-3))" : "hsl(var(--chart-4))",
+      color: type === "productive" ? "hsl(var(--chart-1))" : type === "passive" ? "hsl(var(--destructive))" : type === "ressource" ? "hsl(var(--chart-3))" : type === "blocks" ? "hsl(var(--primary))" : "hsl(var(--chart-4))",
       // color: colors[index % colors.length],
     };
     return acc;
@@ -175,6 +175,9 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
                 </SelectItem>
                 <SelectItem key={"ressource"} value={"ressource"}>
                   ressource
+                </SelectItem>
+                <SelectItem key={"blocks"} value={"blocks"}>
+                  blocks
                 </SelectItem>
 
               </SelectContent>
