@@ -3,16 +3,17 @@ export type TimeValue = {
   minutes: number;
 };
 
-export type ActivityType = 'productive' | 'passive' | 'ressource' | 'neutral';
+export type ActivityType = 'productive' | 'passive' | 'ressource' | 'blocks' | 'neutral';
 
 export type Activity = {
   name: string;
-  trackedAvgPerDay: TimeValue | number | 'non-counted' | -1;
+  trackedAvgPerDay: TimeValue  // | number | 'non-counted' | -1;
   goalAvgPerDay: TimeValue;
   type: ActivityType;
   description?: string;
   icon?: string;
   impressions?: string[];
+  tag?: string;
 };
 
 export type WeekData = {

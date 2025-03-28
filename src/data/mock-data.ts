@@ -12,7 +12,7 @@ export const mockActivityData: ActivityData = JSON.parse(
         "activities": [
 
           {
-            "name": "Sleep \u2013 ressource ",
+            "name": "Sleep - ressource",
             "trackedAvgPerDay": {
               "hours": 5,
               "minutes": 0
@@ -22,12 +22,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking sleep \u2013 ressource  time.",
+            "description": "Tracking sleep - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meals \u2013 ressource ",
+            "name": "Meals - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -37,12 +37,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meals \u2013 ressource  time.",
+            "description": "Tracking meals - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "PrepMeal \u2013 blocks",
+            "name": "PrepMeal - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -52,12 +52,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prepmeal \u2013 blocks time.",
+            "description": "Tracking prepmeal - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "prep ptit dej \u2013 blocks",
+            "name": "prep ptit dej - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -67,12 +67,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prep ptit dej \u2013 blocks time.",
+            "description": "Tracking prep ptit dej - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Bio Needs (shower, toilet) \u2013 ressource ",
+            "name": "Bio Needs (shower, toilet) - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -82,12 +82,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking bio needs (shower, toilet) \u2013 ressource  time.",
+            "description": "Tracking bio needs (shower, toilet) - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Walk \u2013 ressource ",
+            "name": "Walk - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 30
@@ -97,12 +97,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking walk \u2013 ressource  time.",
+            "description": "Tracking walk - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Sport \u2013 ressource ",
+            "name": "Sport - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -112,12 +112,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking sport \u2013 ressource  time.",
+            "description": "Tracking sport - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Family \u2013 ressource",
+            "name": "Family - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 0
@@ -127,12 +127,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking family \u2013 ressource time.",
+            "description": "Tracking family - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Rangement \u2013 blocks",
+            "name": "Rangement - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -142,12 +142,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking rangement \u2013 blocks time.",
+            "description": "Tracking rangement - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Courses \u2013 blocks",
+            "name": "Courses - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -157,12 +157,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking courses \u2013 blocks time.",
+            "description": "Tracking courses - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Diverse Responsibilities \u2013 blocks",
+            "name": "Diverse Responsibilities - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -172,12 +172,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking diverse responsibilities \u2013 blocks time.",
+            "description": "Tracking diverse responsibilities - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Pauses \u2013 ressource ",
+            "name": "Pauses - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -187,12 +187,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking pauses \u2013 ressource  time.",
+            "description": "Tracking pauses - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Daily Reporting & Activity Analysis \u2013 productive ",
+            "name": "Daily Reporting & Activity Analysis - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -202,12 +202,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking daily reporting & activity analysis \u2013 productive  time.",
+            "description": "Tracking daily reporting & activity analysis - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Mentor \u2013 ressource ",
+            "name": "Mentor - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -217,12 +217,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking mentor \u2013 ressource  time.",
+            "description": "Tracking mentor - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Direct/Deep Conversations \u2013 ressource ",
+            "name": "Direct/Deep Conversations - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 30
@@ -232,12 +232,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "ressource",
-            "description": "Tracking direct/deep conversations \u2013 ressource  time.",
+            "description": "Tracking direct/deep conversations - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Learning \u2013 productive ",
+            "name": "Learning - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -247,12 +247,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking learning \u2013 productive  time.",
+            "description": "Tracking learning - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Management (calls, logistics, etc.) \u2013 productive ",
+            "name": "Management (calls, logistics, etc.) - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -262,12 +262,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking management (calls, logistics, etc.) \u2013 productive  time.",
+            "description": "Tracking management (calls, logistics, etc.) - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Strategy \u2013 productive ",
+            "name": "Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -277,12 +277,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking strategy \u2013 productive  time.",
+            "description": "Tracking strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Vision \u2013 productive ",
+            "name": "Vision - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -292,12 +292,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking vision \u2013 productive  time.",
+            "description": "Tracking vision - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Todolist  \u2013 productive ",
+            "name": "Todolist - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -307,12 +307,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking todolist  \u2013 productive  time.",
+            "description": "Tracking todolist - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Collaboration  \u2013 productive ",
+            "name": "Collaboration - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -322,12 +322,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking collaboration  \u2013 productive  time.",
+            "description": "Tracking collaboration - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Tracking App development  \u2013 productive ",
+            "name": "Tracking App development - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -337,12 +337,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking tracking app development  \u2013 productive  time.",
+            "description": "Tracking tracking app development - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Argan soul \u2013 productive",
+            "name": "Argan soul - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -352,12 +352,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking argan soul \u2013 productive time.",
+            "description": "Tracking argan soul - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Prospecting  \u2013 productive ",
+            "name": "Prospecting - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -367,12 +367,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking prospecting  \u2013 productive  time.",
+            "description": "Tracking prospecting - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "LinkedIn Strategy  \u2013 productive ",
+            "name": "LinkedIn Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -382,12 +382,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking linkedin strategy  \u2013 productive  time.",
+            "description": "Tracking linkedin strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Articles Written  \u2013 productive ",
+            "name": "Articles Written - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -397,12 +397,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking articles written  \u2013 productive  time.",
+            "description": "Tracking articles written - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Script Writing  \u2013 productive ",
+            "name": "Script Writing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -412,12 +412,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking script writing  \u2013 productive  time.",
+            "description": "Tracking script writing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reels Recording \u2013 productive ",
+            "name": "Reels Recording - productive",
             "trackedAvgPerDay": {
               "hours": 3,
               "minutes": 0
@@ -427,12 +427,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking reels recording \u2013 productive  time.",
+            "description": "Tracking reels recording - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "CapCut Editing \u2013 productive",
+            "name": "CapCut Editing - productive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 0
@@ -442,12 +442,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "productive",
-            "description": "Tracking capcut editing \u2013 productive time.",
+            "description": "Tracking capcut editing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Administrative Tasks \u2013 blocks ",
+            "name": "Administrative Tasks - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -457,12 +457,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking administrative tasks \u2013 blocks  time.",
+            "description": "Tracking administrative tasks - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Phone Calls \u2013 passive ",
+            "name": "Phone Calls - passive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 30
@@ -472,12 +472,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "passive",
-            "description": "Tracking phone calls \u2013 passive  time.",
+            "description": "Tracking phone calls - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Hobbies \u2013 ressource",
+            "name": "Hobbies - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -487,12 +487,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking hobbies \u2013 ressource time.",
+            "description": "Tracking hobbies - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Unproductive Transport \u2013 passive",
+            "name": "Unproductive Transport - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -502,12 +502,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking unproductive transport \u2013 passive time.",
+            "description": "Tracking Unproductive Transport - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meditation \u2013 ressource",
+            "name": "Meditation - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -517,12 +517,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meditation \u2013 ressource time.",
+            "description": "Tracking meditation - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Chill Time \u2013 ressource ",
+            "name": "Chill Time - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -532,12 +532,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking chill time \u2013 ressource  time.",
+            "description": "Tracking chill time - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reflection (without writing) \u2013 passive",
+            "name": "Reflection (without writing) - passive",
             "trackedAvgPerDay": {
               "hours": 4,
               "minutes": 0
@@ -547,12 +547,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking reflection (without writing) \u2013 passive time.",
+            "description": "Tracking reflection (without writing) - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Insomnia \u2013 passive ",
+            "name": "Insomnia - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -562,7 +562,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking insomnia \u2013 passive  time.",
+            "description": "Tracking insomnia - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -577,7 +577,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking passive time (social media, etc.) - passive time.",
+            "description": "Tracking Passive Time (social media, etc.) - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -592,7 +592,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "neutral",
-            "description": "Tracking unreported time time.",
+            "description": "Tracking unreported time.",
             "icon": "activity",
             "impressions": []
           },
@@ -710,7 +710,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Sleep \u2013 ressource ",
+            "name": "Sleep - ressource",
             "trackedAvgPerDay": {
               "hours": 8,
               "minutes": 0
@@ -720,12 +720,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking sleep \u2013 ressource  time.",
+            "description": "Tracking sleep - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meals \u2013 ressource ",
+            "name": "Meals - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 0
@@ -735,12 +735,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meals \u2013 ressource  time.",
+            "description": "Tracking meals - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "PrepMeal \u2013 blocks",
+            "name": "PrepMeal - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -750,12 +750,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prepmeal \u2013 blocks time.",
+            "description": "Tracking prepmeal - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "prep ptit dej \u2013 blocks",
+            "name": "prep ptit dej - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -765,12 +765,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prep ptit dej \u2013 blocks time.",
+            "description": "Tracking prep ptit dej - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Bio Needs (shower, toilet) \u2013 ressource ",
+            "name": "Bio Needs (shower, toilet) - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -780,12 +780,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking bio needs (shower, toilet) \u2013 ressource  time.",
+            "description": "Tracking bio needs (shower, toilet) - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Walk \u2013 ressource ",
+            "name": "Walk - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 10
@@ -795,12 +795,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking walk \u2013 ressource  time.",
+            "description": "Tracking walk - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Sport \u2013 ressource ",
+            "name": "Sport - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -810,12 +810,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking sport \u2013 ressource  time.",
+            "description": "Tracking sport - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Family \u2013 ressource",
+            "name": "Family - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -825,12 +825,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking family \u2013 ressource time.",
+            "description": "Tracking family - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Rangement \u2013 blocks",
+            "name": "Rangement - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -840,12 +840,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking rangement \u2013 blocks time.",
+            "description": "Tracking rangement - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Courses \u2013 blocks",
+            "name": "Courses - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -855,12 +855,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking courses \u2013 blocks time.",
+            "description": "Tracking courses - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Diverse Responsibilities \u2013 blocks",
+            "name": "Diverse Responsibilities - blocks",
             "trackedAvgPerDay": {
               "hours": 3,
               "minutes": 20
@@ -870,12 +870,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking diverse responsibilities \u2013 blocks time.",
+            "description": "Tracking diverse responsibilities - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Pauses \u2013 ressource ",
+            "name": "Pauses - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -885,12 +885,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking pauses \u2013 ressource  time.",
+            "description": "Tracking pauses - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Daily Reporting & Activity Analysis \u2013 productive ",
+            "name": "Daily Reporting & Activity Analysis - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -900,12 +900,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking daily reporting & activity analysis \u2013 productive  time.",
+            "description": "Tracking daily reporting & activity analysis - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Mentor \u2013 ressource ",
+            "name": "Mentor - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -915,12 +915,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking mentor \u2013 ressource  time.",
+            "description": "Tracking mentor - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Direct/Deep Conversations \u2013 ressource ",
+            "name": "Direct/Deep Conversations - ressource",
             "trackedAvgPerDay": {
               "hours": 4,
               "minutes": 15
@@ -930,12 +930,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking direct/deep conversations \u2013 ressource  time.",
+            "description": "Tracking direct/deep conversations - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Learning \u2013 productive ",
+            "name": "Learning - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -945,12 +945,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking learning \u2013 productive  time.",
+            "description": "Tracking learning - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Management (calls, logistics, etc.) \u2013 productive ",
+            "name": "Management (calls, logistics, etc.) - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -960,12 +960,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking management (calls, logistics, etc.) \u2013 productive  time.",
+            "description": "Tracking management (calls, logistics, etc.) - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Strategy \u2013 productive ",
+            "name": "Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -975,12 +975,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking strategy \u2013 productive  time.",
+            "description": "Tracking strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Vision \u2013 productive ",
+            "name": "Vision - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -990,12 +990,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking vision \u2013 productive  time.",
+            "description": "Tracking vision - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Todolist  \u2013 productive ",
+            "name": "Todolist - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1005,12 +1005,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking todolist  \u2013 productive  time.",
+            "description": "Tracking todolist - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Collaboration  \u2013 productive ",
+            "name": "Collaboration - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1020,12 +1020,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking collaboration  \u2013 productive  time.",
+            "description": "Tracking collaboration - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Tracking App development  \u2013 productive ",
+            "name": "Tracking App development - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1035,12 +1035,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking tracking app development  \u2013 productive  time.",
+            "description": "Tracking tracking app development - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Argan soul \u2013 productive",
+            "name": "Argan soul - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1050,12 +1050,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking argan soul \u2013 productive time.",
+            "description": "Tracking argan soul - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Prospecting  \u2013 productive ",
+            "name": "Prospecting - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1065,12 +1065,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking prospecting  \u2013 productive  time.",
+            "description": "Tracking prospecting - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "LinkedIn Strategy  \u2013 productive ",
+            "name": "LinkedIn Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1080,12 +1080,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking linkedin strategy  \u2013 productive  time.",
+            "description": "Tracking linkedin strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Articles Written  \u2013 productive ",
+            "name": "Articles Written - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1095,12 +1095,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking articles written  \u2013 productive  time.",
+            "description": "Tracking articles written - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Script Writing  \u2013 productive ",
+            "name": "Script Writing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1110,12 +1110,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking script writing  \u2013 productive  time.",
+            "description": "Tracking script writing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reels Recording \u2013 productive ",
+            "name": "Reels Recording - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1125,12 +1125,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking reels recording \u2013 productive  time.",
+            "description": "Tracking reels recording - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "CapCut Editing \u2013 productive",
+            "name": "CapCut Editing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1140,12 +1140,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "productive",
-            "description": "Tracking capcut editing \u2013 productive time.",
+            "description": "Tracking capcut editing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Administrative Tasks \u2013 blocks ",
+            "name": "Administrative Tasks - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1155,12 +1155,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking administrative tasks \u2013 blocks  time.",
+            "description": "Tracking administrative tasks - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Phone Calls \u2013 passive ",
+            "name": "Phone Calls - passive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 0
@@ -1170,12 +1170,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "passive",
-            "description": "Tracking phone calls \u2013 passive  time.",
+            "description": "Tracking phone calls - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Hobbies \u2013 ressource",
+            "name": "Hobbies - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 10
@@ -1185,12 +1185,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking hobbies \u2013 ressource time.",
+            "description": "Tracking hobbies - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Unproductive Transport \u2013 passive",
+            "name": "Unproductive Transport - passive",
             "trackedAvgPerDay": {
               "hours": 4,
               "minutes": 0
@@ -1200,12 +1200,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking unproductive transport \u2013 passive time.",
+            "description": "Tracking Unproductive Transport - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meditation \u2013 ressource",
+            "name": "Meditation - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1215,12 +1215,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meditation \u2013 ressource time.",
+            "description": "Tracking meditation - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Chill Time \u2013 ressource ",
+            "name": "Chill Time - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1230,12 +1230,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking chill time \u2013 ressource  time.",
+            "description": "Tracking chill time - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reflection (without writing) \u2013 passive",
+            "name": "Reflection (without writing) - passive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 30
@@ -1245,12 +1245,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking reflection (without writing) \u2013 passive time.",
+            "description": "Tracking reflection (without writing) - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Insomnia \u2013 passive ",
+            "name": "Insomnia - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1260,7 +1260,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking insomnia \u2013 passive  time.",
+            "description": "Tracking insomnia - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -1275,7 +1275,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking passive time (social media, etc.) - passive time.",
+            "description": "Tracking Passive Time (social media, etc.) - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -1290,7 +1290,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "neutral",
-            "description": "Tracking unreported time time.",
+            "description": "Tracking unreported time.",
             "icon": "activity",
             "impressions": []
           },
@@ -1408,7 +1408,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Sleep \u2013 ressource ",
+            "name": "Sleep - ressource",
             "trackedAvgPerDay": {
               "hours": 6,
               "minutes": 30
@@ -1418,12 +1418,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 40
             },
             "type": "ressource",
-            "description": "Tracking sleep \u2013 ressource  time.",
+            "description": "Tracking sleep - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meals \u2013 ressource ",
+            "name": "Meals - ressource",
             "trackedAvgPerDay": {
               "hours": 2,
               "minutes": 7
@@ -1433,12 +1433,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meals \u2013 ressource  time.",
+            "description": "Tracking meals - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "PrepMeal \u2013 blocks",
+            "name": "PrepMeal - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1448,12 +1448,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prepmeal \u2013 blocks time.",
+            "description": "Tracking prepmeal - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "prep ptit dej \u2013 blocks",
+            "name": "prep ptit dej - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1463,12 +1463,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prep ptit dej \u2013 blocks time.",
+            "description": "Tracking prep ptit dej - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Bio Needs (shower, toilet) \u2013 ressource ",
+            "name": "Bio Needs (shower, toilet) - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 22
@@ -1478,12 +1478,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking bio needs (shower, toilet) \u2013 ressource  time.",
+            "description": "Tracking bio needs (shower, toilet) - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Walk \u2013 ressource ",
+            "name": "Walk - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 17
@@ -1493,12 +1493,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking walk \u2013 ressource  time.",
+            "description": "Tracking walk - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Sport \u2013 ressource ",
+            "name": "Sport - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 11
@@ -1508,12 +1508,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking sport \u2013 ressource  time.",
+            "description": "Tracking sport - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Family \u2013 ressource",
+            "name": "Family - ressource",
             "trackedAvgPerDay": {
               "hours": 4,
               "minutes": 35
@@ -1523,12 +1523,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking family \u2013 ressource time.",
+            "description": "Tracking family - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Rangement \u2013 blocks",
+            "name": "Rangement - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1538,12 +1538,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking rangement \u2013 blocks time.",
+            "description": "Tracking rangement - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Courses \u2013 blocks",
+            "name": "Courses - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1553,12 +1553,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking courses \u2013 blocks time.",
+            "description": "Tracking courses - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Diverse Responsibilities \u2013 blocks",
+            "name": "Diverse Responsibilities - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1568,12 +1568,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking diverse responsibilities \u2013 blocks time.",
+            "description": "Tracking diverse responsibilities - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Pauses \u2013 ressource ",
+            "name": "Pauses - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 19
@@ -1583,12 +1583,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking pauses \u2013 ressource  time.",
+            "description": "Tracking pauses - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Daily Reporting & Activity Analysis \u2013 productive ",
+            "name": "Daily Reporting & Activity Analysis - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 32
@@ -1598,12 +1598,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "productive",
-            "description": "Tracking daily reporting & activity analysis \u2013 productive  time.",
+            "description": "Tracking daily reporting & activity analysis - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Mentor \u2013 ressource ",
+            "name": "Mentor - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1613,12 +1613,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking mentor \u2013 ressource  time.",
+            "description": "Tracking mentor - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Direct/Deep Conversations \u2013 ressource ",
+            "name": "Direct/Deep Conversations - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 53
@@ -1628,12 +1628,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking direct/deep conversations \u2013 ressource  time.",
+            "description": "Tracking direct/deep conversations - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Learning \u2013 productive ",
+            "name": "Learning - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1643,12 +1643,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking learning \u2013 productive  time.",
+            "description": "Tracking learning - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Management (calls, logistics, etc.) \u2013 productive ",
+            "name": "Management (calls, logistics, etc.) - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1658,12 +1658,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking management (calls, logistics, etc.) \u2013 productive  time.",
+            "description": "Tracking management (calls, logistics, etc.) - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Strategy \u2013 productive ",
+            "name": "Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1673,12 +1673,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking strategy \u2013 productive  time.",
+            "description": "Tracking strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Vision \u2013 productive ",
+            "name": "Vision - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1688,12 +1688,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking vision \u2013 productive  time.",
+            "description": "Tracking vision - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Todolist  \u2013 productive ",
+            "name": "Todolist - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1703,12 +1703,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking todolist  \u2013 productive  time.",
+            "description": "Tracking todolist - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Collaboration  \u2013 productive ",
+            "name": "Collaboration - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1718,12 +1718,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking collaboration  \u2013 productive  time.",
+            "description": "Tracking collaboration - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Tracking App development  \u2013 productive ",
+            "name": "Tracking App development - productive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 46
@@ -1733,12 +1733,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking tracking app development  \u2013 productive  time.",
+            "description": "Tracking tracking app development - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Argan soul \u2013 productive",
+            "name": "Argan soul - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1748,12 +1748,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking argan soul \u2013 productive time.",
+            "description": "Tracking argan soul - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Prospecting  \u2013 productive ",
+            "name": "Prospecting - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1763,12 +1763,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking prospecting  \u2013 productive  time.",
+            "description": "Tracking prospecting - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "LinkedIn Strategy  \u2013 productive ",
+            "name": "LinkedIn Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1778,12 +1778,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking linkedin strategy  \u2013 productive  time.",
+            "description": "Tracking linkedin strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Articles Written  \u2013 productive ",
+            "name": "Articles Written - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1793,12 +1793,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking articles written  \u2013 productive  time.",
+            "description": "Tracking articles written - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Script Writing  \u2013 productive ",
+            "name": "Script Writing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1808,12 +1808,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking script writing  \u2013 productive  time.",
+            "description": "Tracking script writing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reels Recording \u2013 productive ",
+            "name": "Reels Recording - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 17
@@ -1823,12 +1823,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking reels recording \u2013 productive  time.",
+            "description": "Tracking reels recording - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "CapCut Editing \u2013 productive",
+            "name": "CapCut Editing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1838,12 +1838,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "productive",
-            "description": "Tracking capcut editing \u2013 productive time.",
+            "description": "Tracking capcut editing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Administrative Tasks \u2013 blocks ",
+            "name": "Administrative Tasks - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1853,12 +1853,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking administrative tasks \u2013 blocks  time.",
+            "description": "Tracking administrative tasks - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Phone Calls \u2013 passive ",
+            "name": "Phone Calls - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 20
@@ -1868,12 +1868,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "passive",
-            "description": "Tracking phone calls \u2013 passive  time.",
+            "description": "Tracking phone calls - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Hobbies \u2013 ressource",
+            "name": "Hobbies - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 21
@@ -1883,12 +1883,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking hobbies \u2013 ressource time.",
+            "description": "Tracking hobbies - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Unproductive Transport \u2013 passive",
+            "name": "Unproductive Transport - passive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 55
@@ -1898,12 +1898,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking unproductive transport \u2013 passive time.",
+            "description": "Tracking Unproductive Transport - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meditation \u2013 ressource",
+            "name": "Meditation - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1913,12 +1913,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meditation \u2013 ressource time.",
+            "description": "Tracking meditation - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Chill Time \u2013 ressource ",
+            "name": "Chill Time - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1928,12 +1928,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking chill time \u2013 ressource  time.",
+            "description": "Tracking chill time - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reflection (without writing) \u2013 passive",
+            "name": "Reflection (without writing) - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1943,12 +1943,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking reflection (without writing) \u2013 passive time.",
+            "description": "Tracking reflection (without writing) - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Insomnia \u2013 passive ",
+            "name": "Insomnia - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -1958,7 +1958,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking insomnia \u2013 passive  time.",
+            "description": "Tracking insomnia - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -1973,7 +1973,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "passive",
-            "description": "Tracking passive time (social media, etc.) - passive time.",
+            "description": "Tracking Passive Time (social media, etc.) - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -1988,7 +1988,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "neutral",
-            "description": "Tracking unreported time time.",
+            "description": "Tracking unreported time.",
             "icon": "activity",
             "impressions": []
           },
@@ -2106,7 +2106,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Sleep \u2013 ressource ",
+            "name": "Sleep - ressource",
             "trackedAvgPerDay": {
               "hours": 7,
               "minutes": 50
@@ -2116,12 +2116,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 40
             },
             "type": "ressource",
-            "description": "Tracking sleep \u2013 ressource  time.",
+            "description": "Tracking sleep - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meals \u2013 ressource ",
+            "name": "Meals - ressource",
             "trackedAvgPerDay": {
               "hours": 2,
               "minutes": 20
@@ -2131,12 +2131,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meals \u2013 ressource  time.",
+            "description": "Tracking meals - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "PrepMeal \u2013 blocks",
+            "name": "PrepMeal - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2146,12 +2146,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prepmeal \u2013 blocks time.",
+            "description": "Tracking prepmeal - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "prep ptit dej \u2013 blocks",
+            "name": "prep ptit dej - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2161,12 +2161,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prep ptit dej \u2013 blocks time.",
+            "description": "Tracking prep ptit dej - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Bio Needs (shower, toilet) \u2013 ressource ",
+            "name": "Bio Needs (shower, toilet) - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 40
@@ -2176,12 +2176,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking bio needs (shower, toilet) \u2013 ressource  time.",
+            "description": "Tracking bio needs (shower, toilet) - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Walk \u2013 ressource ",
+            "name": "Walk - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 5
@@ -2191,12 +2191,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking walk \u2013 ressource  time.",
+            "description": "Tracking walk - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Sport \u2013 ressource ",
+            "name": "Sport - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2206,12 +2206,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking sport \u2013 ressource  time.",
+            "description": "Tracking sport - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Family \u2013 ressource",
+            "name": "Family - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 10
@@ -2221,12 +2221,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking family \u2013 ressource time.",
+            "description": "Tracking family - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Rangement \u2013 blocks",
+            "name": "Rangement - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2236,12 +2236,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking rangement \u2013 blocks time.",
+            "description": "Tracking rangement - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Courses \u2013 blocks",
+            "name": "Courses - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2251,12 +2251,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking courses \u2013 blocks time.",
+            "description": "Tracking courses - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Diverse Responsibilities \u2013 blocks",
+            "name": "Diverse Responsibilities - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 35
@@ -2266,12 +2266,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "blocks",
-            "description": "Tracking diverse responsibilities \u2013 blocks time.",
+            "description": "Tracking diverse responsibilities - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Pauses \u2013 ressource ",
+            "name": "Pauses - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 32
@@ -2281,12 +2281,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking pauses \u2013 ressource  time.",
+            "description": "Tracking pauses - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Daily Reporting & Activity Analysis \u2013 productive ",
+            "name": "Daily Reporting & Activity Analysis - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 33
@@ -2296,12 +2296,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "productive",
-            "description": "Tracking daily reporting & activity analysis \u2013 productive  time.",
+            "description": "Tracking daily reporting & activity analysis - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Mentor \u2013 ressource ",
+            "name": "Mentor - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2311,12 +2311,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking mentor \u2013 ressource  time.",
+            "description": "Tracking mentor - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Direct/Deep Conversations \u2013 ressource ",
+            "name": "Direct/Deep Conversations - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 33
@@ -2326,12 +2326,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking direct/deep conversations \u2013 ressource  time.",
+            "description": "Tracking direct/deep conversations - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Learning \u2013 productive ",
+            "name": "Learning - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2341,12 +2341,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking learning \u2013 productive  time.",
+            "description": "Tracking learning - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Management (calls, logistics, etc.) \u2013 productive ",
+            "name": "Management (calls, logistics, etc.) - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2356,12 +2356,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking management (calls, logistics, etc.) \u2013 productive  time.",
+            "description": "Tracking management (calls, logistics, etc.) - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Strategy \u2013 productive ",
+            "name": "Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2371,12 +2371,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking strategy \u2013 productive  time.",
+            "description": "Tracking strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Vision \u2013 productive ",
+            "name": "Vision - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2386,12 +2386,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking vision \u2013 productive  time.",
+            "description": "Tracking vision - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Todolist  \u2013 productive ",
+            "name": "Todolist - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2401,12 +2401,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking todolist  \u2013 productive  time.",
+            "description": "Tracking todolist - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Collaboration  \u2013 productive ",
+            "name": "Collaboration - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2416,12 +2416,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking collaboration  \u2013 productive  time.",
+            "description": "Tracking collaboration - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Tracking App development  \u2013 productive ",
+            "name": "Tracking App development - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2431,12 +2431,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking tracking app development  \u2013 productive  time.",
+            "description": "Tracking tracking app development - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Argan soul \u2013 productive",
+            "name": "Argan soul - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2446,12 +2446,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking argan soul \u2013 productive time.",
+            "description": "Tracking argan soul - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Prospecting  \u2013 productive ",
+            "name": "Prospecting - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2461,12 +2461,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking prospecting  \u2013 productive  time.",
+            "description": "Tracking prospecting - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "LinkedIn Strategy  \u2013 productive ",
+            "name": "LinkedIn Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2476,12 +2476,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking linkedin strategy  \u2013 productive  time.",
+            "description": "Tracking linkedin strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Articles Written  \u2013 productive ",
+            "name": "Articles Written - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2491,12 +2491,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking articles written  \u2013 productive  time.",
+            "description": "Tracking articles written - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Script Writing  \u2013 productive ",
+            "name": "Script Writing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2506,12 +2506,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking script writing  \u2013 productive  time.",
+            "description": "Tracking script writing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reels Recording \u2013 productive ",
+            "name": "Reels Recording - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2521,12 +2521,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking reels recording \u2013 productive  time.",
+            "description": "Tracking reels recording - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "CapCut Editing \u2013 productive",
+            "name": "CapCut Editing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2536,12 +2536,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "productive",
-            "description": "Tracking capcut editing \u2013 productive time.",
+            "description": "Tracking capcut editing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Administrative Tasks \u2013 blocks ",
+            "name": "Administrative Tasks - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2551,12 +2551,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking administrative tasks \u2013 blocks  time.",
+            "description": "Tracking administrative tasks - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Phone Calls \u2013 passive ",
+            "name": "Phone Calls - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 26
@@ -2566,12 +2566,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "passive",
-            "description": "Tracking phone calls \u2013 passive  time.",
+            "description": "Tracking phone calls - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Hobbies \u2013 ressource",
+            "name": "Hobbies - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 1
@@ -2581,12 +2581,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking hobbies \u2013 ressource time.",
+            "description": "Tracking hobbies - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Unproductive Transport \u2013 passive",
+            "name": "Unproductive Transport - passive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 55
@@ -2596,12 +2596,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking unproductive transport \u2013 passive time.",
+            "description": "Tracking Unproductive Transport - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meditation \u2013 ressource",
+            "name": "Meditation - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2611,12 +2611,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meditation \u2013 ressource time.",
+            "description": "Tracking meditation - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Chill Time \u2013 ressource ",
+            "name": "Chill Time - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 12
@@ -2626,12 +2626,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 1
             },
             "type": "ressource",
-            "description": "Tracking chill time \u2013 ressource  time.",
+            "description": "Tracking chill time - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reflection (without writing) \u2013 passive",
+            "name": "Reflection (without writing) - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2641,12 +2641,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking reflection (without writing) \u2013 passive time.",
+            "description": "Tracking reflection (without writing) - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Insomnia \u2013 passive ",
+            "name": "Insomnia - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2656,7 +2656,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking insomnia \u2013 passive  time.",
+            "description": "Tracking insomnia - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -2671,7 +2671,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "passive",
-            "description": "Tracking passive time (social media, etc.) - passive time.",
+            "description": "Tracking Passive Time (social media, etc.) - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -2686,7 +2686,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "neutral",
-            "description": "Tracking unreported time time.",
+            "description": "Tracking unreported time.",
             "icon": "activity",
             "impressions": []
           },
@@ -2804,7 +2804,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Sleep \u2013 ressource ",
+            "name": "Sleep - ressource",
             "trackedAvgPerDay": {
               "hours": 8,
               "minutes": 11
@@ -2814,12 +2814,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking sleep \u2013 ressource  time.",
+            "description": "Tracking sleep - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meals \u2013 ressource ",
+            "name": "Meals - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 15
@@ -2829,12 +2829,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meals \u2013 ressource  time.",
+            "description": "Tracking meals - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "PrepMeal \u2013 blocks",
+            "name": "PrepMeal - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2844,12 +2844,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prepmeal \u2013 blocks time.",
+            "description": "Tracking prepmeal - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "prep ptit dej \u2013 blocks",
+            "name": "prep ptit dej - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2859,12 +2859,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prep ptit dej \u2013 blocks time.",
+            "description": "Tracking prep ptit dej - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Bio Needs (shower, toilet) \u2013 ressource ",
+            "name": "Bio Needs (shower, toilet) - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 27
@@ -2874,12 +2874,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking bio needs (shower, toilet) \u2013 ressource  time.",
+            "description": "Tracking bio needs (shower, toilet) - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Walk \u2013 ressource ",
+            "name": "Walk - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 15
@@ -2889,12 +2889,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking walk \u2013 ressource  time.",
+            "description": "Tracking walk - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Sport \u2013 ressource ",
+            "name": "Sport - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2904,12 +2904,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking sport \u2013 ressource  time.",
+            "description": "Tracking sport - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Family \u2013 ressource",
+            "name": "Family - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 57
@@ -2919,12 +2919,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking family \u2013 ressource time.",
+            "description": "Tracking family - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Rangement \u2013 blocks",
+            "name": "Rangement - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2934,12 +2934,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking rangement \u2013 blocks time.",
+            "description": "Tracking rangement - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Courses \u2013 blocks",
+            "name": "Courses - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -2949,12 +2949,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking courses \u2013 blocks time.",
+            "description": "Tracking courses - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Diverse Responsibilities \u2013 blocks",
+            "name": "Diverse Responsibilities - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 33
@@ -2964,12 +2964,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "blocks",
-            "description": "Tracking diverse responsibilities \u2013 blocks time.",
+            "description": "Tracking diverse responsibilities - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Pauses \u2013 ressource ",
+            "name": "Pauses - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 10
@@ -2979,12 +2979,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking pauses \u2013 ressource  time.",
+            "description": "Tracking pauses - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Daily Reporting & Activity Analysis \u2013 productive ",
+            "name": "Daily Reporting & Activity Analysis - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 33
@@ -2994,12 +2994,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "productive",
-            "description": "Tracking daily reporting & activity analysis \u2013 productive  time.",
+            "description": "Tracking daily reporting & activity analysis - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Mentor \u2013 ressource ",
+            "name": "Mentor - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3009,12 +3009,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking mentor \u2013 ressource  time.",
+            "description": "Tracking mentor - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Direct/Deep Conversations \u2013 ressource ",
+            "name": "Direct/Deep Conversations - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 40
@@ -3024,12 +3024,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking direct/deep conversations \u2013 ressource  time.",
+            "description": "Tracking direct/deep conversations - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Learning \u2013 productive ",
+            "name": "Learning - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 8
@@ -3039,12 +3039,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking learning \u2013 productive  time.",
+            "description": "Tracking learning - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Management (calls, logistics, etc.) \u2013 productive ",
+            "name": "Management (calls, logistics, etc.) - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3054,12 +3054,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking management (calls, logistics, etc.) \u2013 productive  time.",
+            "description": "Tracking management (calls, logistics, etc.) - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Strategy \u2013 productive ",
+            "name": "Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3069,12 +3069,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking strategy \u2013 productive  time.",
+            "description": "Tracking strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Vision \u2013 productive ",
+            "name": "Vision - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3084,12 +3084,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking vision \u2013 productive  time.",
+            "description": "Tracking vision - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Todolist  \u2013 productive ",
+            "name": "Todolist - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3099,12 +3099,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking todolist  \u2013 productive  time.",
+            "description": "Tracking todolist - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Collaboration  \u2013 productive ",
+            "name": "Collaboration - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3114,12 +3114,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking collaboration  \u2013 productive  time.",
+            "description": "Tracking collaboration - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Tracking App development  \u2013 productive ",
+            "name": "Tracking App development - productive",
             "trackedAvgPerDay": {
               "hours": 3,
               "minutes": 50
@@ -3129,12 +3129,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking tracking app development  \u2013 productive  time.",
+            "description": "Tracking tracking app development - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Argan soul \u2013 productive",
+            "name": "Argan soul - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3144,12 +3144,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking argan soul \u2013 productive time.",
+            "description": "Tracking argan soul - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Prospecting  \u2013 productive ",
+            "name": "Prospecting - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3159,12 +3159,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking prospecting  \u2013 productive  time.",
+            "description": "Tracking prospecting - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "LinkedIn Strategy  \u2013 productive ",
+            "name": "LinkedIn Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3174,12 +3174,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking linkedin strategy  \u2013 productive  time.",
+            "description": "Tracking linkedin strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Articles Written  \u2013 productive ",
+            "name": "Articles Written - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3189,12 +3189,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking articles written  \u2013 productive  time.",
+            "description": "Tracking articles written - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Script Writing  \u2013 productive ",
+            "name": "Script Writing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3204,12 +3204,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking script writing  \u2013 productive  time.",
+            "description": "Tracking script writing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reels Recording \u2013 productive ",
+            "name": "Reels Recording - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3219,12 +3219,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking reels recording \u2013 productive  time.",
+            "description": "Tracking reels recording - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "CapCut Editing \u2013 productive",
+            "name": "CapCut Editing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 15
@@ -3234,12 +3234,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "productive",
-            "description": "Tracking capcut editing \u2013 productive time.",
+            "description": "Tracking capcut editing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Administrative Tasks \u2013 blocks ",
+            "name": "Administrative Tasks - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3249,12 +3249,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking administrative tasks \u2013 blocks  time.",
+            "description": "Tracking administrative tasks - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Phone Calls \u2013 passive ",
+            "name": "Phone Calls - passive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 13
@@ -3264,12 +3264,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "passive",
-            "description": "Tracking phone calls \u2013 passive  time.",
+            "description": "Tracking phone calls - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Hobbies \u2013 ressource",
+            "name": "Hobbies - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3279,12 +3279,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking hobbies \u2013 ressource time.",
+            "description": "Tracking hobbies - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Unproductive Transport \u2013 passive",
+            "name": "Unproductive Transport - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 13
@@ -3294,12 +3294,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "passive",
-            "description": "Tracking unproductive transport \u2013 passive time.",
+            "description": "Tracking Unproductive Transport - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meditation \u2013 ressource",
+            "name": "Meditation - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 10
@@ -3309,12 +3309,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "ressource",
-            "description": "Tracking meditation \u2013 ressource time.",
+            "description": "Tracking meditation - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Chill Time \u2013 ressource ",
+            "name": "Chill Time - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 8
@@ -3324,12 +3324,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "ressource",
-            "description": "Tracking chill time \u2013 ressource  time.",
+            "description": "Tracking chill time - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reflection (without writing) \u2013 passive",
+            "name": "Reflection (without writing) - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3339,12 +3339,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking reflection (without writing) \u2013 passive time.",
+            "description": "Tracking reflection (without writing) - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Insomnia \u2013 passive ",
+            "name": "Insomnia - passive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 30
@@ -3354,7 +3354,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "passive",
-            "description": "Tracking insomnia \u2013 passive  time.",
+            "description": "Tracking insomnia - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -3369,7 +3369,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 25
             },
             "type": "passive",
-            "description": "Tracking passive time (social media, etc.) - passive time.",
+            "description": "Tracking Passive Time (social media, etc.) - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -3384,7 +3384,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "neutral",
-            "description": "Tracking unreported time time.",
+            "description": "Tracking unreported time.",
             "icon": "activity",
             "impressions": []
           },
@@ -3502,7 +3502,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Sleep \u2013 ressource ",
+            "name": "Sleep - ressource",
             "trackedAvgPerDay": {
               "hours": 7,
               "minutes": 35
@@ -3512,12 +3512,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking sleep \u2013 ressource  time.",
+            "description": "Tracking sleep - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meals \u2013 ressource ",
+            "name": "Meals - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 10
@@ -3527,12 +3527,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meals \u2013 ressource  time.",
+            "description": "Tracking meals - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "PrepMeal \u2013 blocks",
+            "name": "PrepMeal - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3542,12 +3542,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prepmeal \u2013 blocks time.",
+            "description": "Tracking prepmeal - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "prep ptit dej \u2013 blocks",
+            "name": "prep ptit dej - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3557,12 +3557,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prep ptit dej \u2013 blocks time.",
+            "description": "Tracking prep ptit dej - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Bio Needs (shower, toilet) \u2013 ressource ",
+            "name": "Bio Needs (shower, toilet) - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 28
@@ -3572,12 +3572,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking bio needs (shower, toilet) \u2013 ressource  time.",
+            "description": "Tracking bio needs (shower, toilet) - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Walk \u2013 ressource ",
+            "name": "Walk - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 26
@@ -3587,12 +3587,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking walk \u2013 ressource  time.",
+            "description": "Tracking walk - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Sport \u2013 ressource ",
+            "name": "Sport - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3602,12 +3602,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking sport \u2013 ressource  time.",
+            "description": "Tracking sport - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Family \u2013 ressource",
+            "name": "Family - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 30
@@ -3617,12 +3617,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking family \u2013 ressource time.",
+            "description": "Tracking family - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Rangement \u2013 blocks",
+            "name": "Rangement - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3632,12 +3632,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking rangement \u2013 blocks time.",
+            "description": "Tracking rangement - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Courses \u2013 blocks",
+            "name": "Courses - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3647,12 +3647,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking courses \u2013 blocks time.",
+            "description": "Tracking courses - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Diverse Responsibilities \u2013 blocks",
+            "name": "Diverse Responsibilities - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 43
@@ -3662,12 +3662,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "blocks",
-            "description": "Tracking diverse responsibilities \u2013 blocks time.",
+            "description": "Tracking diverse responsibilities - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Pauses \u2013 ressource ",
+            "name": "Pauses - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 49
@@ -3677,12 +3677,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking pauses \u2013 ressource  time.",
+            "description": "Tracking pauses - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Daily Reporting & Activity Analysis \u2013 productive ",
+            "name": "Daily Reporting & Activity Analysis - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 48
@@ -3692,12 +3692,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "productive",
-            "description": "Tracking daily reporting & activity analysis \u2013 productive  time.",
+            "description": "Tracking daily reporting & activity analysis - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Mentor \u2013 ressource ",
+            "name": "Mentor - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3707,12 +3707,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking mentor \u2013 ressource  time.",
+            "description": "Tracking mentor - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Direct/Deep Conversations \u2013 ressource ",
+            "name": "Direct/Deep Conversations - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 37
@@ -3722,12 +3722,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking direct/deep conversations \u2013 ressource  time.",
+            "description": "Tracking direct/deep conversations - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Learning \u2013 productive ",
+            "name": "Learning - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 55
@@ -3737,12 +3737,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking learning \u2013 productive  time.",
+            "description": "Tracking learning - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Management (calls, logistics, etc.) \u2013 productive ",
+            "name": "Management (calls, logistics, etc.) - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 58
@@ -3752,12 +3752,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "productive",
-            "description": "Tracking management (calls, logistics, etc.) \u2013 productive  time.",
+            "description": "Tracking management (calls, logistics, etc.) - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Strategy \u2013 productive ",
+            "name": "Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3767,12 +3767,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking strategy \u2013 productive  time.",
+            "description": "Tracking strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Vision \u2013 productive ",
+            "name": "Vision - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3782,12 +3782,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking vision \u2013 productive  time.",
+            "description": "Tracking vision - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Todolist  \u2013 productive ",
+            "name": "Todolist - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3797,12 +3797,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking todolist  \u2013 productive  time.",
+            "description": "Tracking todolist - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Collaboration  \u2013 productive ",
+            "name": "Collaboration - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3812,12 +3812,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking collaboration  \u2013 productive  time.",
+            "description": "Tracking collaboration - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Tracking App development  \u2013 productive ",
+            "name": "Tracking App development - productive",
             "trackedAvgPerDay": {
               "hours": 2,
               "minutes": 46
@@ -3827,12 +3827,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking tracking app development  \u2013 productive  time.",
+            "description": "Tracking tracking app development - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Argan soul \u2013 productive",
+            "name": "Argan soul - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3842,12 +3842,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking argan soul \u2013 productive time.",
+            "description": "Tracking argan soul - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Prospecting  \u2013 productive ",
+            "name": "Prospecting - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3857,12 +3857,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking prospecting  \u2013 productive  time.",
+            "description": "Tracking prospecting - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "LinkedIn Strategy  \u2013 productive ",
+            "name": "LinkedIn Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3872,12 +3872,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking linkedin strategy  \u2013 productive  time.",
+            "description": "Tracking linkedin strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Articles Written  \u2013 productive ",
+            "name": "Articles Written - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3887,12 +3887,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking articles written  \u2013 productive  time.",
+            "description": "Tracking articles written - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Script Writing  \u2013 productive ",
+            "name": "Script Writing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3902,12 +3902,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking script writing  \u2013 productive  time.",
+            "description": "Tracking script writing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reels Recording \u2013 productive ",
+            "name": "Reels Recording - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 6
@@ -3917,12 +3917,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "productive",
-            "description": "Tracking reels recording \u2013 productive  time.",
+            "description": "Tracking reels recording - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "CapCut Editing \u2013 productive",
+            "name": "CapCut Editing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 27
@@ -3932,12 +3932,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "productive",
-            "description": "Tracking capcut editing \u2013 productive time.",
+            "description": "Tracking capcut editing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Administrative Tasks \u2013 blocks ",
+            "name": "Administrative Tasks - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -3947,12 +3947,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking administrative tasks \u2013 blocks  time.",
+            "description": "Tracking administrative tasks - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Phone Calls \u2013 passive ",
+            "name": "Phone Calls - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 4
@@ -3962,12 +3962,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "passive",
-            "description": "Tracking phone calls \u2013 passive  time.",
+            "description": "Tracking phone calls - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Hobbies \u2013 ressource",
+            "name": "Hobbies - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 1
@@ -3977,12 +3977,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking hobbies \u2013 ressource time.",
+            "description": "Tracking hobbies - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Unproductive Transport \u2013 passive",
+            "name": "Unproductive Transport - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 41
@@ -3992,12 +3992,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "passive",
-            "description": "Tracking unproductive transport \u2013 passive time.",
+            "description": "Tracking Unproductive Transport - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meditation \u2013 ressource",
+            "name": "Meditation - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 3
@@ -4007,12 +4007,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "ressource",
-            "description": "Tracking meditation \u2013 ressource time.",
+            "description": "Tracking meditation - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Chill Time \u2013 ressource ",
+            "name": "Chill Time - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 33
@@ -4022,12 +4022,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "ressource",
-            "description": "Tracking chill time \u2013 ressource  time.",
+            "description": "Tracking chill time - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reflection (without writing) \u2013 passive",
+            "name": "Reflection (without writing) - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 10
@@ -4037,12 +4037,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "passive",
-            "description": "Tracking reflection (without writing) \u2013 passive time.",
+            "description": "Tracking reflection (without writing) - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Insomnia \u2013 passive ",
+            "name": "Insomnia - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 43
@@ -4052,7 +4052,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "passive",
-            "description": "Tracking insomnia \u2013 passive  time.",
+            "description": "Tracking insomnia - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -4067,7 +4067,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 25
             },
             "type": "passive",
-            "description": "Tracking passive time (social media, etc.) - passive time.",
+            "description": "Tracking Passive Time (social media, etc.) - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -4082,7 +4082,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "neutral",
-            "description": "Tracking unreported time time.",
+            "description": "Tracking unreported time.",
             "icon": "activity",
             "impressions": []
           },
@@ -4200,7 +4200,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Sleep \u2013 ressource ",
+            "name": "Sleep - ressource",
             "trackedAvgPerDay": {
               "hours": 6,
               "minutes": 20
@@ -4210,12 +4210,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking sleep \u2013 ressource  time.",
+            "description": "Tracking sleep - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meals \u2013 ressource ",
+            "name": "Meals - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 58
@@ -4225,12 +4225,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meals \u2013 ressource  time.",
+            "description": "Tracking meals - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "PrepMeal \u2013 blocks",
+            "name": "PrepMeal - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4240,12 +4240,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prepmeal \u2013 blocks time.",
+            "description": "Tracking prepmeal - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "prep ptit dej \u2013 blocks",
+            "name": "prep ptit dej - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4255,12 +4255,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prep ptit dej \u2013 blocks time.",
+            "description": "Tracking prep ptit dej - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Bio Needs (shower, toilet) \u2013 ressource ",
+            "name": "Bio Needs (shower, toilet) - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 36
@@ -4270,12 +4270,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking bio needs (shower, toilet) \u2013 ressource  time.",
+            "description": "Tracking bio needs (shower, toilet) - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Walk \u2013 ressource ",
+            "name": "Walk - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 18
@@ -4285,12 +4285,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking walk \u2013 ressource  time.",
+            "description": "Tracking walk - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Sport \u2013 ressource ",
+            "name": "Sport - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 15
@@ -4300,12 +4300,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking sport \u2013 ressource  time.",
+            "description": "Tracking sport - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Family \u2013 ressource",
+            "name": "Family - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 28
@@ -4315,12 +4315,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking family \u2013 ressource time.",
+            "description": "Tracking family - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Rangement \u2013 blocks",
+            "name": "Rangement - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4330,12 +4330,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking rangement \u2013 blocks time.",
+            "description": "Tracking rangement - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Courses \u2013 blocks",
+            "name": "Courses - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4345,12 +4345,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking courses \u2013 blocks time.",
+            "description": "Tracking courses - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Diverse Responsibilities \u2013 blocks",
+            "name": "Diverse Responsibilities - blocks",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 30
@@ -4360,12 +4360,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "blocks",
-            "description": "Tracking diverse responsibilities \u2013 blocks time.",
+            "description": "Tracking diverse responsibilities - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Pauses \u2013 ressource ",
+            "name": "Pauses - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 32
@@ -4375,12 +4375,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking pauses \u2013 ressource  time.",
+            "description": "Tracking pauses - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Daily Reporting & Activity Analysis \u2013 productive ",
+            "name": "Daily Reporting & Activity Analysis - productive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 5
@@ -4390,12 +4390,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "productive",
-            "description": "Tracking daily reporting & activity analysis \u2013 productive  time.",
+            "description": "Tracking daily reporting & activity analysis - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Mentor \u2013 ressource ",
+            "name": "Mentor - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 27
@@ -4405,12 +4405,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 50
             },
             "type": "ressource",
-            "description": "Tracking mentor \u2013 ressource  time.",
+            "description": "Tracking mentor - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Direct/Deep Conversations \u2013 ressource ",
+            "name": "Direct/Deep Conversations - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 28
@@ -4420,12 +4420,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking direct/deep conversations \u2013 ressource  time.",
+            "description": "Tracking direct/deep conversations - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Learning \u2013 productive ",
+            "name": "Learning - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 22
@@ -4435,12 +4435,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking learning \u2013 productive  time.",
+            "description": "Tracking learning - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Management (calls, logistics, etc.) \u2013 productive ",
+            "name": "Management (calls, logistics, etc.) - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 24
@@ -4450,12 +4450,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "productive",
-            "description": "Tracking management (calls, logistics, etc.) \u2013 productive  time.",
+            "description": "Tracking management (calls, logistics, etc.) - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Strategy \u2013 productive ",
+            "name": "Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 32
@@ -4465,12 +4465,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 17
             },
             "type": "productive",
-            "description": "Tracking strategy \u2013 productive  time.",
+            "description": "Tracking strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Vision \u2013 productive ",
+            "name": "Vision - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 5
@@ -4480,12 +4480,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking vision \u2013 productive  time.",
+            "description": "Tracking vision - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Todolist  \u2013 productive ",
+            "name": "Todolist - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 4
@@ -4495,12 +4495,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking todolist  \u2013 productive  time.",
+            "description": "Tracking todolist - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Collaboration  \u2013 productive ",
+            "name": "Collaboration - productive",
             "trackedAvgPerDay": {
               "hours": 3,
               "minutes": 33
@@ -4510,12 +4510,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 17
             },
             "type": "productive",
-            "description": "Tracking collaboration  \u2013 productive  time.",
+            "description": "Tracking collaboration - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Tracking App development  \u2013 productive ",
+            "name": "Tracking App development - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 36
@@ -4525,12 +4525,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking tracking app development  \u2013 productive  time.",
+            "description": "Tracking tracking app development - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Argan soul \u2013 productive",
+            "name": "Argan soul - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4540,12 +4540,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking argan soul \u2013 productive time.",
+            "description": "Tracking argan soul - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Prospecting  \u2013 productive ",
+            "name": "Prospecting - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 2
@@ -4555,12 +4555,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking prospecting  \u2013 productive  time.",
+            "description": "Tracking prospecting - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "LinkedIn Strategy  \u2013 productive ",
+            "name": "LinkedIn Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4570,12 +4570,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking linkedin strategy  \u2013 productive  time.",
+            "description": "Tracking linkedin strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Articles Written  \u2013 productive ",
+            "name": "Articles Written - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4585,12 +4585,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 12
             },
             "type": "productive",
-            "description": "Tracking articles written  \u2013 productive  time.",
+            "description": "Tracking articles written - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Script Writing  \u2013 productive ",
+            "name": "Script Writing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4600,12 +4600,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking script writing  \u2013 productive  time.",
+            "description": "Tracking script writing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reels Recording \u2013 productive ",
+            "name": "Reels Recording - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 2
@@ -4615,12 +4615,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 25
             },
             "type": "productive",
-            "description": "Tracking reels recording \u2013 productive  time.",
+            "description": "Tracking reels recording - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "CapCut Editing \u2013 productive",
+            "name": "CapCut Editing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 9
@@ -4630,12 +4630,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "productive",
-            "description": "Tracking capcut editing \u2013 productive time.",
+            "description": "Tracking capcut editing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Administrative Tasks \u2013 blocks ",
+            "name": "Administrative Tasks - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4645,12 +4645,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "blocks",
-            "description": "Tracking administrative tasks \u2013 blocks  time.",
+            "description": "Tracking administrative tasks - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Phone Calls \u2013 passive ",
+            "name": "Phone Calls - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 44
@@ -4660,12 +4660,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "passive",
-            "description": "Tracking phone calls \u2013 passive  time.",
+            "description": "Tracking phone calls - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Hobbies \u2013 ressource",
+            "name": "Hobbies - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 4
@@ -4675,12 +4675,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "ressource",
-            "description": "Tracking hobbies \u2013 ressource time.",
+            "description": "Tracking hobbies - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Unproductive Transport \u2013 passive",
+            "name": "Unproductive Transport - passive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 43
@@ -4690,12 +4690,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "passive",
-            "description": "Tracking unproductive transport \u2013 passive time.",
+            "description": "Tracking Unproductive Transport - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meditation \u2013 ressource",
+            "name": "Meditation - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 8
@@ -4705,12 +4705,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "ressource",
-            "description": "Tracking meditation \u2013 ressource time.",
+            "description": "Tracking meditation - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Chill Time \u2013 ressource ",
+            "name": "Chill Time - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 23
@@ -4720,12 +4720,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "ressource",
-            "description": "Tracking chill time \u2013 ressource  time.",
+            "description": "Tracking chill time - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reflection (without writing) \u2013 passive",
+            "name": "Reflection (without writing) - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 15
@@ -4735,12 +4735,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "passive",
-            "description": "Tracking reflection (without writing) \u2013 passive time.",
+            "description": "Tracking reflection (without writing) - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Insomnia \u2013 passive ",
+            "name": "Insomnia - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 23
@@ -4750,7 +4750,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "passive",
-            "description": "Tracking insomnia \u2013 passive  time.",
+            "description": "Tracking insomnia - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -4765,7 +4765,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "passive",
-            "description": "Tracking passive time (social media, etc.) - passive time.",
+            "description": "Tracking Passive Time (social media, etc.) - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -4780,7 +4780,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "neutral",
-            "description": "Tracking unreported time time.",
+            "description": "Tracking unreported time.",
             "icon": "activity",
             "impressions": []
           },
@@ -4898,7 +4898,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Sleep \u2013 ressource ",
+            "name": "Sleep - ressource",
             "trackedAvgPerDay": {
               "hours": 8,
               "minutes": 10
@@ -4908,12 +4908,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking sleep \u2013 ressource  time.",
+            "description": "Tracking sleep - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meals \u2013 ressource ",
+            "name": "Meals - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 4
@@ -4923,12 +4923,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meals \u2013 ressource  time.",
+            "description": "Tracking meals - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "PrepMeal \u2013 blocks",
+            "name": "PrepMeal - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4938,12 +4938,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prepmeal \u2013 blocks time.",
+            "description": "Tracking prepmeal - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "prep ptit dej \u2013 blocks",
+            "name": "prep ptit dej - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4953,12 +4953,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prep ptit dej \u2013 blocks time.",
+            "description": "Tracking prep ptit dej - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Bio Needs (shower, toilet) \u2013 ressource ",
+            "name": "Bio Needs (shower, toilet) - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 53
@@ -4968,12 +4968,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking bio needs (shower, toilet) \u2013 ressource  time.",
+            "description": "Tracking bio needs (shower, toilet) - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Walk \u2013 ressource ",
+            "name": "Walk - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 10
@@ -4983,12 +4983,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "ressource",
-            "description": "Tracking walk \u2013 ressource  time.",
+            "description": "Tracking walk - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Sport \u2013 ressource ",
+            "name": "Sport - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -4998,12 +4998,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking sport \u2013 ressource  time.",
+            "description": "Tracking sport - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Family \u2013 ressource",
+            "name": "Family - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 50
@@ -5013,12 +5013,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking family \u2013 ressource time.",
+            "description": "Tracking family - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Rangement \u2013 blocks",
+            "name": "Rangement - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5028,12 +5028,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking rangement \u2013 blocks time.",
+            "description": "Tracking rangement - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Courses \u2013 blocks",
+            "name": "Courses - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5043,12 +5043,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking courses \u2013 blocks time.",
+            "description": "Tracking courses - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Diverse Responsibilities \u2013 blocks",
+            "name": "Diverse Responsibilities - blocks",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 19
@@ -5058,12 +5058,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking diverse responsibilities \u2013 blocks time.",
+            "description": "Tracking diverse responsibilities - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Pauses \u2013 ressource ",
+            "name": "Pauses - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 37
@@ -5073,12 +5073,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "ressource",
-            "description": "Tracking pauses \u2013 ressource  time.",
+            "description": "Tracking pauses - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Daily Reporting & Activity Analysis \u2013 productive ",
+            "name": "Daily Reporting & Activity Analysis - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 55
@@ -5088,12 +5088,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "productive",
-            "description": "Tracking daily reporting & activity analysis \u2013 productive  time.",
+            "description": "Tracking daily reporting & activity analysis - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Mentor \u2013 ressource ",
+            "name": "Mentor - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5103,12 +5103,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking mentor \u2013 ressource  time.",
+            "description": "Tracking mentor - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Direct/Deep Conversations \u2013 ressource ",
+            "name": "Direct/Deep Conversations - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 42
@@ -5118,12 +5118,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "ressource",
-            "description": "Tracking direct/deep conversations \u2013 ressource  time.",
+            "description": "Tracking direct/deep conversations - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Learning \u2013 productive ",
+            "name": "Learning - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 43
@@ -5133,12 +5133,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "productive",
-            "description": "Tracking learning \u2013 productive  time.",
+            "description": "Tracking learning - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Management (calls, logistics, etc.) \u2013 productive ",
+            "name": "Management (calls, logistics, etc.) - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 24
@@ -5148,12 +5148,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "productive",
-            "description": "Tracking management (calls, logistics, etc.) \u2013 productive  time.",
+            "description": "Tracking management (calls, logistics, etc.) - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Strategy \u2013 productive ",
+            "name": "Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 23
@@ -5163,12 +5163,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "productive",
-            "description": "Tracking strategy \u2013 productive  time.",
+            "description": "Tracking strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Vision \u2013 productive ",
+            "name": "Vision - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 3
@@ -5178,12 +5178,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking vision \u2013 productive  time.",
+            "description": "Tracking vision - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Todolist  \u2013 productive ",
+            "name": "Todolist - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 2
@@ -5193,12 +5193,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking todolist  \u2013 productive  time.",
+            "description": "Tracking todolist - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Collaboration  \u2013 productive ",
+            "name": "Collaboration - productive",
             "trackedAvgPerDay": {
               "hours": 2,
               "minutes": 51
@@ -5208,12 +5208,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "productive",
-            "description": "Tracking collaboration  \u2013 productive  time.",
+            "description": "Tracking collaboration - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Tracking App development  \u2013 productive ",
+            "name": "Tracking App development - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 36
@@ -5223,12 +5223,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking tracking app development  \u2013 productive  time.",
+            "description": "Tracking tracking app development - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Argan soul \u2013 productive",
+            "name": "Argan soul - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5238,27 +5238,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking argan soul \u2013 productive time.",
+            "description": "Tracking argan soul - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Prospecting  \u2013 productive ",
-            "trackedAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "goalAvgPerDay": {
-              "hours": 0,
-              "minutes": 10
-            },
-            "type": "productive",
-            "description": "Tracking prospecting  \u2013 productive  time.",
-            "icon": "activity",
-            "impressions": []
-          },
-          {
-            "name": "LinkedIn Strategy  \u2013 productive ",
+            "name": "Prospecting - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5268,12 +5253,27 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking linkedin strategy  \u2013 productive  time.",
+            "description": "Tracking prospecting - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Articles Written  \u2013 productive ",
+            "name": "LinkedIn Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking linkedin strategy - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Articles Written - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 21
@@ -5283,12 +5283,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking articles written  \u2013 productive  time.",
+            "description": "Tracking articles written - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Script Writing  \u2013 productive ",
+            "name": "Script Writing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5298,12 +5298,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking script writing  \u2013 productive  time.",
+            "description": "Tracking script writing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reels Recording \u2013 productive ",
+            "name": "Reels Recording - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 2
@@ -5313,12 +5313,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "productive",
-            "description": "Tracking reels recording \u2013 productive  time.",
+            "description": "Tracking reels recording - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "CapCut Editing \u2013 productive",
+            "name": "CapCut Editing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 32
@@ -5328,12 +5328,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking capcut editing \u2013 productive time.",
+            "description": "Tracking capcut editing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Administrative Tasks \u2013 blocks ",
+            "name": "Administrative Tasks - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5343,12 +5343,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "blocks",
-            "description": "Tracking administrative tasks \u2013 blocks  time.",
+            "description": "Tracking administrative tasks - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Phone Calls \u2013 passive ",
+            "name": "Phone Calls - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 18
@@ -5358,12 +5358,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "passive",
-            "description": "Tracking phone calls \u2013 passive  time.",
+            "description": "Tracking phone calls - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Hobbies \u2013 ressource",
+            "name": "Hobbies - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5373,12 +5373,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "ressource",
-            "description": "Tracking hobbies \u2013 ressource time.",
+            "description": "Tracking hobbies - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Unproductive Transport \u2013 passive",
+            "name": "Unproductive Transport - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 31
@@ -5388,12 +5388,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "passive",
-            "description": "Tracking unproductive transport \u2013 passive time.",
+            "description": "Tracking Unproductive Transport - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meditation \u2013 ressource",
+            "name": "Meditation - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 1
@@ -5403,12 +5403,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "ressource",
-            "description": "Tracking meditation \u2013 ressource time.",
+            "description": "Tracking meditation - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Chill Time \u2013 ressource ",
+            "name": "Chill Time - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 7
@@ -5418,12 +5418,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "ressource",
-            "description": "Tracking chill time \u2013 ressource  time.",
+            "description": "Tracking chill time - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reflection (without writing) \u2013 passive",
+            "name": "Reflection (without writing) - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 11
@@ -5433,12 +5433,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "passive",
-            "description": "Tracking reflection (without writing) \u2013 passive time.",
+            "description": "Tracking reflection (without writing) - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Insomnia \u2013 passive ",
+            "name": "Insomnia - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 11
@@ -5448,7 +5448,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "passive",
-            "description": "Tracking insomnia \u2013 passive  time.",
+            "description": "Tracking insomnia - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -5463,7 +5463,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "passive",
-            "description": "Tracking passive time (social media, etc.) - passive time.",
+            "description": "Tracking Passive Time (social media, etc.) - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -5478,7 +5478,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "neutral",
-            "description": "Tracking unreported time time.",
+            "description": "Tracking unreported time.",
             "icon": "activity",
             "impressions": []
           },
@@ -5596,7 +5596,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Sleep \u2013 ressource ",
+            "name": "Sleep - ressource",
             "trackedAvgPerDay": {
               "hours": 8,
               "minutes": 55
@@ -5606,12 +5606,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking sleep \u2013 ressource  time.",
+            "description": "Tracking sleep - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meals \u2013 ressource ",
+            "name": "Meals - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 45
@@ -5621,12 +5621,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meals \u2013 ressource  time.",
+            "description": "Tracking meals - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "PrepMeal \u2013 blocks",
+            "name": "PrepMeal - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5636,12 +5636,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prepmeal \u2013 blocks time.",
+            "description": "Tracking prepmeal - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "prep ptit dej \u2013 blocks",
+            "name": "prep ptit dej - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5651,12 +5651,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking prep ptit dej \u2013 blocks time.",
+            "description": "Tracking prep ptit dej - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Bio Needs (shower, toilet) \u2013 ressource ",
+            "name": "Bio Needs (shower, toilet) - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 43
@@ -5666,12 +5666,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking bio needs (shower, toilet) \u2013 ressource  time.",
+            "description": "Tracking bio needs (shower, toilet) - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Walk \u2013 ressource ",
+            "name": "Walk - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 17
@@ -5681,12 +5681,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking walk \u2013 ressource  time.",
+            "description": "Tracking walk - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Sport \u2013 ressource ",
+            "name": "Sport - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5696,12 +5696,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking sport \u2013 ressource  time.",
+            "description": "Tracking sport - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Family \u2013 ressource",
+            "name": "Family - ressource",
             "trackedAvgPerDay": {
               "hours": 2,
               "minutes": 13
@@ -5711,12 +5711,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking family \u2013 ressource time.",
+            "description": "Tracking family - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Rangement \u2013 blocks",
+            "name": "Rangement - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5726,12 +5726,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking rangement \u2013 blocks time.",
+            "description": "Tracking rangement - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Courses \u2013 blocks",
+            "name": "Courses - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5741,12 +5741,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "blocks",
-            "description": "Tracking courses \u2013 blocks time.",
+            "description": "Tracking courses - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Diverse Responsibilities \u2013 blocks",
+            "name": "Diverse Responsibilities - blocks",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 8
@@ -5756,12 +5756,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "blocks",
-            "description": "Tracking diverse responsibilities \u2013 blocks time.",
+            "description": "Tracking diverse responsibilities - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Pauses \u2013 ressource ",
+            "name": "Pauses - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 39
@@ -5771,12 +5771,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking pauses \u2013 ressource  time.",
+            "description": "Tracking pauses - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Daily Reporting & Activity Analysis \u2013 productive ",
+            "name": "Daily Reporting & Activity Analysis - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 52
@@ -5786,12 +5786,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "productive",
-            "description": "Tracking daily reporting & activity analysis \u2013 productive  time.",
+            "description": "Tracking daily reporting & activity analysis - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Mentor \u2013 ressource ",
+            "name": "Mentor - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5801,12 +5801,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking mentor \u2013 ressource  time.",
+            "description": "Tracking mentor - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Direct/Deep Conversations \u2013 ressource ",
+            "name": "Direct/Deep Conversations - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 42
@@ -5816,12 +5816,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking direct/deep conversations \u2013 ressource  time.",
+            "description": "Tracking direct/deep conversations - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Learning \u2013 productive ",
+            "name": "Learning - productive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 12
@@ -5831,12 +5831,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 25
             },
             "type": "productive",
-            "description": "Tracking learning \u2013 productive  time.",
+            "description": "Tracking learning - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Management (calls, logistics, etc.) \u2013 productive ",
+            "name": "Management (calls, logistics, etc.) - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 8
@@ -5846,12 +5846,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 3
             },
             "type": "productive",
-            "description": "Tracking management (calls, logistics, etc.) \u2013 productive  time.",
+            "description": "Tracking management (calls, logistics, etc.) - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Strategy \u2013 productive ",
+            "name": "Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 45
@@ -5861,12 +5861,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "productive",
-            "description": "Tracking strategy \u2013 productive  time.",
+            "description": "Tracking strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Vision \u2013 productive ",
+            "name": "Vision - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 4
@@ -5876,12 +5876,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking vision \u2013 productive  time.",
+            "description": "Tracking vision - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Todolist  \u2013 productive ",
+            "name": "Todolist - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 8
@@ -5891,12 +5891,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking todolist  \u2013 productive  time.",
+            "description": "Tracking todolist - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Collaboration  \u2013 productive ",
+            "name": "Collaboration - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 49
@@ -5906,12 +5906,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "productive",
-            "description": "Tracking collaboration  \u2013 productive  time.",
+            "description": "Tracking collaboration - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Tracking App development  \u2013 productive ",
+            "name": "Tracking App development - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 47
@@ -5921,12 +5921,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking tracking app development  \u2013 productive  time.",
+            "description": "Tracking tracking app development - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Argan soul \u2013 productive",
+            "name": "Argan soul - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 23
@@ -5936,12 +5936,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "productive",
-            "description": "Tracking argan soul \u2013 productive time.",
+            "description": "Tracking argan soul - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Prospecting  \u2013 productive ",
+            "name": "Prospecting - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 5
@@ -5951,12 +5951,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "productive",
-            "description": "Tracking prospecting  \u2013 productive  time.",
+            "description": "Tracking prospecting - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "LinkedIn Strategy  \u2013 productive ",
+            "name": "LinkedIn Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 10
@@ -5966,12 +5966,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "productive",
-            "description": "Tracking linkedin strategy  \u2013 productive  time.",
+            "description": "Tracking linkedin strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Articles Written  \u2013 productive ",
+            "name": "Articles Written - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -5981,12 +5981,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking articles written  \u2013 productive  time.",
+            "description": "Tracking articles written - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Script Writing  \u2013 productive ",
+            "name": "Script Writing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 18
@@ -5996,12 +5996,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking script writing  \u2013 productive  time.",
+            "description": "Tracking script writing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reels Recording \u2013 productive ",
+            "name": "Reels Recording - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 1
@@ -6011,12 +6011,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "productive",
-            "description": "Tracking reels recording \u2013 productive  time.",
+            "description": "Tracking reels recording - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "CapCut Editing \u2013 productive",
+            "name": "CapCut Editing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 5
@@ -6026,12 +6026,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "productive",
-            "description": "Tracking capcut editing \u2013 productive time.",
+            "description": "Tracking capcut editing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Administrative Tasks \u2013 blocks ",
+            "name": "Administrative Tasks - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 3
@@ -6041,12 +6041,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "blocks",
-            "description": "Tracking administrative tasks \u2013 blocks  time.",
+            "description": "Tracking administrative tasks - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Phone Calls \u2013 passive ",
+            "name": "Phone Calls - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 4
@@ -6056,12 +6056,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "passive",
-            "description": "Tracking phone calls \u2013 passive  time.",
+            "description": "Tracking phone calls - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Hobbies \u2013 ressource",
+            "name": "Hobbies - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 7
@@ -6071,12 +6071,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking hobbies \u2013 ressource time.",
+            "description": "Tracking hobbies - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Unproductive Transport \u2013 passive",
+            "name": "Unproductive Transport - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 20
@@ -6086,12 +6086,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "passive",
-            "description": "Tracking unproductive transport \u2013 passive time.",
+            "description": "Tracking Unproductive Transport - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meditation \u2013 ressource",
+            "name": "Meditation - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 6
@@ -6101,12 +6101,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "ressource",
-            "description": "Tracking meditation \u2013 ressource time.",
+            "description": "Tracking meditation - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Chill Time \u2013 ressource ",
+            "name": "Chill Time - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 5
@@ -6116,12 +6116,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 5
             },
             "type": "ressource",
-            "description": "Tracking chill time \u2013 ressource  time.",
+            "description": "Tracking chill time - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reflection (without writing) \u2013 passive",
+            "name": "Reflection (without writing) - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 27
@@ -6131,12 +6131,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 5
             },
             "type": "passive",
-            "description": "Tracking reflection (without writing) \u2013 passive time.",
+            "description": "Tracking reflection (without writing) - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Insomnia \u2013 passive ",
+            "name": "Insomnia - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 24
@@ -6146,7 +6146,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "passive",
-            "description": "Tracking insomnia \u2013 passive  time.",
+            "description": "Tracking insomnia - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -6161,7 +6161,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "passive",
-            "description": "Tracking passive time (social media, etc.) - passive time.",
+            "description": "Tracking Passive Time (social media, etc.) - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -6176,7 +6176,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "neutral",
-            "description": "Tracking unreported time time.",
+            "description": "Tracking unreported time.",
             "icon": "activity",
             "impressions": []
           },
@@ -6294,7 +6294,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Sleep \u2013 ressource ",
+            "name": "Sleep - ressource",
             "trackedAvgPerDay": {
               "hours": 7,
               "minutes": 21
@@ -6304,12 +6304,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking sleep \u2013 ressource  time.",
+            "description": "Tracking sleep - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meals \u2013 ressource ",
+            "name": "Meals - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 0
@@ -6319,12 +6319,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking meals \u2013 ressource  time.",
+            "description": "Tracking meals - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "PrepMeal \u2013 blocks",
+            "name": "PrepMeal - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 24
@@ -6334,12 +6334,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "blocks",
-            "description": "Tracking prepmeal \u2013 blocks time.",
+            "description": "Tracking prepmeal - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "prep ptit dej \u2013 blocks",
+            "name": "prep ptit dej - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 35
@@ -6349,12 +6349,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "blocks",
-            "description": "Tracking prep ptit dej \u2013 blocks time.",
+            "description": "Tracking prep ptit dej - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Bio Needs (shower, toilet) \u2013 ressource ",
+            "name": "Bio Needs (shower, toilet) - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 50
@@ -6364,12 +6364,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 50
             },
             "type": "ressource",
-            "description": "Tracking bio needs (shower, toilet) \u2013 ressource  time.",
+            "description": "Tracking bio needs (shower, toilet) - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Walk \u2013 ressource ",
+            "name": "Walk - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 14
@@ -6379,12 +6379,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "ressource",
-            "description": "Tracking walk \u2013 ressource  time.",
+            "description": "Tracking walk - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Sport \u2013 ressource ",
+            "name": "Sport - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 9
@@ -6394,12 +6394,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "ressource",
-            "description": "Tracking sport \u2013 ressource  time.",
+            "description": "Tracking sport - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Family \u2013 ressource",
+            "name": "Family - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 18
@@ -6409,12 +6409,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "ressource",
-            "description": "Tracking family \u2013 ressource time.",
+            "description": "Tracking family - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Rangement \u2013 blocks",
+            "name": "Rangement - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 10
@@ -6424,12 +6424,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "blocks",
-            "description": "Tracking rangement \u2013 blocks time.",
+            "description": "Tracking rangement - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Courses \u2013 blocks",
+            "name": "Courses - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 11
@@ -6439,12 +6439,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "blocks",
-            "description": "Tracking courses \u2013 blocks time.",
+            "description": "Tracking courses - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Diverse Responsibilities \u2013 blocks",
+            "name": "Diverse Responsibilities - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 44
@@ -6454,12 +6454,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "blocks",
-            "description": "Tracking diverse responsibilities \u2013 blocks time.",
+            "description": "Tracking diverse responsibilities - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Pauses \u2013 ressource ",
+            "name": "Pauses - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 43
@@ -6469,12 +6469,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "ressource",
-            "description": "Tracking pauses \u2013 ressource  time.",
+            "description": "Tracking pauses - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Daily Reporting & Activity Analysis \u2013 productive ",
+            "name": "Daily Reporting & Activity Analysis - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 41
@@ -6484,12 +6484,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "productive",
-            "description": "Tracking daily reporting & activity analysis \u2013 productive  time.",
+            "description": "Tracking daily reporting & activity analysis - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Mentor \u2013 ressource ",
+            "name": "Mentor - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 17
@@ -6499,12 +6499,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "ressource",
-            "description": "Tracking mentor \u2013 ressource  time.",
+            "description": "Tracking mentor - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Direct/Deep Conversations \u2013 ressource ",
+            "name": "Direct/Deep Conversations - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 40
@@ -6514,12 +6514,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 45
             },
             "type": "ressource",
-            "description": "Tracking direct/deep conversations \u2013 ressource  time.",
+            "description": "Tracking direct/deep conversations - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Learning \u2013 productive ",
+            "name": "Learning - productive",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 45
@@ -6529,12 +6529,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "productive",
-            "description": "Tracking learning \u2013 productive  time.",
+            "description": "Tracking learning - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Management (calls, logistics, etc.) \u2013 productive ",
+            "name": "Management (calls, logistics, etc.) - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 1
@@ -6544,12 +6544,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking management (calls, logistics, etc.) \u2013 productive  time.",
+            "description": "Tracking management (calls, logistics, etc.) - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Strategy \u2013 productive ",
+            "name": "Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 8
@@ -6559,12 +6559,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking strategy \u2013 productive  time.",
+            "description": "Tracking strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Vision \u2013 productive ",
+            "name": "Vision - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 6
@@ -6574,12 +6574,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking vision \u2013 productive  time.",
+            "description": "Tracking vision - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Todolist  \u2013 productive ",
+            "name": "Todolist - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 3
@@ -6589,12 +6589,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking todolist  \u2013 productive  time.",
+            "description": "Tracking todolist - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Collaboration  \u2013 productive ",
+            "name": "Collaboration - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -6604,12 +6604,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking collaboration  \u2013 productive  time.",
+            "description": "Tracking collaboration - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Tracking App development  \u2013 productive ",
+            "name": "Tracking App development - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 26
@@ -6619,12 +6619,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 30
             },
             "type": "productive",
-            "description": "Tracking tracking app development  \u2013 productive  time.",
+            "description": "Tracking tracking app development - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Argan soul \u2013 productive",
+            "name": "Argan soul - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 28
@@ -6634,12 +6634,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking argan soul \u2013 productive time.",
+            "description": "Tracking argan soul - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Prospecting  \u2013 productive ",
+            "name": "Prospecting - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -6649,12 +6649,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking prospecting  \u2013 productive  time.",
+            "description": "Tracking prospecting - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "LinkedIn Strategy  \u2013 productive ",
+            "name": "LinkedIn Strategy - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -6664,12 +6664,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking linkedin strategy  \u2013 productive  time.",
+            "description": "Tracking linkedin strategy - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Articles Written  \u2013 productive ",
+            "name": "Articles Written - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -6679,12 +6679,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "productive",
-            "description": "Tracking articles written  \u2013 productive  time.",
+            "description": "Tracking articles written - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Script Writing  \u2013 productive ",
+            "name": "Script Writing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 11
@@ -6694,12 +6694,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking script writing  \u2013 productive  time.",
+            "description": "Tracking script writing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reels Recording \u2013 productive ",
+            "name": "Reels Recording - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -6709,12 +6709,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking reels recording \u2013 productive  time.",
+            "description": "Tracking reels recording - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "CapCut Editing \u2013 productive",
+            "name": "CapCut Editing - productive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 4
@@ -6724,12 +6724,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "productive",
-            "description": "Tracking capcut editing \u2013 productive time.",
+            "description": "Tracking capcut editing - productive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Administrative Tasks \u2013 blocks ",
+            "name": "Administrative Tasks - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 13
@@ -6739,12 +6739,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "blocks",
-            "description": "Tracking administrative tasks \u2013 blocks  time.",
+            "description": "Tracking administrative tasks - blocks time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Phone Calls \u2013 passive ",
+            "name": "Phone Calls - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 11
@@ -6754,12 +6754,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "passive",
-            "description": "Tracking phone calls \u2013 passive  time.",
+            "description": "Tracking phone calls - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Hobbies \u2013 ressource",
+            "name": "Hobbies - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -6769,12 +6769,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking hobbies \u2013 ressource time.",
+            "description": "Tracking hobbies - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Unproductive Transport \u2013 passive",
+            "name": "Unproductive Transport - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 55
@@ -6784,12 +6784,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "passive",
-            "description": "Tracking unproductive transport \u2013 passive time.",
+            "description": "Tracking Unproductive Transport - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Meditation \u2013 ressource",
+            "name": "Meditation - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 6
@@ -6799,12 +6799,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "ressource",
-            "description": "Tracking meditation \u2013 ressource time.",
+            "description": "Tracking meditation - ressourcetime.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Chill Time \u2013 ressource ",
+            "name": "Chill Time - ressource",
             "trackedAvgPerDay": {
               "hours": 1,
               "minutes": 46
@@ -6814,12 +6814,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "ressource",
-            "description": "Tracking chill time \u2013 ressource  time.",
+            "description": "Tracking chill time - ressource time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Reflection (without writing) \u2013 passive",
+            "name": "Reflection (without writing) - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 40
@@ -6829,12 +6829,12 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 20
             },
             "type": "passive",
-            "description": "Tracking reflection (without writing) \u2013 passive time.",
+            "description": "Tracking reflection (without writing) - passive time.",
             "icon": "activity",
             "impressions": []
           },
           {
-            "name": "Insomnia \u2013 passive ",
+            "name": "Insomnia - passive",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 13
@@ -6844,7 +6844,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 10
             },
             "type": "passive",
-            "description": "Tracking insomnia \u2013 passive  time.",
+            "description": "Tracking insomnia - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -6859,7 +6859,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 15
             },
             "type": "passive",
-            "description": "Tracking passive time (social media, etc.) - passive time.",
+            "description": "Tracking Passive Time (social media, etc.) - passive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -6874,7 +6874,7 @@ export const mockActivityData: ActivityData = JSON.parse(
               "minutes": 0
             },
             "type": "neutral",
-            "description": "Tracking unreported time time.",
+            "description": "Tracking unreported time.",
             "icon": "activity",
             "impressions": []
           },
@@ -6970,9 +6970,5585 @@ export const mockActivityData: ActivityData = JSON.parse(
           }
         ],
         "globalRate": 0.844
+      },
+      {
+        "weekNumber": 11,
+        "startDate": "2025-02-06",
+        "endDate": "2025-02-12",
+        "activities": [
+
+          {
+            "name": "Sleep - ressource",
+            "trackedAvgPerDay": {
+              "hours": 9,
+              "minutes": 50
+            },
+            "goalAvgPerDay": {
+              "hours": 8,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking sleep - ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meals - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 52
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking meals - ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "PrepMeal - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 14
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking prepmeal - blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "prep ptit dej - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 32
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prep ptit dej - blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "batch cooking - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking batch cooking - blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Courses - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking courses - blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Rangement - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 25
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 25
+            },
+            "type": "blocks",
+            "description": "Tracking rangement - blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Bio Needs (shower, toilet) - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 37
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking bio needs (shower, toilet) - ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Walk - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking walk - ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Sport - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking sport - ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Family - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking family - ressourcetime.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Diverse Responsibilities - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 19
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking diverse responsibilities - blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pauses - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 24
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 35
+            },
+            "type": "ressource",
+            "description": "Tracking pauses - ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Daily Reporting & Activity Analysis - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 21
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 35
+            },
+            "type": "productive",
+            "description": "Tracking daily reporting & activity analysis - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Mentor - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 22
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking mentor - ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct/Deep Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 40
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 45
+            },
+            "type": "ressource",
+            "description": "Tracking direct/deep conversations - ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Learning - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 31
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking learning - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reading - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 33
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking reading - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Management (calls, logistics, etc.) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 16
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "productive",
+            "description": "Tracking management (calls, logistics, etc.) - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking strategy - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Vision - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking vision - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Todolist - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking todolist - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Collaboration - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking collaboration - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Tracking App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 11
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking tracking app development - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Argan soul - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking argan soul - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prospecting - productive",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 7
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking prospecting - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "LinkedIn Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking linkedin strategy - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Articles Written - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking articles written - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Script Writing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking script writing - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reels Recording - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking reels recording - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "CapCut Editing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking capcut editing - productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Administrative Tasks - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking administrative tasks - blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Phone Calls - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "passive",
+            "description": "Tracking phone calls - passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Hobbies - ressource",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking hobbies - ressourcetime.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unproductive Transport - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 38
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 50
+            },
+            "type": "passive",
+            "description": "Tracking Unproductive Transport - passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meditation - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 1
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking meditation - ressourcetime.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Chill Time - ressource",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 25
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 50
+            },
+            "type": "ressource",
+            "description": "Tracking chill time - ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reflection (without writing) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 47
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "passive",
+            "description": "Tracking reflection (without writing) - passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Insomnia - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "passive",
+            "description": "Tracking insomnia - passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Passive Time (social media, etc.) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 33
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "passive",
+            "description": "Tracking Passive Time (social media, etc.) - passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unreported Time",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking unreported time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Rate ",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking rate  time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pro Insta (channel)",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking pro insta (channel) time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Personal Insta",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "neutral",
+            "description": "Tracking personal insta time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Code Time",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "neutral",
+            "description": "Tracking code time time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Money making activity ",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "neutral",
+            "description": "Tracking money making activity  time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "cooking",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 34
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 40
+            },
+            "type": "neutral",
+            "description": "Tracking cooking time.",
+            "icon": "activity",
+            "impressions": []
+          }
+        ],
+        "globalRate": 0.73
+      },
+      {
+        "weekNumber": 12,
+        "startDate": "2025-02-13",
+        "endDate": "2025-02-19",
+        "activities": [
+          {
+            "name": "Sleep - ressource",
+            "trackedAvgPerDay": {
+              "hours": 6,
+              "minutes": 42
+            },
+            "goalAvgPerDay": {
+              "hours": 6,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking sleep – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meals - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 34
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 45
+            },
+            "type": "ressource",
+            "description": "Tracking meals – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "PrepMeal - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prepmeal – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "prep ptit dej - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 18
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking prep ptit dej – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Bio Needs (shower, toilet) - ressource",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 5
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking bio needs (shower, toilet) – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Walk - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 39
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking walk – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Sport - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 19
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking sport – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Family - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 7
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking family – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Rangement - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 24
+            },
+            "type": "blocks",
+            "description": "Tracking rangement – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Courses - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking courses – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Diverse Responsibilities - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 39
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking diverse responsibilities – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pauses - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 19
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking pauses – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Daily Reporting & Activity Analysis - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 34
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking daily reporting & activity analysis – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Mentor - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 43
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "ressource",
+            "description": "Tracking mentor – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct/Deep Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 2,
+              "minutes": 48
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking direct/deep conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Learning - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 7
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking learning – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Management (calls, logistics, etc.) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 59
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking management (calls, logistics, etc.) – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 40
+            },
+            "type": "productive",
+            "description": "Tracking strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Vision - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking vision – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Todolist - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 1
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking todolist – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Collaboration - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "productive",
+            "description": "Tracking collaboration – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Tracking App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking tracking app development – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Argan soul - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking argan soul – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prospecting - productive",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 2
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking prospecting – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "LinkedIn Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking linkedin strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Articles Written - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking articles written – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Script Writing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking script writing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reels Recording - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking reels recording – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "CapCut Editing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking capcut editing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Administrative Tasks - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "blocks",
+            "description": "Tracking administrative tasks – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Phone Calls - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 23
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "passive",
+            "description": "Tracking phone calls – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Hobbies - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 27
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking hobbies – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unproductive Transport - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 47
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking unproductive transport – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meditation - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking meditation – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Chill Time - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 24
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking chill time – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reflection (without writing) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 40
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking reflection (without writing) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Insomnia - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking insomnia – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Passive Time (social media, etc.) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking Passive Time (social media, etc.) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unreported Time",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking unreported time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Rate ",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking rate – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pro Insta (channel)",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking pro insta (channel) – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Personal Insta",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking personal insta – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Code Time",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 21
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking code time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Money making activity ",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking money making activity – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "cooking",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking cooking – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "batch cooking - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 2
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking batch cooking – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reading - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking reading – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Temps mort - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "type": "passive",
+            "description": "Tracking temps mort – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prise de notes(révision) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 1
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking prise de notes(révision) – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Networking - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 14
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking networking – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 35
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking direct conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Petit dej - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking petit dej – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+
+        ],
+        "globalRate": -1
+      },
+      {
+        "weekNumber": 13,
+        "startDate": "2025-02-20",
+        "endDate": "2025-02-26",
+        "activities": [
+          {
+            "name": "Sleep - ressource",
+            "trackedAvgPerDay": {
+              "hours": 7,
+              "minutes": 29
+            },
+            "goalAvgPerDay": {
+              "hours": 7,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking sleep – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meals - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 31
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking meals – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "PrepMeal - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prepmeal – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "prep ptit dej - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 13
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prep ptit dej – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Bio Needs (shower, toilet) - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 52
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking bio needs (shower, toilet) – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Walk - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking walk – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Sport - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking sport – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Family - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking family – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Rangement - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 18
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking rangement – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Courses - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking courses – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Diverse Responsibilities - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 33
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking diverse responsibilities – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pauses - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 35
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking pauses – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Daily Reporting & Activity Analysis - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking daily reporting & activity analysis – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Mentor - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking mentor – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct/Deep Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 2,
+              "minutes": 3
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking direct/deep conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Learning - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 51
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking learning – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Management (calls, logistics, etc.) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking management (calls, logistics, etc.) – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 11
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 40
+            },
+            "type": "productive",
+            "description": "Tracking strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Vision - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking vision – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Todolist - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 1
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking todolist – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Collaboration - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 17
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking collaboration – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Tracking App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 3,
+              "minutes": 11
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking tracking app development – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "ApplyFlow App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 48
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking applyflow app development – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Argan soul - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking argan soul – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prospecting - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking prospecting – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "LinkedIn Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 2
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking linkedin strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Articles Written - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking articles written – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Script Writing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking script writing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reels Recording - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking reels recording – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "CapCut Editing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking capcut editing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Administrative Tasks - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "blocks",
+            "description": "Tracking administrative tasks – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Phone Calls - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 29
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "passive",
+            "description": "Tracking phone calls – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Hobbies - ressource",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking hobbies – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unproductive Transport - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking unproductive transport – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meditation - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 2
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking meditation – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Chill Time - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking chill time – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reflection (without writing) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 22
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking reflection (without writing) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Insomnia - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 3
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking insomnia – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Passive Time (social media, etc.) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 19
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking passive time (social media, etc.) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unreported Time",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking unreported time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Rate",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking rate – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pro Insta (channel)",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking pro insta (channel) – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Personal Insta",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking personal insta – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Code Time",
+            "trackedAvgPerDay": {
+              "hours": 2,
+              "minutes": 28
+            },
+            "goalAvgPerDay": {
+              "hours": 2,
+              "minutes": 30
+            },
+            "type": "neutral",
+            "description": "Tracking code time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Money making activity",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking money making activity – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "cooking",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking cooking – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "batch cooking - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 26
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking batch cooking – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reading - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking reading – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Temps mort - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 1
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "passive",
+            "description": "Tracking temps mort – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prise de notes(révision) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "type": "productive",
+            "description": "Tracking prise de notes(révision) – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Networking - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "productive",
+            "description": "Tracking networking – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 16
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking direct conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Petit dej - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking petit dej – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          }
+        ],
+        "globalRate": -1
+      },
+      {
+        "weekNumber": 14,
+        "startDate": "2025-02-27",
+        "endDate": "2025-03-05",
+        "activities": [
+          {
+            "name": "Sleep - ressource",
+            "trackedAvgPerDay": {
+              "hours": 9,
+              "minutes": 25
+            },
+            "goalAvgPerDay": {
+              "hours": 7,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking sleep – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meals - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 49
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 45
+            },
+            "type": "ressource",
+            "description": "Tracking meals – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "PrepMeal - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 18
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prepmeal – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "prep ptit dej - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 21
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prep ptit dej – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Bio Needs (shower, toilet) - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 34
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking bio needs (shower, toilet) – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Walk - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 6
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking walk – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Sport - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking sport – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Family - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking family – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Rangement - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 25
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking rangement – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Courses - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking courses – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Diverse Responsibilities - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 16
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking diverse responsibilities – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pauses - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 32
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking pauses – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Daily Reporting & Activity Analysis - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking daily reporting & activity analysis – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Mentor - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking mentor – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct/Deep Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking direct/deep conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Learning - productive",
+            "trackedAvgPerDay": {
+              "hours": 2,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking learning – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Management (calls, logistics, etc.) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking management (calls, logistics, etc.) – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "productive",
+            "description": "Tracking strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Vision - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking vision – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Todolist - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking todolist – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Collaboration - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking collaboration – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Tracking App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking tracking app development – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "ApplyFlow App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 40
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking applyflow app development – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Argan soul - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking argan soul – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prospecting - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 14
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking prospecting – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "LinkedIn Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking linkedin strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Articles Written - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking articles written – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Script Writing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking script writing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reels Recording - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking reels recording – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "CapCut Editing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking capcut editing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Administrative Tasks - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "blocks",
+            "description": "Tracking administrative tasks – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Phone Calls - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 14
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "passive",
+            "description": "Tracking phone calls – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Hobbies - ressource",
+            "trackedAvgPerDay": {
+              "hours": 3,
+              "minutes": 17
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking hobbies – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unproductive Transport - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 17
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking unproductive transport – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meditation - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking meditation – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Chill Time - ressource",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 33
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking chill time – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reflection (without writing) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 23
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking reflection (without writing) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Insomnia - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking insomnia – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Passive Time (social media, etc.) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 18
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking passive time (social media, etc.) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct message - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "passive",
+            "description": "Tracking direct message – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unreported Time - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking unreported time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Rate - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking rate – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pro Insta (channel) - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking pro insta (channel) – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Personal Insta - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking personal insta – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Code Time - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 2,
+              "minutes": 30
+            },
+            "type": "neutral",
+            "description": "Tracking code time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Money making activity - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking money making activity – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "cooking - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking cooking – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "batch cooking - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 23
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking batch cooking – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reading - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 23
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking reading – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Temps mort - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 1
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "passive",
+            "description": "Tracking temps mort – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prise de notes(révision) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking prise de notes(révision) – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Networking - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking networking – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking direct conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Petit dej - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 18
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking petit dej – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          }
+        ],
+        "globalRate": -1
+      },
+      {
+        "weekNumber": 15,
+        "startDate": "2025-03-06",
+        "endDate": "2025-03-12",
+        "activities": [
+          {
+            "name": "Sleep - ressource",
+            "trackedAvgPerDay": {
+              "hours": 9,
+              "minutes": 43
+            },
+            "goalAvgPerDay": {
+              "hours": 9,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking sleep – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meals - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 41
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 45
+            },
+            "type": "ressource",
+            "description": "Tracking meals – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "PrepMeal - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 13
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prepmeal – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "prep ptit dej - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 27
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prep ptit dej – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Bio Needs (shower, toilet) - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 37
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking bio needs (shower, toilet) – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Walk - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking walk – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Sport - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking sport – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Family - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 22
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking family – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Rangement - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking rangement – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Courses - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking courses – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Diverse Responsibilities - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 22
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking diverse responsibilities – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Services - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking services – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pauses - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking pauses – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Daily Reporting & Activity Analysis - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking daily reporting & activity analysis – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Mentor - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking mentor – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct/Deep Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 28
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking direct/deep conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Learning - productive",
+            "trackedAvgPerDay": {
+              "hours": 2,
+              "minutes": 34
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking learning – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Management (calls, logistics, etc.) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking management (calls, logistics, etc.) – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "productive",
+            "description": "Tracking strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Vision - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking vision – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Todolist - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking todolist – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Collaboration - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking collaboration – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Tracking App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "productive",
+            "description": "Tracking tracking app development – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "ApplyFlow App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "productive",
+            "description": "Tracking applyflow app development – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Argan soul - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking argan soul – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prospecting - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 6
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking prospecting – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "LinkedIn Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 1
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking linkedin strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Articles Written - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking articles written – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Script Writing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking script writing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reels Recording - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking reels recording – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "CapCut Editing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking capcut editing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Administrative Tasks - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "blocks",
+            "description": "Tracking administrative tasks – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Phone Calls - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 20
+            },
+            "type": "passive",
+            "description": "Tracking phone calls – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Hobbies - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "type": "ressource",
+            "description": "Tracking hobbies – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unproductive Transport - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking unproductive transport – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meditation - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking meditation – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Chill Time - ressource",
+            "trackedAvgPerDay": {
+              "hours": 3,
+              "minutes": 27
+            },
+            "goalAvgPerDay": {
+              "hours": 2,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking chill time – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reflection (without writing) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 44
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking reflection (without writing) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Insomnia - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking insomnia – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Passive Time (social media, etc.) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 26
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking passive time (social media, etc.) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct message - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 32
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking direct message – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unreported Time - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking unreported time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pro Insta (channel) - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking pro insta (channel) – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Personal Insta - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking personal insta – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Code Time - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 2,
+              "minutes": 30
+            },
+            "type": "neutral",
+            "description": "Tracking code time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Money making activity - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking money making activity – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "cooking - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking cooking – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "batch cooking - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking batch cooking – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reading - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking reading – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Temps mort - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 2
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "passive",
+            "description": "Tracking temps mort – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prise de notes(révision) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking prise de notes(révision) – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Networking - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking networking – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 40
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking direct conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Petit dej - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 25
+            },
+            "type": "ressource",
+            "description": "Tracking petit dej – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          }
+        ],
+        "globalRate": -1
+      },
+      {
+        "weekNumber": 16,
+        "startDate": "2025-03-13",
+        "endDate": "2025-03-19",
+        "activities": [
+          {
+            "name": "Sleep - ressource",
+            "trackedAvgPerDay": {
+              "hours": 11,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 9,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking sleep – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meals - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 43
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking meals – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "PrepMeal - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prepmeal – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "prep ptit dej - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 21
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prep ptit dej – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Bio Needs (shower, toilet) - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 29
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking bio needs (shower, toilet) – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Walk - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 13
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking walk – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Sport - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking sport – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Family - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 28
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking family – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Rangement - blocks",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 3
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 45
+            },
+            "type": "blocks",
+            "description": "Tracking rangement – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Courses - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking courses – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Diverse Responsibilities - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 45
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking diverse responsibilities – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pauses - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 13
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking pauses – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Daily Reporting & Activity Analysis - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking daily reporting & activity analysis – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Mentor - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking mentor – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct/Deep Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 35
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking direct/deep conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Learning - productive",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 15
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking learning – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Management (calls, logistics, etc.) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking management (calls, logistics, etc.) – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 2
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Vision - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking vision – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Todolist - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking todolist – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Collaboration - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 21
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking collaboration – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Tracking App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking tracking app development – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "ApplyFlow App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking applyflow app development – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Argan soul - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking argan soul – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prospecting - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 17
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "productive",
+            "description": "Tracking prospecting – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "LinkedIn Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking linkedin strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Articles Written - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking articles written – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Script Writing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking script writing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reels Recording - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking reels recording – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "CapCut Editing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking capcut editing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Administrative Tasks - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "blocks",
+            "description": "Tracking administrative tasks – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Phone Calls - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "passive",
+            "description": "Tracking phone calls – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Hobbies - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking hobbies – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unproductive Transport - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 6
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking unproductive transport – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meditation - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking meditation – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Chill Time - ressource",
+            "trackedAvgPerDay": {
+              "hours": 3,
+              "minutes": 26
+            },
+            "goalAvgPerDay": {
+              "hours": 2,
+              "minutes": 45
+            },
+            "type": "ressource",
+            "description": "Tracking chill time – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reflection (without writing) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 16
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "passive",
+            "description": "Tracking reflection (without writing) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Insomnia - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 23
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "passive",
+            "description": "Tracking insomnia – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Passive Time (social media, etc.) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 18
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking passive time (social media, etc.) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct message - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking direct message – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unreported Time - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking unreported time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pro Insta (channel) - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking pro insta (channel) – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Personal Insta - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking personal insta – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Code Time - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 2,
+              "minutes": 30
+            },
+            "type": "neutral",
+            "description": "Tracking code time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Money making activity - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking money making activity – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "cooking - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking cooking – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "batch cooking - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "blocks",
+            "description": "Tracking batch cooking – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reading - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking reading – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Temps mort - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 1
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "passive",
+            "description": "Tracking temps mort – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Ko - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 57
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "passive",
+            "description": "Tracking ko – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prise de notes(révision) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking prise de notes(révision) – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Networking - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking networking – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking direct conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Petit dej - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 25
+            },
+            "type": "ressource",
+            "description": "Tracking petit dej – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          }
+        ],
+        "globalRate": -1
+      },
+      {
+        "weekNumber": 17,
+        "startDate": "2025-03-20",
+        "endDate": "2025-03-26",
+        "activities": [
+          {
+            "name": "Sleep - ressource",
+            "trackedAvgPerDay": {
+              "hours": 8,
+              "minutes": 54
+            },
+            "goalAvgPerDay": {
+              "hours": 9,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking sleep – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meals - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 33
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking meals – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "PrepMeal - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prepmeal – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "prep ptit dej - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking prep ptit dej – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Bio Needs (shower, toilet) - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 55
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking bio needs (shower, toilet) – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Walk - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking walk – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Sport - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking sport – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Family - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking family – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Rangement - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 56
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 45
+            },
+            "type": "blocks",
+            "description": "Tracking rangement – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Courses - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "blocks",
+            "description": "Tracking courses – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Diverse Responsibilities - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 24
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "blocks",
+            "description": "Tracking diverse responsibilities – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pauses - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 40
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking pauses – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Daily Reporting & Activity Analysis - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 2
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking daily reporting & activity analysis – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Mentor - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking mentor – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct/Deep Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking direct/deep conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Learning - productive",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 11
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking learning – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Management (calls, logistics, etc.) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking management (calls, logistics, etc.) – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 37
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "productive",
+            "description": "Tracking strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Vision - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 6
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking vision – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Todolist - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking todolist – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Collaboration - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 29
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking collaboration – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Tracking App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking tracking app development – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "ApplyFlow App development - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking applyflow app development – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Argan soul - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking argan soul – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prospecting - productive",
+            "trackedAvgPerDay": {
+              "hours": 2,
+              "minutes": 28
+            },
+            "goalAvgPerDay": {
+              "hours": 1,
+              "minutes": 30
+            },
+            "type": "productive",
+            "description": "Tracking prospecting – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "LinkedIn Strategy - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking linkedin strategy – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Articles Written - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking articles written – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Script Writing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking script writing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reels Recording - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking reels recording – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "CapCut Editing - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking capcut editing – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Administrative Tasks - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "blocks",
+            "description": "Tracking administrative tasks – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Phone Calls - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "passive",
+            "description": "Tracking phone calls – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Hobbies - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 11
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "ressource",
+            "description": "Tracking hobbies – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unproductive Transport - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking unproductive transport – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Meditation - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "ressource",
+            "description": "Tracking meditation – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Chill Time - ressource",
+            "trackedAvgPerDay": {
+              "hours": 2,
+              "minutes": 1
+            },
+            "goalAvgPerDay": {
+              "hours": 2,
+              "minutes": 45
+            },
+            "type": "ressource",
+            "description": "Tracking chill time – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reflection (without writing) - passive",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 21
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "passive",
+            "description": "Tracking reflection (without writing) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Insomnia - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "passive",
+            "description": "Tracking insomnia – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Passive Time (social media, etc.) - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 48
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking passive time (social media, etc.) – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct message - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "type": "passive",
+            "description": "Tracking direct message – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Unreported Time - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking unreported time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Pro Insta (channel) - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking pro insta (channel) – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Personal Insta - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking personal insta – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Code Time - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 2,
+              "minutes": 30
+            },
+            "type": "neutral",
+            "description": "Tracking code time – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Money making activity - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking money making activity – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "cooking - neutral",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "neutral",
+            "description": "Tracking cooking – neutral time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "batch cooking - blocks",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "blocks",
+            "description": "Tracking batch cooking – blocks time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Reading - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "productive",
+            "description": "Tracking reading – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Temps mort - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "type": "passive",
+            "description": "Tracking temps mort – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Ko - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 29
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "passive",
+            "description": "Tracking ko – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Prise de notes(révision) - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking prise de notes(révision) – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Networking - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking networking – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Direct Conversations - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 27
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 30
+            },
+            "type": "ressource",
+            "description": "Tracking direct conversations – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Petit dej - ressource",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 3
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 25
+            },
+            "type": "ressource",
+            "description": "Tracking petit dej – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          }
+        ],
+        "globalRate": -1
       }
     ]
-
-
   )
 );

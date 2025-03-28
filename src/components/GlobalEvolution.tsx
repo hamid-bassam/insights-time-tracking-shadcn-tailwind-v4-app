@@ -49,13 +49,14 @@ type ChartDataType = {
 };
 
 const getType = (activity: string) => {
-  const split = activity.split('–');
+  // const split = activity.split('–');
   const split_ = activity.split('-');
   let type = "neutral";
-  if (split.length > 1) {
-    type = split[1].trim().includes("productive") ? "productive" : split[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : split[1].trim().includes("blocks") ? "blocks" : "neutral";
-  } else if (split_.length > 1) {
-    type = split_[1].trim().includes("productive") ? "productive" : split_[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : split[1].trim().includes("blocks") ? "blocks" : "neutral";
+  // if (split.length > 1) {
+  //   type = split[1].trim().includes("productive") ? "productive" : split[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : split[1].trim().includes("blocks") ? "blocks" : "neutral";
+  // } else 
+  if (split_.length > 1) {
+    type = split_[1].trim().includes("productive") ? "productive" : split_[1].trim().includes("passive") ? "passive" : split_[1].trim().includes("ressource") ? "ressource" : split_[1].trim().includes("blocks") ? "blocks" : "neutral";
   }
   else {
     type = "neutral";
@@ -77,10 +78,47 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
     setDisplayGoal(prev => !prev);
   }
 
+  const allActivitiesSet = new Set<string>();
 
-  const allActivities = Array.from(
-    new Set(data.flatMap((week) => week.activities.map((a) => a.name)))
-  );
+  // Parcourir toutes les semaines pour collecter tous les noms d'activités
+  data.forEach((week) => {
+    week.activities.forEach((activity) => {
+      allActivitiesSet.add(activity.name);
+    });
+  });
+
+  const allActivities = Array.from(allActivitiesSet);
+
+
+  data.forEach((week) => {
+    // Créons un Set des activités présentes dans cette semaine
+    const weekActivitySet = new Set(week.activities.map((a) => a.name));
+
+    // Vérifions quelles activités manquent et les ajoutons avec des valeurs par défaut
+    allActivities.forEach((activityName) => {
+      if (!weekActivitySet.has(activityName)) {
+        week.activities.push({
+          name: activityName,
+          trackedAvgPerDay: { hours: 0, minutes: 0 },
+          goalAvgPerDay: { hours: 0, minutes: 0 },
+          type: "neutral", // Tu peux modifier cela selon ton besoin
+          description: `Tracking ${activityName.toLowerCase()} – neutral time.`,
+          icon: "activity",
+          impressions: [],
+          tag: "@unknown", // Ajoute un tag neutre
+        });
+      }
+    });
+  });
+
+
+  // const allActivities = Array.from(
+  //   new Set(data.flatMap((week) => week.activities.map((a) => a.name)))
+  // );
+
+  // const allActivities = Array.from(
+  //   new Set(data.flatMap((week) => week.activities.map((a) => a.name.trim())))
+  // );
 
   const chartData: ChartDataType[] = data.map((week) => {
     const weekData: ChartDataType = {
@@ -90,6 +128,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
     };
 
     week.activities.forEach((activity) => {
+      console.log(week.weekNumber, activity.name);
       weekData[activity.name] = typeof activity.trackedAvgPerDay === "object"
         ? timeToMinutes(activity.trackedAvgPerDay)
         : typeof activity.trackedAvgPerDay === "number" && activity.trackedAvgPerDay !== -1
@@ -121,13 +160,13 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
       "hsl(var(--chart-4))",
       "hsl(var(--chart-5))",
     ];
-    const split = activity.split('–');
+    // const split = activity.split('–');
     const split_ = activity.split('-');
     let type = "neutral";
-    if (split.length > 1) {
-      type = split[1].trim().includes("productive") ? "productive" : split[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : split[1].trim().includes("blocks") ? "blocks" : "neutral";
-    } else if (split_.length > 1) {
-      type = split_[1].trim().includes("productive") ? "productive" : split_[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : split[1].trim().includes("blocks") ? "blocks" : "neutral";
+    // if (split.length > 1) {
+    //   type = split[1].trim().includes("productive") ? "productive" : split[1].trim().includes("passive") ? "passive" : split[1].trim().includes("ressource") ? "ressource" : split[1].trim().includes("blocks") ? "blocks" : "neutral";
+    if (split_.length > 1) {
+      type = split_[1].trim().includes("productive") ? "productive" : split_[1].trim().includes("passive") ? "passive" : split_[1].trim().includes("ressource") ? "ressource" : split_[1].trim().includes("blocks") ? "blocks" : "neutral";
     }
     else {
       type = "neutral";
@@ -151,8 +190,11 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
   const displayedActivities = typedActivities.filter((activity) => filteredActivities.includes(activity));
   const displayedGoalActivities = displayedActivities.map((activity) => `${activity}_goalAvg`);
 
+
+
+
   return (
-    <Card>
+    <Card className="h-full">
       <CardHeader>
         <div className="flex justify-between items-center ">
           <div>
@@ -161,7 +203,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
           </div>
           <div className="flex flex-col gap-2">
             <Select defaultValue="all" onValueChange={setTypedActivity}>
-              <SelectTrigger className="w-[180px]">
+              <SelectTrigger className="w-32">
                 <SelectValue placeholder="Select type" />
               </SelectTrigger>
               <SelectContent>
@@ -183,7 +225,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
               </SelectContent>
             </Select>
             <Select defaultValue="all" onValueChange={setSelectedActivity}>
-              <SelectTrigger className="w-[180px]">
+              <SelectTrigger className="w-32">
                 <SelectValue placeholder="Select activity" />
               </SelectTrigger>
               <SelectContent>
@@ -208,7 +250,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
       </CardHeader>
       <CardContent>
         <ChartContainer config={chartConfig}>
-          <ResponsiveContainer width="100%" height={400}>
+          <ResponsiveContainer width="100%" height={"60vh"} minHeight={300} maxHeight={500}>
             <AreaChart data={chartData} >
               <CartesianGrid vertical={false} />
               <XAxis dataKey="week" tickLine={false} axisLine={false} tickMargin={8} />
@@ -266,6 +308,6 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
           </div>
         </div>
       </CardFooter>
-    </Card>
+    </Card >
   );
 }
