@@ -9128,7 +9128,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "name": "Code Time",
             "trackedAvgPerDay": {
               "hours": 2,
-              "minutes": 28
+              "minutes": 30
             },
             "goalAvgPerDay": {
               "hours": 2,
@@ -9943,10 +9943,10 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Code Time - neutral",
+            "name": "Code Time",
             "trackedAvgPerDay": {
               "hours": 0,
-              "minutes": 0
+              "minutes": 13
             },
             "goalAvgPerDay": {
               "hours": 2,
@@ -10761,7 +10761,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Code Time - neutral",
+            "name": "Code Time",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -11564,10 +11564,10 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Code Time - neutral",
+            "name": "Code Time",
             "trackedAvgPerDay": {
               "hours": 0,
-              "minutes": 0
+              "minutes": 2
             },
             "goalAvgPerDay": {
               "hours": 2,
@@ -12382,10 +12382,10 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Code Time - neutral",
+            "name": "Code Time",
             "trackedAvgPerDay": {
               "hours": 0,
-              "minutes": 0
+              "minutes": 37
             },
             "goalAvgPerDay": {
               "hours": 2,
