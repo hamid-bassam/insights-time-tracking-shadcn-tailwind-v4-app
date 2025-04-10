@@ -4,7 +4,7 @@ export const JsonListGoal =
       "name": "Sleep ",
       "goalAvgPerDay": {
         "hours": 9,
-        "minutes": 0
+        "minutes": 20
       },
       "type": "ressource",
       "description": "Default description",
@@ -13,8 +13,8 @@ export const JsonListGoal =
     {
       "name": "Meals ",
       "goalAvgPerDay": {
-        "hours": 0,
-        "minutes": 30
+        "hours": 1,
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Default description",
@@ -24,7 +24,7 @@ export const JsonListGoal =
       "name": "PrepMeal ",
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 30
       },
       "type": "blocks",
       "description": "Default description",
@@ -34,7 +34,7 @@ export const JsonListGoal =
       "name": "prep ptit dej ",
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 15
+        "minutes": 30
       },
       "type": "blocks",
       "description": "Default description",
@@ -44,7 +44,7 @@ export const JsonListGoal =
       "name": "Bio Needs (shower, toilet) ",
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 40
+        "minutes": 30
       },
       "type": "ressource",
       "description": "Default description",
@@ -54,7 +54,7 @@ export const JsonListGoal =
       "name": "Walk ",
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 5
+        "minutes": 15
       },
       "type": "ressource",
       "description": "Default description",
@@ -83,8 +83,8 @@ export const JsonListGoal =
     {
       "name": "Rangement ",
       "goalAvgPerDay": {
-        "hours": 1,
-        "minutes": 0
+        "hours": 0,
+        "minutes": 45
       },
       "type": "blocks",
       "description": "Default description",
@@ -94,7 +94,7 @@ export const JsonListGoal =
       "name": "Courses ",
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 5
+        "minutes": 15
       },
       "type": "blocks",
       "description": "Default description",
@@ -144,7 +144,7 @@ export const JsonListGoal =
       "name": "Direct/Deep Conversations ",
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 30
+        "minutes": 10
       },
       "type": "ressource",
       "description": "Default description",
@@ -154,7 +154,7 @@ export const JsonListGoal =
       "name": "Learning ",
       "goalAvgPerDay": {
         "hours": 1,
-        "minutes": 30
+        "minutes": 0
       },
       "type": "productive",
       "description": "Default description",
@@ -174,7 +174,7 @@ export const JsonListGoal =
       "name": "Strategy ",
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 15
       },
       "type": "productive",
       "description": "Default description",
@@ -223,8 +223,8 @@ export const JsonListGoal =
     {
       "name": "ApplyFlow App development",
       "goalAvgPerDay": {
-        "hours": 3,
-        "minutes": 0
+        "hours": 0,
+        "minutes": 30
       },
       "type": "productive",
       "description": "Default description",
@@ -243,8 +243,8 @@ export const JsonListGoal =
     {
       "name": "Prospecting  ",
       "goalAvgPerDay": {
-        "hours": 0,
-        "minutes": 20
+        "hours": 1,
+        "minutes": 30
       },
       "type": "productive",
       "description": "Default description",
@@ -363,8 +363,8 @@ export const JsonListGoal =
     {
       "name": "Reflection (without writing) ",
       "goalAvgPerDay": {
-        "hours": 0,
-        "minutes": 30
+        "hours": 1,
+        "minutes": 0
       },
       "type": "passive",
       "description": "Default description",
@@ -374,7 +374,7 @@ export const JsonListGoal =
       "name": "Insomnia ",
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 15
+        "minutes": 30
       },
       "type": "passive",
       "description": "Default description",
@@ -394,7 +394,7 @@ export const JsonListGoal =
       "name": "Direct message",
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 5
+        "minutes": 15
       },
       "type": "passive",
       "description": "Default description",
