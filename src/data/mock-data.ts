@@ -680,21 +680,7 @@ export const mockActivityData: ActivityData = JSON.parse(
         "startDate": "2024-12-05",
         "endDate": "2024-12-11",
         "activities": [
-          {
-            "name": "nan",
-            "trackedAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "goalAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "type": "neutral",
-            "description": "Tracking nan time.",
-            "icon": "activity",
-            "impressions": []
-          },
+
           {
             "name": "Sleep - ressource",
             "trackedAvgPerDay": {
@@ -1364,21 +1350,7 @@ export const mockActivityData: ActivityData = JSON.parse(
         "startDate": "2024-12-12",
         "endDate": "2024-12-18",
         "activities": [
-          {
-            "name": "nan",
-            "trackedAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "goalAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "type": "neutral",
-            "description": "Tracking nan time.",
-            "icon": "activity",
-            "impressions": []
-          },
+
           {
             "name": "Sleep - ressource",
             "trackedAvgPerDay": {
@@ -2048,21 +2020,7 @@ export const mockActivityData: ActivityData = JSON.parse(
         "startDate": "2024-12-19",
         "endDate": "2024-12-25",
         "activities": [
-          {
-            "name": "nan",
-            "trackedAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "goalAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "type": "neutral",
-            "description": "Tracking nan time.",
-            "icon": "activity",
-            "impressions": []
-          },
+
           {
             "name": "Sleep - ressource",
             "trackedAvgPerDay": {
@@ -2732,21 +2690,7 @@ export const mockActivityData: ActivityData = JSON.parse(
         "startDate": "2024-12-26",
         "endDate": "2025-01-01",
         "activities": [
-          {
-            "name": "nan",
-            "trackedAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "goalAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "type": "neutral",
-            "description": "Tracking nan time.",
-            "icon": "activity",
-            "impressions": []
-          },
+
           {
             "name": "Sleep - ressource",
             "trackedAvgPerDay": {
@@ -3416,21 +3360,7 @@ export const mockActivityData: ActivityData = JSON.parse(
         "startDate": "2025-01-02",
         "endDate": "2025-01-08",
         "activities": [
-          {
-            "name": "nan",
-            "trackedAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "goalAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "type": "neutral",
-            "description": "Tracking nan time.",
-            "icon": "activity",
-            "impressions": []
-          },
+
           {
             "name": "Sleep - ressource",
             "trackedAvgPerDay": {
@@ -4100,21 +4030,7 @@ export const mockActivityData: ActivityData = JSON.parse(
         "startDate": "2025-01-09",
         "endDate": "2025-01-15",
         "activities": [
-          {
-            "name": "nan",
-            "trackedAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "goalAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "type": "neutral",
-            "description": "Tracking nan time.",
-            "icon": "activity",
-            "impressions": []
-          },
+
           {
             "name": "Sleep - ressource",
             "trackedAvgPerDay": {
@@ -4784,21 +4700,7 @@ export const mockActivityData: ActivityData = JSON.parse(
         "startDate": "2025-01-16",
         "endDate": "2025-01-22",
         "activities": [
-          {
-            "name": "nan",
-            "trackedAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "goalAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "type": "neutral",
-            "description": "Tracking nan time.",
-            "icon": "activity",
-            "impressions": []
-          },
+
           {
             "name": "Sleep - ressource",
             "trackedAvgPerDay": {
@@ -5468,21 +5370,7 @@ export const mockActivityData: ActivityData = JSON.parse(
         "startDate": "2025-01-23",
         "endDate": "2025-01-29",
         "activities": [
-          {
-            "name": "nan",
-            "trackedAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "goalAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "type": "neutral",
-            "description": "Tracking nan time.",
-            "icon": "activity",
-            "impressions": []
-          },
+
           {
             "name": "Sleep - ressource",
             "trackedAvgPerDay": {
@@ -6152,21 +6040,7 @@ export const mockActivityData: ActivityData = JSON.parse(
         "startDate": "2025-01-30",
         "endDate": "2025-02-05",
         "activities": [
-          {
-            "name": "nan",
-            "trackedAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "goalAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "type": "neutral",
-            "description": "Tracking nan time.",
-            "icon": "activity",
-            "impressions": []
-          },
+
           {
             "name": "Sleep - ressource",
             "trackedAvgPerDay": {
@@ -12352,8 +12226,8 @@ export const mockActivityData: ActivityData = JSON.parse(
       },
       {
         "weekNumber": 18,
-        "startDate": "2025-04-02",
-        "endDate": "2025-03-27",
+        "startDate": "2025-03-27",
+        "endDate": "2025-04-02",
         "activities": [
           {
             "name": "Sleep - ressource",
