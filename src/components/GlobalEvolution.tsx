@@ -13,7 +13,7 @@ import {
   ChartConfig,
   ChartContainer,
   ChartTooltip,
-  ChartTooltipContent,
+  ChartTooltipContent
 } from "@/components/ui/chart";
 import {
   Select,
@@ -122,7 +122,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
 
   const chartData: ChartDataType[] = data.map((week) => {
     const weekData: ChartDataType = {
-      week: `Week ${week.weekNumber}`,
+      week: `S-${week.weekNumber}`, // Week
       date: new Date(week.startDate).toLocaleDateString(),
       globalRate: Math.round(week.globalRate * 100),
     };
@@ -255,7 +255,15 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
               <CartesianGrid vertical={false} />
               <XAxis dataKey="week" tickLine={false} axisLine={false} tickMargin={8} />
               <YAxis tickMargin={8} tickFormatter={(value) => formatTime(minutesToTime(value))} />
-              <ChartTooltip content={<ChartTooltipContent indicator="dot" />} />
+              <ChartTooltip
+                // formatter={(value, name, entry) => {
+                //   return [name, formatTime(minutesToTime(Number(value)))];
+                // }}
+                content={< ChartTooltipContent
+                  formatTimeValue
+                  indicator="dot" />}
+              />
+
               {displayedActivities.map((activity) => (
                 <Area
                   key={activity}
