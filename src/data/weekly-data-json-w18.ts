@@ -4,8 +4,8 @@ import { Activity, ActivityType, TimeValue, WeekData } from "../types/activity";
 const weekly_data_json =
 {
   "weekNumber": 18,
-  "startDate": "2025-03-27",
-  "endDate": "2025-04-02",
+  "startDate": "2025-04-02",
+  "endDate": "2025-03-27",
   "activities": [
     {
       "name": "Sleep - ressource",
@@ -115,8 +115,8 @@ const weekly_data_json =
     {
       "name": "Family - ressource",
       "trackedAvgPerDay": {
-        "hours": 1,
-        "minutes": 2
+        "hours": 0,
+        "minutes": 41
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -536,11 +536,11 @@ const weekly_data_json =
       "name": "Chill Time - ressource",
       "trackedAvgPerDay": {
         "hours": 2,
-        "minutes": 58
+        "minutes": 17
       },
       "goalAvgPerDay": {
-        "hours": 1,
-        "minutes": 45
+        "hours": 0,
+        "minutes": 25
       },
       "type": "ressource",
       "description": "Tracking chill time – ressource time.",
@@ -608,7 +608,7 @@ const weekly_data_json =
       "impressions": []
     },
     {
-      "name": "Unreported Time - neutral",
+      "name": "Unreported Time",
       "trackedAvgPerDay": {
         "hours": 0,
         "minutes": 0
@@ -623,7 +623,7 @@ const weekly_data_json =
       "impressions": []
     },
     {
-      "name": "Pro Insta (channel) - neutral",
+      "name": "Pro Insta (channel)",
       "trackedAvgPerDay": {
         "hours": 0,
         "minutes": 0
@@ -638,7 +638,7 @@ const weekly_data_json =
       "impressions": []
     },
     {
-      "name": "Personal Insta - neutral",
+      "name": "Personal Insta",
       "trackedAvgPerDay": {
         "hours": 0,
         "minutes": 0
@@ -655,8 +655,8 @@ const weekly_data_json =
     {
       "name": "Code Time",
       "trackedAvgPerDay": {
-        "hours": 1,
-        "minutes": 10
+        "hours": 0,
+        "minutes": 0
       },
       "goalAvgPerDay": {
         "hours": 2,
@@ -668,7 +668,7 @@ const weekly_data_json =
       "impressions": []
     },
     {
-      "name": "Money making activity - neutral",
+      "name": "Money making activity",
       "trackedAvgPerDay": {
         "hours": 0,
         "minutes": 0
@@ -683,7 +683,7 @@ const weekly_data_json =
       "impressions": []
     },
     {
-      "name": "cooking - neutral",
+      "name": "cooking",
       "trackedAvgPerDay": {
         "hours": 0,
         "minutes": 0
@@ -814,6 +814,21 @@ const weekly_data_json =
       },
       "type": "ressource",
       "description": "Tracking petit dej – ressource time.",
+      "icon": "activity",
+      "impressions": []
+    },
+    {
+      "name": "Wingspan - ressource",
+      "trackedAvgPerDay": {
+        "hours": 1,
+        "minutes": 1
+      },
+      "goalAvgPerDay": {
+        "hours": 1,
+        "minutes": 20
+      },
+      "type": "ressource",
+      "description": "Tracking wingspan – ressource time.",
       "icon": "activity",
       "impressions": []
     }

@@ -353,8 +353,8 @@ export const JsonListGoal =
     {
       "name": "Chill Time ",
       "goalAvgPerDay": {
-        "hours": 1,
-        "minutes": 45
+        "hours": 0,
+        "minutes": 25
       },
       "type": "ressource",
       "description": "Default description",
@@ -535,6 +535,16 @@ export const JsonListGoal =
       "goalAvgPerDay": {
         "hours": 0,
         "minutes": 25
+      },
+      "type": "ressource",
+      "description": "Default description",
+      "includedInTotal": true
+    },
+    {
+      "name": "Wingspan",
+      "goalAvgPerDay": {
+        "hours": 1,
+        "minutes": 20
       },
       "type": "ressource",
       "description": "Default description",
