@@ -549,5 +549,15 @@ export const JsonListGoal =
       "type": "ressource",
       "description": "Default description",
       "includedInTotal": true
+    },
+    {
+      "name": "Vibe Coding",
+      "goalAvgPerDay": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "type": "productive",
+      "description": "Default description",
+      "includedInTotal": true
     }
   ]

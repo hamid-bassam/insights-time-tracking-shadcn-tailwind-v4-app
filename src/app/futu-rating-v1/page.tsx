@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Target, Timer } from "lucide-react";
 import { NewBadgeTag } from "../../components/NewBadgeTag";
 import { tagList } from "../../data/map";
-import { weekly_data } from "../../data/weekly-data-json";
+import { weekly_data } from "../../data/weekly/weekly-data-json-w20";
 import { cn } from "../../lib/utils";
 import { ActivityType, TimeValue } from "../../types/activity";
 

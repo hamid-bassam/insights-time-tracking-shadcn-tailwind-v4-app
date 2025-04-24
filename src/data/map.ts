@@ -56,6 +56,7 @@ export const tag_to_activity = {
   "@notes": "Prise de notes - révision",
   "@bio": "Bio Needs (shower, toilet)",
   "@wingspan": "Wingspan",
+  "@vibe": "Vibe Code",
 }
 
 export const tagList = Object.keys(tag_to_activity);

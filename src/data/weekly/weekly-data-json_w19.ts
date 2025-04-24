@@ -1,5 +1,5 @@
 
-import { Activity, ActivityType, TimeValue, WeekData } from "../types/activity";
+import { Activity, ActivityType, TimeValue, WeekData } from "../../types/activity";
 
 
 const weekly_data_json =
