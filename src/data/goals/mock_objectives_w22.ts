@@ -153,7 +153,7 @@ export const JsonListGoal = [
   {
     "name": "Learning ",
     "goalAvgPerDay": {
-      "hours": 1,
+      "hours": 2,
       "minutes": 0
     },
     "type": "productive",
@@ -204,7 +204,7 @@ export const JsonListGoal = [
     "name": "Collaboration  ",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 10
+      "minutes": 0
     },
     "type": "productive",
     "description": "Default description",
@@ -223,8 +223,8 @@ export const JsonListGoal = [
   {
     "name": "ApplyFlow App development",
     "goalAvgPerDay": {
-      "hours": 0,
-      "minutes": 15
+      "hours": 1,
+      "minutes": 30
     },
     "type": "productive",
     "description": "Default description",
@@ -243,7 +243,7 @@ export const JsonListGoal = [
   {
     "name": "Prospecting  ",
     "goalAvgPerDay": {
-      "hours": 2,
+      "hours": 0,
       "minutes": 20
     },
     "type": "productive",
@@ -483,8 +483,8 @@ export const JsonListGoal = [
   {
     "name": "Direct Conversations",
     "goalAvgPerDay": {
-      "hours": 1,
-      "minutes": 0
+      "hours": 0,
+      "minutes": 45
     },
     "type": "ressource",
     "description": "Default description",
@@ -534,7 +534,7 @@ export const JsonListGoal = [
     "name": "Petit dej",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 10
+      "minutes": 15
     },
     "type": "ressource",
     "description": "Default description",
@@ -544,7 +544,7 @@ export const JsonListGoal = [
     "name": "Wingspan",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 20
+      "minutes": 0
     },
     "type": "ressource",
     "description": "Default description",
@@ -554,19 +554,9 @@ export const JsonListGoal = [
     "name": "Vibe Code",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 0
+      "minutes": 30
     },
     "type": "productive",
-    "description": "Default description",
-    "includedInTotal": true
-  },
-  {
-    "name": "Block",
-    "goalAvgPerDay": {
-      "hours": 0,
-      "minutes": 0
-    },
-    "type": "blocks",
     "description": "Default description",
     "includedInTotal": true
   },
