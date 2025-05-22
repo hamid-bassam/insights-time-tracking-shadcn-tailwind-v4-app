@@ -561,16 +561,6 @@ export const JsonListGoal = [
     "includedInTotal": true
   },
   {
-    "name": "Block",
-    "goalAvgPerDay": {
-      "hours": 0,
-      "minutes": 0
-    },
-    "type": "blocks",
-    "description": "Default description",
-    "includedInTotal": true
-  },
-  {
     "name": "Services",
     "goalAvgPerDay": {
       "hours": 0,
