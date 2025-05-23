@@ -53,7 +53,7 @@ export const JsonListGoal = [
     "name": "Walk ",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 15
+      "minutes": 10
     },
     "type": "ressource",
     "description": "Default description",
@@ -73,7 +73,7 @@ export const JsonListGoal = [
     "name": "Family ",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 30
+      "minutes": 45
     },
     "type": "ressource",
     "description": "Default description",
@@ -143,7 +143,7 @@ export const JsonListGoal = [
     "name": "Direct/Deep Conversations ",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 15
+      "minutes": 30
     },
     "type": "ressource",
     "description": "Default description",
@@ -152,8 +152,8 @@ export const JsonListGoal = [
   {
     "name": "Learning ",
     "goalAvgPerDay": {
-      "hours": 0,
-      "minutes": 30
+      "hours": 1,
+      "minutes": 0
     },
     "type": "productive",
     "description": "Default description",
@@ -163,7 +163,7 @@ export const JsonListGoal = [
     "name": "Management (calls, logistics, etc.) ",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 20
+      "minutes": 10
     },
     "type": "productive",
     "description": "Default description",
@@ -203,7 +203,7 @@ export const JsonListGoal = [
     "name": "Collaboration  ",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 10
+      "minutes": 15
     },
     "type": "productive",
     "description": "Default description",
@@ -223,7 +223,7 @@ export const JsonListGoal = [
     "name": "ApplyFlow App development",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 0
+      "minutes": 15
     },
     "type": "productive",
     "description": "Default description",
@@ -302,8 +302,8 @@ export const JsonListGoal = [
   {
     "name": "Administrative Tasks ",
     "goalAvgPerDay": {
-      "hours": 1,
-      "minutes": 30
+      "hours": 0,
+      "minutes": 0
     },
     "type": "blocks",
     "description": "Default description",
@@ -323,7 +323,7 @@ export const JsonListGoal = [
     "name": "Hobbies ",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 15
+      "minutes": 45
     },
     "type": "ressource",
     "description": "Default description",
@@ -333,7 +333,7 @@ export const JsonListGoal = [
     "name": "Unproductive Transport ",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 45
+      "minutes": 15
     },
     "type": "passive",
     "description": "Default description",
@@ -363,7 +363,7 @@ export const JsonListGoal = [
     "name": "Reflection (without writing) ",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 15
+      "minutes": 30
     },
     "type": "passive",
     "description": "Default description",
@@ -482,8 +482,8 @@ export const JsonListGoal = [
   {
     "name": "Direct Conversations",
     "goalAvgPerDay": {
-      "hours": 0,
-      "minutes": 30
+      "hours": 1,
+      "minutes": 0
     },
     "type": "ressource",
     "description": "Default description",
@@ -543,7 +543,7 @@ export const JsonListGoal = [
     "name": "Wingspan",
     "goalAvgPerDay": {
       "hours": 0,
-      "minutes": 20
+      "minutes": 0
     },
     "type": "ressource",
     "description": "Default description",
