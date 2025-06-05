@@ -20349,8 +20349,8 @@ export const mockActivityData: ActivityData = JSON.parse(
           {
             "name": "Prospecting - productive",
             "trackedAvgPerDay": {
-              "hours": 6,
-              "minutes": 47
+              "hours": 3,
+              "minutes": 30
             },
             "goalAvgPerDay": {
               "hours": 4,
