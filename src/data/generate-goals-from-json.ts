@@ -1,6 +1,6 @@
 import { ActivityType } from "../types/activity";
 import { Goal } from "../types/goal";
-import { JsonListGoal } from "./goals/mock-objectives";
+import { JsonListGoal } from "./goals/mock_objectives";
 const goals: Goal[] = [];
 JsonListGoal.forEach((goal) => {
   goals.push({
