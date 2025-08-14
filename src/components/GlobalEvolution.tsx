@@ -30,6 +30,7 @@ import {
   Area,
   AreaChart,
   CartesianGrid,
+  ReferenceLine,
   ResponsiveContainer,
   XAxis,
   YAxis,
@@ -86,8 +87,11 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
       allActivitiesSet.add(activity.name);
     });
   });
+  console.log("*********************** SET ****************", allActivitiesSet)
+  const allActivities = Array.from(allActivitiesSet)
+  // .filter(activity => activity.includes("ressource") || activity.includes("productive") || activity.includes("passive") || activity.includes("blocks"));
 
-  const allActivities = Array.from(allActivitiesSet);
+  // .filter(activity => !activity.includes("neutral"));  mettre que les 24 h 
 
 
   data.forEach((week) => {
@@ -111,7 +115,6 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
     });
   });
 
-
   // const allActivities = Array.from(
   //   new Set(data.flatMap((week) => week.activities.map((a) => a.name)))
   // );
@@ -128,7 +131,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
     };
 
     week.activities.forEach((activity) => {
-      console.log(week.weekNumber, activity.name);
+      // console.log(week.weekNumber, activity.name);
       weekData[activity.name] = typeof activity.trackedAvgPerDay === "object"
         ? timeToMinutes(activity.trackedAvgPerDay)
         : typeof activity.trackedAvgPerDay === "number" && activity.trackedAvgPerDay !== -1
@@ -253,8 +256,20 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
           <ResponsiveContainer width="100%" height={"60vh"} minHeight={300} maxHeight={500}>
             <AreaChart data={chartData} >
               <CartesianGrid vertical={false} />
-              <XAxis dataKey="week" tickLine={false} axisLine={false} tickMargin={8} />
+              <XAxis dataKey="week" tickLine={false} axisLine={false} tickMargin={8} angle={45} />
               <YAxis tickMargin={8} tickFormatter={(value) => formatTime(minutesToTime(value))} />
+
+              <ReferenceLine
+                y={1440} // 24h en minutes
+                stroke="hsl(var(--muted-foreground))"
+                strokeDasharray="3 3"
+                label={{
+                  value: "24h",
+                  position: "left",
+                  fill: "hsl(var(--muted-foreground))",
+                  fontSize: 12
+                }}
+              />
               <ChartTooltip
                 // formatter={(value, name, entry) => {
                 //   return [name, formatTime(minutesToTime(Number(value)))];
