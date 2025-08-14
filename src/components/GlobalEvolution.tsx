@@ -70,6 +70,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
   const [typedActivity, setTypedActivity] = useState<string>("all");
   const [stack, setStack] = useState<boolean>(true);
   const [displayGoal, setDisplayGoal] = useState<boolean>(false);
+  const [counting24h, setCounting24h] = useState<boolean>(true);
 
   const switchStack = () => {
     setStack(prev => !prev);
@@ -77,6 +78,9 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
 
   const switchDisplayGoal = () => {
     setDisplayGoal(prev => !prev);
+  }
+  const switchCounting24h = () => {
+    setCounting24h(prev => !prev);
   }
 
   const allActivitiesSet = new Set<string>();
@@ -88,7 +92,11 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
     });
   });
   // console.log("*********************** SET ****************", allActivitiesSet)
-  const allActivities = Array.from(allActivitiesSet)
+  const allActivities = Array.from(allActivitiesSet).filter(activity => {
+    if (counting24h) return activity.includes("ressource") || activity.includes("productive") || activity.includes("passive") || activity.includes("blocks");
+    else return activity
+  });
+
   // .filter(activity => activity.includes("ressource") || activity.includes("productive") || activity.includes("passive") || activity.includes("blocks"));
 
   // .filter(activity => !activity.includes("neutral"));  mettre que les 24 h 
@@ -247,6 +255,10 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
             <div className="flex items-center space-x-2">
               <Switch id="airplane-mode" checked={displayGoal} onCheckedChange={switchDisplayGoal} />
               <Label htmlFor="airplane-mode">Display Goal</Label>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Switch id="airplane-mode" checked={counting24h} onCheckedChange={switchCounting24h} />
+              <Label htmlFor="airplane-mode">24h</Label>
             </div>
           </div>
         </div>
