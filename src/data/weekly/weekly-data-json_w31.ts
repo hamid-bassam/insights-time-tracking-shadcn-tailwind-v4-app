@@ -1,6 +1,8 @@
 import { Activity, ActivityType, TimeValue, WeekData } from "../../types/activity";
 
-const weekly_data_json ={
+const weekly_data_json =
+
+{
   "weekNumber": 31,
   "startDate": "2025-06-26",
   "endDate": "2025-07-02",
@@ -923,9 +925,6 @@ const weekly_data_json ={
   ],
   "globalRate": -1
 }
-
-
-
 const activities: Activity[] = [];
 weekly_data_json.activities.forEach((activity) => {
   activities.push({

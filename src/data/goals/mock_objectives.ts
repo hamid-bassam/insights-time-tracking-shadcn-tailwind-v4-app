@@ -598,5 +598,15 @@ export const JsonListGoal = [
     "type": "productive",
     "description": "Default description",
     "includedInTotal": true
-  }
+  },
+  {
+    "name": "Oliva Oil",
+    "goalAvgPerDay": {
+      "hours": 0,
+      "minutes": 5
+    },
+    "type": "productive",
+    "description": "Default description",
+    "includedInTotal": true
+  },
 ]
