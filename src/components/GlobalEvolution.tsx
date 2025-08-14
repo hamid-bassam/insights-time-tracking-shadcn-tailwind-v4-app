@@ -87,7 +87,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
       allActivitiesSet.add(activity.name);
     });
   });
-  console.log("*********************** SET ****************", allActivitiesSet)
+  // console.log("*********************** SET ****************", allActivitiesSet)
   const allActivities = Array.from(allActivitiesSet)
   // .filter(activity => activity.includes("ressource") || activity.includes("productive") || activity.includes("passive") || activity.includes("blocks"));
 

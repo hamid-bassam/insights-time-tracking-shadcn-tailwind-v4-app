@@ -3,7 +3,7 @@ import { Activity, ActivityType, TimeValue, WeekData } from "../../types/activit
 const weekly_data_json = {
   "weekNumber": 28,
   "startDate": "2025-06-05",
-  "endDate": "2025-06-10",
+  "endDate": "2025-06-11",
   "activities": [
     {
       "name": "Sleep - ressource",
