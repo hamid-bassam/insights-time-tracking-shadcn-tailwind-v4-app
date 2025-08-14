@@ -171,7 +171,7 @@ const weekly_data_json = {
       "impressions": []
     },
     {
-      "name": "Services",
+      "name": "Services - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
         "minutes": 0
@@ -180,8 +180,8 @@ const weekly_data_json = {
         "hours": 0,
         "minutes": 20
       },
-      "type": "neutral",
-      "description": "Tracking services – neutral time.",
+      "type": "ressource",
+      "description": "Tracking services – ressource time.",
       "icon": "activity",
       "impressions": []
     },

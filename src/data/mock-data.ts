@@ -9941,7 +9941,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Services",
+            "name": "Services - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 12
@@ -9950,8 +9950,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 0
             },
-            "type": "neutral",
-            "description": "Tracking services – neutral time.",
+            "type": "ressource",
+            "description": "Tracking services – ressource time.",
             "icon": "activity",
             "impressions": []
           },
@@ -13228,7 +13228,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Services",
+            "name": "Services - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 18
@@ -13237,8 +13237,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 0
             },
-            "type": "neutral",
-            "description": "Tracking services – neutral time.",
+            "type": "ressource",
+            "description": "Tracking services – ressource time.",
             "icon": "activity",
             "impressions": []
           },
@@ -14076,7 +14076,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Services",
+            "name": "Services - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 7
@@ -14085,8 +14085,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 0
             },
-            "type": "neutral",
-            "description": "Tracking services – neutral time.",
+            "type": "ressource",
+            "description": "Tracking services – ressource time.",
             "icon": "activity",
             "impressions": []
           },
@@ -14925,7 +14925,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Services",
+            "name": "Services - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 9
@@ -14934,8 +14934,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 10
             },
-            "type": "neutral",
-            "description": "Tracking services – neutral time.",
+            "type": "ressource",
+            "description": "Tracking services – ressource time.",
             "icon": "activity",
             "impressions": []
           },
@@ -15791,7 +15791,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Services",
+            "name": "Services - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 41
@@ -15800,8 +15800,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 10
             },
-            "type": "neutral",
-            "description": "Tracking services – neutral time.",
+            "type": "ressource",
+            "description": "Tracking services – ressource time.",
             "icon": "activity",
             "impressions": []
           },
@@ -16657,7 +16657,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Services",
+            "name": "Services - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 49
@@ -16666,8 +16666,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 10
             },
-            "type": "neutral",
-            "description": "Tracking services – neutral time.",
+            "type": "ressource",
+            "description": "Tracking services – ressource time.",
             "icon": "activity",
             "impressions": []
           },
@@ -17523,7 +17523,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Services",
+            "name": "Services - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 21
@@ -17532,8 +17532,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 20
             },
-            "type": "neutral",
-            "description": "Tracking services – neutral time.",
+            "type": "ressource",
+            "description": "Tracking services – ressource time.",
             "icon": "activity",
             "impressions": []
           },
@@ -18388,7 +18388,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Services",
+            "name": "Services - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 26
@@ -18397,8 +18397,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 20
             },
-            "type": "neutral",
-            "description": "Tracking services – neutral time.",
+            "type": "ressource",
+            "description": "Tracking services – ressource time.",
             "icon": "activity",
             "impressions": []
           },
@@ -19255,7 +19255,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Services",
+            "name": "Services - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 3
@@ -19264,8 +19264,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 20
             },
-            "type": "neutral",
-            "description": "Tracking services – neutral time.",
+            "type": "ressource",
+            "description": "Tracking services – ressource time.",
             "icon": "activity",
             "impressions": []
           },
@@ -20137,7 +20137,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Services",
+            "name": "Services - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 8
@@ -20146,8 +20146,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 20
             },
-            "type": "neutral",
-            "description": "Tracking services – neutral time.",
+            "type": "ressource",
+            "description": "Tracking services – ressource time.",
             "icon": "activity",
             "impressions": []
           },
@@ -21032,7 +21032,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Services",
+            "name": "Services - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
               "minutes": 0
@@ -21041,8 +21041,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 20
             },
-            "type": "neutral",
-            "description": "Tracking services – neutral time.",
+            "type": "ressource",
+            "description": "Tracking services – ressource time.",
             "icon": "activity",
             "impressions": []
           },

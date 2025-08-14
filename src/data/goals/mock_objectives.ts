@@ -565,7 +565,7 @@ export const JsonListGoal = [
       "hours": 0,
       "minutes": 20
     },
-    "type": "neutral",
+    "type": "ressource",
     "description": "Default description",
     "includedInTotal": true
   },
