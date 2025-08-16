@@ -9,6 +9,8 @@ import ActivityPieChart from "./ActivityPieChart";
 import WeeklyOverview from "./WeeklyOverview";
 import { WorkActivityStats } from "./WorkActivityStats";
 import WorkGlobalEvolution from "./WorkGlobalEvolution";
+import { WorkPresenceLog } from "./WorkPresenceLog";
+import WorkWeekSelector from "./WorkWeekSelector";
 
 interface WorkActivityDashboardProps {
   data: WorkActivityData;
@@ -53,11 +55,10 @@ export default function ActivityDashboard({ data }: WorkActivityDashboardProps) 
         Weekly Performance Overview
       </motion.h1>
 
-      {/* 🔹 Week Selector (placé ici pour ne pas gêner le graphique) 
       <motion.div variants={itemVariants} className="max-w-md mx-auto">
-        <WeekSelector weeks={data} selectedWeek={selectedWeek} onSelectWeek={setSelectedWeek} />
+        <WorkWeekSelector weeks={data} selectedWeek={selectedWeek} onSelectWeek={setSelectedWeek} />
       </motion.div>
-        */}
+
 
 
       {/* 🎯 Comparaison Objectifs 
@@ -82,6 +83,10 @@ export default function ActivityDashboard({ data }: WorkActivityDashboardProps) 
       </div>
 
 
+      {/* 📋 Liste des Activités */}
+      <motion.div variants={itemVariants} className="p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
+        <WorkPresenceLog dailyInsights={selectedWeek.daily_insights} />
+      </motion.div>
 
 
 
