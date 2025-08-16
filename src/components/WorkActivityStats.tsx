@@ -161,17 +161,6 @@ export const WorkActivityStats = ({ weekData }: WorkActivityStatsProps) => {
           </motion.div>
         )}
 
-        {/* 4) Avg Productive Time (per worked day) */}
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.2 }}
-          className="bg-muted p-4 rounded-lg flex flex-col items-center"
-        >
-          <Target className="text-green-400 w-8 h-8" />
-          <p className="text-sm text-muted-foreground">Avg Productive Time</p>
-          <p className="text-xl font-bold">{KPI_avgProductiveLabel}</p>
-        </motion.div>
-
         {/* 5) Avg Work Time (per worked day) */}
         <motion.div
           whileHover={{ scale: 1.05 }}
@@ -181,6 +170,17 @@ export const WorkActivityStats = ({ weekData }: WorkActivityStatsProps) => {
           <BarChart3 className="w-8 h-8" />
           <p className="text-sm text-muted-foreground">Avg Work Time</p>
           <p className="text-xl font-bold">{KPI_avgWorkLabel}</p>
+        </motion.div>
+
+        {/* 4) Avg Productive Time (per worked day) */}
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
+          className="bg-muted p-4 rounded-lg flex flex-col items-center"
+        >
+          <Target className="text-green-400 w-8 h-8" />
+          <p className="text-sm text-muted-foreground">Avg Productive Time</p>
+          <p className="text-xl font-bold">{KPI_avgProductiveLabel}</p>
         </motion.div>
 
         {/* 6) Focus Top-3 Share (%) */}
