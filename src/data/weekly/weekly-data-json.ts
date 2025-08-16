@@ -1,18 +1,19 @@
 import { Activity, ActivityType, TimeValue, WeekData } from "../../types/activity";
 
-const weekly_data_json ={
-  "weekNumber": 31,
-  "startDate": "2025-06-26",
-  "endDate": "2025-07-02",
+const weekly_data_json =
+{
+  "weekNumber": 33,
+  "startDate": "2025-07-10",
+  "endDate": "2025-07-16",
   "activities": [
     {
       "name": "Sleep - ressource",
       "trackedAvgPerDay": {
         "hours": 6,
-        "minutes": 6
+        "minutes": 16
       },
       "goalAvgPerDay": {
-        "hours": 6,
+        "hours": 0,
         "minutes": 0
       },
       "type": "ressource",
@@ -24,11 +25,11 @@ const weekly_data_json ={
       "name": "Meals - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 20
+        "minutes": 42
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 30
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Tracking meals – ressource time.",
@@ -39,11 +40,11 @@ const weekly_data_json ={
       "name": "PrepMeal - blocks",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 8
+        "minutes": 11
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "blocks",
       "description": "Tracking prepmeal – blocks time.",
@@ -54,11 +55,11 @@ const weekly_data_json ={
       "name": "prep ptit dej - blocks",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 9
+        "minutes": 5
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "blocks",
       "description": "Tracking prep ptit dej – blocks time.",
@@ -69,10 +70,10 @@ const weekly_data_json ={
       "name": "Bio Needs (shower, toilet) - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 32
+        "minutes": 40
       },
       "goalAvgPerDay": {
-        "hours": 1,
+        "hours": 0,
         "minutes": 0
       },
       "type": "ressource",
@@ -84,11 +85,11 @@ const weekly_data_json ={
       "name": "Walk - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 12
+        "minutes": 17
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 15
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Tracking walk – ressource time.",
@@ -99,11 +100,11 @@ const weekly_data_json ={
       "name": "Sport - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 0
+        "minutes": 15
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 15
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Tracking sport – ressource time.",
@@ -114,11 +115,11 @@ const weekly_data_json ={
       "name": "Family - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 17
+        "minutes": 21
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 30
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Tracking family – ressource time.",
@@ -129,11 +130,11 @@ const weekly_data_json ={
       "name": "Rangement - blocks",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 16
+        "minutes": 22
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 45
+        "minutes": 0
       },
       "type": "blocks",
       "description": "Tracking rangement – blocks time.",
@@ -144,11 +145,11 @@ const weekly_data_json ={
       "name": "Courses - blocks",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 13
+        "minutes": 0
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 15
+        "minutes": 0
       },
       "type": "blocks",
       "description": "Tracking courses – blocks time.",
@@ -158,12 +159,12 @@ const weekly_data_json ={
     {
       "name": "Diverse Responsibilities - blocks",
       "trackedAvgPerDay": {
-        "hours": 0,
-        "minutes": 28
+        "hours": 1,
+        "minutes": 13
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 45
+        "minutes": 0
       },
       "type": "blocks",
       "description": "Tracking diverse responsibilities – blocks time.",
@@ -173,12 +174,12 @@ const weekly_data_json ={
     {
       "name": "Services - ressource",
       "trackedAvgPerDay": {
-        "hours": 1,
-        "minutes": 49
+        "hours": 0,
+        "minutes": 0
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 20
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Tracking services – ressource time.",
@@ -189,11 +190,11 @@ const weekly_data_json ={
       "name": "Pauses - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 22
+        "minutes": 19
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 45
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Tracking pauses – ressource time.",
@@ -204,11 +205,11 @@ const weekly_data_json ={
       "name": "Daily Reporting & Activity Analysis - productive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 3
+        "minutes": 1
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "productive",
       "description": "Tracking daily reporting & activity analysis – productive time.",
@@ -219,7 +220,7 @@ const weekly_data_json ={
       "name": "Mentor - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 0
+        "minutes": 30
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -234,10 +235,10 @@ const weekly_data_json ={
       "name": "Direct/Deep Conversations - ressource",
       "trackedAvgPerDay": {
         "hours": 1,
-        "minutes": 40
+        "minutes": 8
       },
       "goalAvgPerDay": {
-        "hours": 2,
+        "hours": 0,
         "minutes": 0
       },
       "type": "ressource",
@@ -249,7 +250,7 @@ const weekly_data_json ={
       "name": "Learning - productive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 0
+        "minutes": 27
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -264,11 +265,11 @@ const weekly_data_json ={
       "name": "Management (calls, logistics, etc.) - productive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 13
+        "minutes": 25
       },
       "goalAvgPerDay": {
-        "hours": 1,
-        "minutes": 30
+        "hours": 0,
+        "minutes": 0
       },
       "type": "productive",
       "description": "Tracking management (calls, logistics, etc.) – productive time.",
@@ -279,11 +280,11 @@ const weekly_data_json ={
       "name": "Strategy - productive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 0
+        "minutes": 21
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "productive",
       "description": "Tracking strategy – productive time.",
@@ -298,7 +299,7 @@ const weekly_data_json ={
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "productive",
       "description": "Tracking vision – productive time.",
@@ -313,7 +314,7 @@ const weekly_data_json ={
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "productive",
       "description": "Tracking todolist – productive time.",
@@ -323,8 +324,8 @@ const weekly_data_json ={
     {
       "name": "Collaboration - productive",
       "trackedAvgPerDay": {
-        "hours": 3,
-        "minutes": 19
+        "hours": 0,
+        "minutes": 25
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -373,7 +374,7 @@ const weekly_data_json ={
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "productive",
       "description": "Tracking argan soul – productive time.",
@@ -384,11 +385,11 @@ const weekly_data_json ={
       "name": "Prospecting - productive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 51
       },
       "goalAvgPerDay": {
-        "hours": 1,
-        "minutes": 30
+        "hours": 0,
+        "minutes": 0
       },
       "type": "productive",
       "description": "Tracking prospecting – productive time.",
@@ -474,11 +475,11 @@ const weekly_data_json ={
       "name": "Administrative Tasks - blocks",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 0
+        "minutes": 13
       },
       "goalAvgPerDay": {
-        "hours": 1,
-        "minutes": 20
+        "hours": 0,
+        "minutes": 0
       },
       "type": "blocks",
       "description": "Tracking administrative tasks – blocks time.",
@@ -489,11 +490,11 @@ const weekly_data_json ={
       "name": "Phone Calls - passive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 0
+        "minutes": 36
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "passive",
       "description": "Tracking phone calls – passive time.",
@@ -504,7 +505,7 @@ const weekly_data_json ={
       "name": "Hobbies - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 23
+        "minutes": 0
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -518,12 +519,12 @@ const weekly_data_json ={
     {
       "name": "Unproductive Transport - passive",
       "trackedAvgPerDay": {
-        "hours": 1,
-        "minutes": 8
+        "hours": 0,
+        "minutes": 22
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "passive",
       "description": "Tracking unproductive transport – passive time.",
@@ -534,11 +535,11 @@ const weekly_data_json ={
       "name": "Meditation - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 2
+        "minutes": 6
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Tracking meditation – ressource time.",
@@ -548,11 +549,11 @@ const weekly_data_json ={
     {
       "name": "Chill Time - ressource",
       "trackedAvgPerDay": {
-        "hours": 2,
-        "minutes": 28
+        "hours": 1,
+        "minutes": 43
       },
       "goalAvgPerDay": {
-        "hours": 1,
+        "hours": 0,
         "minutes": 0
       },
       "type": "ressource",
@@ -564,11 +565,11 @@ const weekly_data_json ={
       "name": "Reflection (without writing) - passive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 5
+        "minutes": 7
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 30
+        "minutes": 0
       },
       "type": "passive",
       "description": "Tracking reflection (without writing) – passive time.",
@@ -583,7 +584,7 @@ const weekly_data_json ={
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 15
+        "minutes": 0
       },
       "type": "passive",
       "description": "Tracking insomnia – passive time.",
@@ -594,11 +595,11 @@ const weekly_data_json ={
       "name": "Passive Time (social media, etc.) - passive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 6
+        "minutes": 39
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 15
+        "minutes": 0
       },
       "type": "passive",
       "description": "Tracking passive time (social media, etc.) – passive time.",
@@ -609,11 +610,11 @@ const weekly_data_json ={
       "name": "Direct message - passive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 0
+        "minutes": 6
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "passive",
       "description": "Tracking direct message – passive time.",
@@ -672,8 +673,8 @@ const weekly_data_json ={
         "minutes": 0
       },
       "goalAvgPerDay": {
-        "hours": 1,
-        "minutes": 30
+        "hours": 0,
+        "minutes": 0
       },
       "type": "neutral",
       "description": "Tracking code time – neutral time.",
@@ -718,7 +719,7 @@ const weekly_data_json ={
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "blocks",
       "description": "Tracking batch cooking – blocks time.",
@@ -729,11 +730,11 @@ const weekly_data_json ={
       "name": "Reading - productive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 5
+        "minutes": 18
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "productive",
       "description": "Tracking reading – productive time.",
@@ -744,11 +745,11 @@ const weekly_data_json ={
       "name": "Temps mort - passive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 2
+        "minutes": 0
       },
       "type": "passive",
       "description": "Tracking temps mort – passive time.",
@@ -759,7 +760,7 @@ const weekly_data_json ={
       "name": "Ko - passive",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 8
+        "minutes": 0
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -793,7 +794,7 @@ const weekly_data_json ={
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 15
+        "minutes": 0
       },
       "type": "productive",
       "description": "Tracking networking – productive time.",
@@ -801,14 +802,29 @@ const weekly_data_json ={
       "impressions": []
     },
     {
-      "name": "Direct Conversations - ressource",
+      "name": "Work",
       "trackedAvgPerDay": {
         "hours": 2,
-        "minutes": 8
+        "minutes": 35
       },
       "goalAvgPerDay": {
-        "hours": 1,
-        "minutes": 15
+        "hours": 0,
+        "minutes": 0
+      },
+      "type": "neutral",
+      "description": "Tracking work – neutral time.",
+      "icon": "activity",
+      "impressions": []
+    },
+    {
+      "name": "Direct Conversations - ressource",
+      "trackedAvgPerDay": {
+        "hours": 0,
+        "minutes": 56
+      },
+      "goalAvgPerDay": {
+        "hours": 0,
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Tracking direct conversations – ressource time.",
@@ -819,11 +835,11 @@ const weekly_data_json ={
       "name": "Petit dej - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 14
+        "minutes": 16
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Tracking petit dej – ressource time.",
@@ -864,11 +880,11 @@ const weekly_data_json ={
       "name": "Prayer - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 0
+        "minutes": 4
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 20
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Tracking prayer – ressource time.",
@@ -883,7 +899,7 @@ const weekly_data_json ={
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 30
+        "minutes": 0
       },
       "type": "ressource",
       "description": "Tracking warzone – ressource time.",
@@ -898,7 +914,7 @@ const weekly_data_json ={
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 5
+        "minutes": 0
       },
       "type": "productive",
       "description": "Tracking hbaltrbah – productive time.",
@@ -913,18 +929,76 @@ const weekly_data_json ={
       },
       "goalAvgPerDay": {
         "hours": 0,
-        "minutes": 5
+        "minutes": 0
       },
       "type": "productive",
       "description": "Tracking oliva oil – productive time.",
+      "icon": "activity",
+      "impressions": []
+    },
+    {
+      "name": "Work - blocks",
+      "trackedAvgPerDay": {
+        "hours": 0,
+        "minutes": 24
+      },
+      "goalAvgPerDay": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "type": "blocks",
+      "description": "Tracking work - blocks – blocks time.",
+      "icon": "activity",
+      "impressions": []
+    },
+    {
+      "name": "Work - ressource",
+      "trackedAvgPerDay": {
+        "hours": 0,
+        "minutes": 29
+      },
+      "goalAvgPerDay": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "type": "ressource",
+      "description": "Tracking work - ressource – ressource time.",
+      "icon": "activity",
+      "impressions": []
+    },
+    {
+      "name": "Work - productive",
+      "trackedAvgPerDay": {
+        "hours": 1,
+        "minutes": 41
+      },
+      "goalAvgPerDay": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "type": "productive",
+      "description": "Tracking work - productive – productive time.",
+      "icon": "activity",
+      "impressions": []
+    },
+    {
+      "name": "Work - passive",
+      "trackedAvgPerDay": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "goalAvgPerDay": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "type": "passive",
+      "description": "Tracking work - passive – passive time.",
       "icon": "activity",
       "impressions": []
     }
   ],
   "globalRate": -1
 }
-
-
 
 const activities: Activity[] = [];
 weekly_data_json.activities.forEach((activity) => {
