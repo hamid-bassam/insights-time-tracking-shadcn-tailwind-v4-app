@@ -1,6 +1,6 @@
 import { WorkActivityData } from "../../types/work-activity";
 
-export const mockActivityData: WorkActivityData = JSON.parse(
+export const mockWorkActivityData: WorkActivityData = JSON.parse(
   JSON.stringify(
     [
       // start week 1 = 33
@@ -8,7 +8,7 @@ export const mockActivityData: WorkActivityData = JSON.parse(
         "weekNumber": 1,
         "startDate": "2025-07-10",
         "endDate": "2025-07-16",
-        "weekly insights": [
+        "weekly_insights": [
           {
             "totalWork": {
               "hours": 18,
@@ -40,7 +40,7 @@ export const mockActivityData: WorkActivityData = JSON.parse(
             "productivity_ratio": 65.29
           }
         ],
-        "daily insights": [
+        "daily_insights": [
           {
             "day": "mardi 15/07",
             "totalWork": {

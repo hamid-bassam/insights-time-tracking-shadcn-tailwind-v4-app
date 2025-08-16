@@ -32,8 +32,8 @@ export type WorkWeekData = {
   weekNumber: number;
   startDate: string;              // "YYYY-MM-DD"
   endDate: string;                // "YYYY-MM-DD"
-  "weekly insights": WorkWeeklyInsight[]; // conforme au JSON fourni
-  "daily insights": DailyInsight[];   // conforme au JSON fourni
+  weekly_insights: WorkWeeklyInsight[]; // conforme au JSON fourni
+  daily_insights: DailyInsight[];   // conforme au JSON fourni
   activities: Activity[];
   globalRate: number;
 };

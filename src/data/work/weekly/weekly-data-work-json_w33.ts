@@ -1,11 +1,11 @@
 import { Activity, TimeValue } from "../../../types/activity";
-import { WorkWeeklyInsight, DailyInsight, WorkWeekData, WorkActivityData } from "../../../types/work-activity";
+import { DailyInsight, WorkActivityData, WorkWeekData, WorkWeeklyInsight } from "../../../types/work-activity";
 
 const weekly_data_work_json = {
   "weekNumber": 1,
   "startDate": "2025-07-10",
   "endDate": "2025-07-16",
-  "weekly insights": [
+  "weekly_insights": [
     {
       "totalWork": {
         "hours": 18,
@@ -37,7 +37,7 @@ const weekly_data_work_json = {
       "productivity_ratio": 65.29
     }
   ],
-  "daily insights": [
+  "daily_insights": [
     {
       "day": "mardi 15/07",
       "totalWork": {
@@ -346,7 +346,7 @@ const activities: Activity[] = (weekly_data_work_json.activities ?? []).map((act
 }));
 
 // ---- Weekly insights --------------------------------------------------------
-const weeklyInsights: WorkWeeklyInsight[] = (weekly_data_work_json["weekly insights"] ?? []).map((w: any) => ({
+const weeklyInsights: WorkWeeklyInsight[] = (weekly_data_work_json["weekly_insights"] ?? []).map((w: any) => ({
   totalWork: w.totalWork as TimeValue,
   nbDays: w.nbDays,
   avgPerDay: w.avgPerDay as TimeValue,
@@ -360,7 +360,7 @@ const weeklyInsights: WorkWeeklyInsight[] = (weekly_data_work_json["weekly insig
 }));
 
 // ---- Daily insights ---------------------------------------------------------
-const dailyInsights: DailyInsight[] = (weekly_data_work_json["daily insights"] ?? []).map((d: any) => ({
+const dailyInsights: DailyInsight[] = (weekly_data_work_json["daily_insights"] ?? []).map((d: any) => ({
   day: d.day,
   totalWork: d.totalWork as TimeValue,
   byCategory: {
@@ -379,8 +379,8 @@ export const weekly_work_data: WorkWeekData = {
   weekNumber: weekly_data_work_json.weekNumber,
   startDate: weekly_data_work_json.startDate,
   endDate: weekly_data_work_json.endDate,
-  "weekly insights": weeklyInsights,
-  "daily insights": dailyInsights,
+  weekly_insights: weeklyInsights,
+  daily_insights: dailyInsights,
   activities,
   globalRate: weekly_data_work_json.globalRate,
 };
