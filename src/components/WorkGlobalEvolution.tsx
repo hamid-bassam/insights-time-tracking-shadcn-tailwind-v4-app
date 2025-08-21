@@ -34,6 +34,7 @@ import {
   YAxis,
 } from "recharts";
 import { WorkActivityData } from "../types/work-activity";
+import { ThresholdSet, workThresholds } from "../utils/threshold";
 import { Label } from "./ui/label";
 import { Switch } from "./ui/switch";
 
@@ -69,6 +70,71 @@ function sortActivitiesForStack(
     return TYPE_ORDER[typeA] - TYPE_ORDER[typeB];
   });
 }
+
+// --- Thresholds --------------------------------------------------
+// couleurs et styles (simples et lisibles)
+const LINE_COLORS = {
+  min: "hsl(32, 70%, 65%)",    // amber légèrement atténué
+  ok: "hsl(142, 40%, 70%)",    // vert désaturé (pastel)
+  max: "hsl(0, 65%, 80%)",     // rouge doux
+  default: "hsl(var(--muted-foreground))",
+} as const;
+
+const LINE_DASH = {
+  min: "4 2",
+  ok: "8 2",        // plein
+  max: "6 2",
+} as const;
+
+// résout le set de seuils à utiliser
+function resolveThresholds(
+  selectedActivity: string,
+  typedActivity: string
+): ThresholdSet {
+  // 1) si une activité précise est sélectionnée, on tente un match
+  // if (selectedActivity !== "all") {
+  //   const key = baseLabel(selectedActivity);
+  //   const byActivity = workThresholds.activities.[key];
+  //   if (byActivity) return byActivity;
+  // }
+
+  // 2) sinon si un thème est filtré
+  if (typedActivity !== "all") {
+    const byTheme = workThresholds.themes[typedActivity as keyof typeof workThresholds.themes];
+    if (byTheme) return byTheme;
+  }
+
+  // 3) défaut
+  return workThresholds.default;
+}
+
+// util pour créer les <ReferenceLine /> depuis un ThresholdSet
+function buildReferenceLines(ts: ThresholdSet) {
+  const items: Array<{ kind: "min" | "ok" | "max"; y: number; label: string }> = [];
+  if (typeof ts.min === "number") items.push({ kind: "min", y: ts.min, label: ts.labels?.min ?? "min" });
+  if (typeof ts.ok === "number") items.push({ kind: "ok", y: ts.ok, label: ts.labels?.ok ?? "ok" });
+  if (typeof ts.max === "number") items.push({ kind: "max", y: ts.max, label: ts.labels?.max ?? "max" });
+
+  return items.map(({ kind, y, label }) => (
+    <ReferenceLine
+      key={`${kind}-${y}`}
+      y={y}
+      stroke={LINE_COLORS[kind]}
+      strokeWidth={2} // <--- épaisseur de la ligne
+      strokeDasharray={LINE_DASH[kind]}
+      label={{
+        value: label,
+        position: "left",
+        fill: LINE_COLORS[kind],
+        fontSize: 12,
+        dx: -60,
+      }}
+    />
+  ));
+}
+
+
+//----------------------------------------------------------------------------------------------------
 
 export default function GlobalEvolution({ data }: WorkGlobalEvolutionProps) {
 
@@ -265,7 +331,7 @@ export default function GlobalEvolution({ data }: WorkGlobalEvolutionProps) {
               <XAxis dataKey="week" tickLine={false} axisLine={false} tickMargin={8} angle={45} />
               <YAxis tickMargin={8} tickFormatter={(value) => formatTime(minutesToTime(Number(value)))} />
 
-              <ReferenceLine
+              {/* <ReferenceLine
                 y={480} // 8h en minutes 
                 stroke="hsl(var(--muted-foreground))"
                 strokeDasharray="3 3"
@@ -275,7 +341,9 @@ export default function GlobalEvolution({ data }: WorkGlobalEvolutionProps) {
                   fill: "hsl(var(--muted-foreground))",
                   fontSize: 12
                 }}
-              />
+              /> */}
+
+              {buildReferenceLines(resolveThresholds(selectedActivity, typedActivity))}
               <ChartTooltip
                 // formatter={(value, name, entry) => {
                 //   return [name, formatTime(minutesToTime(Number(value)))];
