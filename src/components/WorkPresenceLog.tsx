@@ -3,7 +3,7 @@
 
 import { CardHeader } from "@/components/ui/card";
 import { motion } from "framer-motion";
-import { CalendarDays, Clock, LogIn, LogOut } from "lucide-react";
+import { Brain, CalendarDays, Clock, LogIn, LogOut } from "lucide-react";
 import { TimeValue } from "../types/activity";
 import { DailyInsight } from "../types/work-activity";
 
@@ -51,37 +51,37 @@ export const WorkPresenceLog = ({ dailyInsights }: WorkPresenceLogProps) => {
       </CardHeader>
 
       {/* Header ligne */}
-      <div className="mt-4 grid grid-cols-4 gap-2 px-2 text-xs uppercase text-muted-foreground">
+      <div className="mt-4 grid grid-cols-5 gap-2 px-2 text-xs uppercase text-muted-foreground">
         <div className="flex items-center gap-1"><CalendarDays className="w-4 h-4" /> Jour</div>
         <div className="flex items-center gap-1"><LogIn className="w-4 h-4" /> Entrée</div>
         <div className="flex items-center gap-1"><LogOut className="w-4 h-4" /> Sortie</div>
         <div className="flex items-center gap-1"><Clock className="w-4 h-4" /> Présence</div>
+        <div className="flex items-center gap-1 text-chart-success-dark"><Brain className="w-4 h-4 text-chart-success-dark" /> Productive</div>
       </div>
 
       {/* Lignes */}
       <div className="mt-2 divide-y divide-border">
         {rows.map((d) => (
-          <div key={d.day} className="grid grid-cols-4 gap-2 py-2 px-2 text-sm">
+          <div key={d.day} className="grid grid-cols-5 gap-2 py-2 px-2 text-sm">
             <div className="truncate">{d.day}</div>
             <div>{d.entry ?? "—"}</div>
             <div>{d.exit ?? "—"}</div>
             <div className="font-medium">{fmtHM(d.presence)}</div>
+            <div>{fmtHM(d.byCategory.productive)}</div>
           </div>
         ))}
 
         {/* Footer / Moyenne */}
-        <div className="grid grid-cols-4 gap-2 py-3 px-2 text-sm bg-muted/50 rounded-md mt-3">
+        <div className="grid grid-cols-5 gap-2 py-3 px-2 text-sm bg-muted/50 rounded-md mt-3">
           <div className="font-medium">Moyenne (jours travaillés)</div>
           <div>—</div>
           <div>—</div>
+
+
           <div className="font-semibold">{fmtHM(avgPresence)}</div>
-        </div>
-        <div className="grid grid-cols-4 gap-2 py-3 px-2 text-sm bg-muted/50 rounded-md mt-3">
-          <div className="font-medium text-chart-success">Moyenne Productive(jours travaillés)</div>
-          <div>—</div>
-          <div>—</div>
           <div className="font-semibold text-chart-success-dark">{fmtHM(avgProdPresence)}</div>
         </div>
+
       </div>
     </motion.div>
   );
