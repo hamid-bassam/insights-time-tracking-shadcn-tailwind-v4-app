@@ -1,6 +1,5 @@
 "use client";
 
-import { ActivityData, WeekData } from "@/types/activity";
 import { motion } from "framer-motion";
 import { Calendar, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
