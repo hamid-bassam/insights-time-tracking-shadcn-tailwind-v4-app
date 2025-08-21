@@ -14,13 +14,6 @@ import {
   ChartTooltip,
   ChartTooltipContent
 } from "@/components/ui/chart";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { ActivityData } from "@/types/activity";
 import { formatTime, minutesToTime, timeToMinutes } from "@/utils/time";
 import { TrendingDown, TrendingUp } from "lucide-react";
@@ -34,9 +27,10 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { cn } from "../lib/utils";
 import { thresholds, ThresholdSet } from "../utils/threshold";
-import { Label } from "./ui/label";
-import { Switch } from "./ui/switch";
+import { TypeFilterPills } from "./TypedFilterPills";
+import { SearchBar } from "./ui/search-bar";
 
 interface GlobalEvolutionProps {
   data: ActivityData;
@@ -285,103 +279,117 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
 
   return (
     <Card className="h-full">
-      <CardHeader>
-        <div className="flex justify-between items-center ">
-          <div>
-            <CardTitle>Global Evolution</CardTitle>
-            <CardDescription>Activity tracking progress over time</CardDescription>
+
+      <CardHeader className="border-b p-4">
+        <div className="flex items-center justify-between gap-3">
+          {/* Left: Search */}
+          <div className="flex items-center gap-2">
+            <SearchBar
+              className="w-48"
+              options={["all", ...allActivities]}
+              onSelect={(v) => { setSelectedActivity(v); setTypedActivity("all") }}
+            />
           </div>
-          <div className="flex flex-col gap-2">
-            <Select defaultValue="all" onValueChange={setTypedActivity}>
-              <SelectTrigger className="w-32">
-                <SelectValue placeholder="Select type" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="all">All Activities</SelectItem>
 
-                <SelectItem key={"productive"} value={"productive"}>
-                  productive
-                </SelectItem>
-                <SelectItem key={"passive"} value={"passive"}>
-                  passive
-                </SelectItem>
-                <SelectItem key={"ressource"} value={"ressource"}>
-                  ressource
-                </SelectItem>
-                <SelectItem key={"blocks"} value={"blocks"}>
-                  blocks
-                </SelectItem>
+          {/* Center: title + typed filter */}
+          <div className="flex flex-col items-center text-center gap-2">
+            <CardTitle className="leading-tight">
+              {(() => {
+                const typeLabel = typedActivity === "all" ? "All types" : typedActivity;
+                const actLabel = selectedActivity === "all"
+                  ? "All activities"
+                  : selectedActivity.split("–")[0].split("-")[0];
+                return `${actLabel} · ${typeLabel}`;
+              })()}
+            </CardTitle>
+            <CardDescription>Activity tracking progress over time</CardDescription>
 
-              </SelectContent>
-            </Select>
-            <Select defaultValue="all" onValueChange={setSelectedActivity}>
-              <SelectTrigger className="w-32">
-                <SelectValue placeholder="Select activity" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="all">All Activities</SelectItem>
-                {allActivities.map((activity) => (
-                  <SelectItem key={activity} value={activity}>
-                    {activity}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-            <div className="flex items-center space-x-2">
-              <Switch id="airplane-mode" checked={stack} onCheckedChange={() => { switchStack(); console.log(stack) }} />
-              <Label htmlFor="airplane-mode">Stack Charts</Label>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Switch id="airplane-mode" checked={displayGoal} onCheckedChange={switchDisplayGoal} />
-              <Label htmlFor="airplane-mode">Display Goal</Label>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Switch id="airplane-mode" checked={counting24h} onCheckedChange={switchCounting24h} />
-              <Label htmlFor="airplane-mode">24h</Label>
+            {/* <-- le filtre typedActivity revient ici */}
+            <TypeFilterPills
+              value={typedActivity as any}
+              onChange={(v) => { setSelectedActivity("all"); setTypedActivity(v) }}
+            />
+          </div>
+
+          {/* Right: toggles */}
+          <div className="flex items-center gap-1">
+            <div className="inline-flex rounded-lg border bg-background p-1">
+              <button
+                className={cn(
+                  "px-2 py-1 text-xs rounded-md",
+                  stack ? "bg-primary text-primary-foreground" : "hover:bg-muted"
+                )}
+                onClick={switchStack}
+              >
+                Stack
+              </button>
+              <button
+                className={cn(
+                  "px-2 py-1 text-xs rounded-md",
+                  displayGoal ? "bg-primary text-primary-foreground" : "hover:bg-muted"
+                )}
+                onClick={switchDisplayGoal}
+              >
+                Goal
+              </button>
+              <button
+                className={cn(
+                  "px-2 py-1 text-xs rounded-md",
+                  counting24h ? "bg-primary text-primary-foreground" : "hover:bg-muted"
+                )}
+                onClick={switchCounting24h}
+              >
+                24h
+              </button>
             </div>
           </div>
         </div>
       </CardHeader>
+
       <CardContent>
         <ChartContainer config={chartConfig}>
           <ResponsiveContainer width="100%" height={"60vh"} minHeight={300} maxHeight={500}>
             <AreaChart data={chartData} >
+              <defs>
+                {displayedActivities.map((a) => {
+                  const color = chartConfig[a].color;              // ex: "hsl(var(--chart-1))"
+                  const id = `grad-${a.replace(/\W+/g, "_")}`;     // id unique, safe
+                  return (
+                    <linearGradient key={id} id={id} x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stopColor={color} stopOpacity={0.99} />
+                      <stop offset="100%" stopColor={color} stopOpacity={0.16} />
+                    </linearGradient>
+                  );
+                })}
+              </defs>
               <CartesianGrid vertical={false} />
               <XAxis dataKey="week" tickLine={false} axisLine={false} tickMargin={8} angle={45} />
               <YAxis tickMargin={8} tickFormatter={(value) => formatTime(minutesToTime(value))} />
 
-              {/* <ReferenceLine
-                y={1440} // 24h en minutes
-                stroke="hsl(var(--muted-foreground))"
-                strokeDasharray="3 3"
-                label={{
-                  value: "24h",
-                  position: "left",
-                  fill: "hsl(var(--muted-foreground))",
-                  fontSize: 12
-                }}
-              /> */}
+
               {buildReferenceLines(resolveThresholds(selectedActivity, typedActivity))}
               <ChartTooltip
-                // formatter={(value, name, entry) => {
-                //   return [name, formatTime(minutesToTime(Number(value)))];
-                // }}
+
                 content={< ChartTooltipContent
                   formatTimeValue
                   indicator="dot" />}
               />
 
-              {displayedActivities.map((activity) => (
-                <Area
-                  key={activity}
-                  dataKey={activity}
-                  type="monotone"
-                  stroke={chartConfig[activity].color}
-                  fill={chartConfig[activity].color}
-                  stackId={stack ? "activities" : undefined}
-                  fillOpacity={0.4}
-                />
-              ))}
+              {displayedActivities.map((activity) => {
+                const gradId = `grad-${activity.replace(/\W+/g, "_")}`;
+                return (
+                  <Area
+                    key={activity}
+                    dataKey={activity}
+                    type="monotone"
+                    stroke={chartConfig[activity].color}
+                    // fill={chartConfig[activity].color}
+                    fill={`url(#${gradId})`}
+                    stackId={stack ? "activities" : undefined}
+                    fillOpacity={0.4}
+                  />
+                )
+              })}
 
               {displayGoal && displayedGoalActivities.map((goalActivity) => {
                 const baseActivity = goalActivity.replace("_goalAvg", "");
@@ -426,3 +434,102 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
     </Card >
   );
 }
+
+
+
+
+
+{/* badges legend */ }
+// <div className="mt-3 flex flex-wrap items-center justify-center gap-2">
+//   <span className="text-xs text-muted-foreground">Legend:</span>
+//   <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs"
+//     style={{ borderColor: "hsl(var(--chart-1))", color: "hsl(var(--chart-1))" }}>
+//     ● productive
+//   </span>
+//   <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs"
+//     style={{ borderColor: "hsl(var(--destructive))", color: "hsl(var(--destructive))" }}>
+//     ● passive
+//   </span>
+//   <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs"
+//     style={{ borderColor: "hsl(260,45%,60%)", color: "hsl(260,45%,60%)" }}>
+//     ● ressource
+//   </span>
+//   <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs"
+//     style={{ borderColor: "hsl(var(--primary))", color: "hsl(var(--primary))" }}>
+//     ● blocks
+//   </span>
+// </div>
+
+
+{/* <CardHeader>
+        <div className="flex justify-between items-center ">
+
+          <div>
+            <CardTitle>Global Evolution</CardTitle>
+            <CardDescription>Activity tracking progress over time</CardDescription>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <Select defaultValue="all" onValueChange={setTypedActivity}>
+              <SelectTrigger className="w-32">
+                <SelectValue placeholder="Select type" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All Activities</SelectItem>
+
+                <SelectItem key={"productive"} value={"productive"}>
+                  productive
+                </SelectItem>
+                <SelectItem key={"passive"} value={"passive"}>
+                  passive
+                </SelectItem>
+                <SelectItem key={"ressource"} value={"ressource"}>
+                  ressource
+                </SelectItem>
+                <SelectItem key={"blocks"} value={"blocks"}>
+                  blocks
+                </SelectItem>
+
+              </SelectContent>
+            </Select>
+            <SearchBar
+              className="w-32"
+              options={["all", ...allActivities]}
+              onSelect={setSelectedActivity}
+            /> */}
+{/* <Select defaultValue="all" onValueChange={setSelectedActivity}>
+              <SelectTrigger className="w-32">
+                <SelectValue placeholder="Select activity" />
+              </SelectTrigger>
+              <SelectContent>
+
+                <SelectItem value="all">All Activities</SelectItem>
+                {allActivities.map((activity) => (
+                  <SelectItem key={activity} value={activity}>
+                    {activity}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select> */}
+{/* <SimpleSearchSelect
+              value={selectedActivity}
+              onChange={setSelectedActivity}
+              options={["all", ...allActivities]} // tu gardes ta source de vérité
+              placeholder="Select activity"
+              className="w-56"
+            /> */}
+{/* <div className="flex items-center space-x-2">
+              <Switch id="airplane-mode" checked={stack} onCheckedChange={() => { switchStack(); console.log(stack) }} />
+              <Label htmlFor="airplane-mode">Stack Charts</Label>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Switch id="airplane-mode" checked={displayGoal} onCheckedChange={switchDisplayGoal} />
+              <Label htmlFor="airplane-mode">Display Goal</Label>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Switch id="airplane-mode" checked={counting24h} onCheckedChange={switchCounting24h} />
+              <Label htmlFor="airplane-mode">24h</Label>
+            </div>
+          </div>
+        </div>
+      </CardHeader> */}
