@@ -22,7 +22,7 @@ export function SearchBar({
   options,
   onSelect,
   placeholder = "Rechercher...",
-  searchPlaceholder = "Tapez pour filtrer...",
+  // searchPlaceholder = "Tapez pour filtrer...",
   buttonLabel = "Rechercher",
   className = "",
 

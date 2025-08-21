@@ -14,7 +14,7 @@ import {
   ChartTooltip,
   ChartTooltipContent
 } from "@/components/ui/chart";
-import { ActivityData } from "@/types/activity";
+import { ActivityData, ActivityType } from "@/types/activity";
 import { formatTime, minutesToTime, timeToMinutes } from "@/utils/time";
 import { TrendingDown, TrendingUp } from "lucide-react";
 import { useState } from "react";
@@ -306,7 +306,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
 
             {/* <-- le filtre typedActivity revient ici */}
             <TypeFilterPills
-              value={typedActivity as any}
+              value={typedActivity as ActivityType}
               onChange={(v) => { setSelectedActivity("all"); setTypedActivity(v) }}
             />
           </div>

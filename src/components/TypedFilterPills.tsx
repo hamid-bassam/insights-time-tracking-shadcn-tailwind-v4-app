@@ -2,9 +2,10 @@
 // components/TypeFilterPills.tsx
 "use client";
 import { cn } from "@/lib/utils";
+import { ActivityType } from "../types/activity";
 
 type TypeOpt = {
-  value: "all" | "productive" | "passive" | "ressource" | "blocks";
+  value: "all" | ActivityType;
   label: string;
   // classes quand ACTIF (pill remplie)
   activeBg: string;
