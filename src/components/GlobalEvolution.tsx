@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
-
 import {
   Card,
   CardContent,
@@ -35,6 +34,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { thresholds, ThresholdSet } from "../utils/threshold";
 import { Label } from "./ui/label";
 import { Switch } from "./ui/switch";
 
@@ -64,6 +64,83 @@ const getType = (activity: string) => {
   }
   return type;
 }
+
+
+// reference line 
+
+// GlobalEvolution.tsx
+
+
+// ...
+
+// util: extraire le "base label" avant le séparateur
+const baseLabel = (name: string) => {
+  const parts = name.split("–");
+  const p = (parts[0] ?? name).split("-")[0];
+  return p.trim().toLowerCase();
+};
+
+// couleurs et styles (simples et lisibles)
+const LINE_COLORS = {
+  min: "hsl(32, 70%, 65%)",    // amber légèrement atténué
+  ok: "hsl(142, 40%, 70%)",    // vert désaturé (pastel)
+  max: "hsl(0, 65%, 80%)",     // rouge doux
+  default: "hsl(var(--muted-foreground))",
+} as const;
+
+const LINE_DASH = {
+  min: "4 2",
+  ok: "8 2",        // plein
+  max: "6 2",
+} as const;
+
+// résout le set de seuils à utiliser
+function resolveThresholds(
+  selectedActivity: string,
+  typedActivity: string
+): ThresholdSet {
+  // 1) si une activité précise est sélectionnée, on tente un match
+  if (selectedActivity !== "all") {
+    const key = baseLabel(selectedActivity);
+    const byActivity = thresholds.activities[key];
+    if (byActivity) return byActivity;
+  }
+
+  // 2) sinon si un thème est filtré
+  if (typedActivity !== "all") {
+    const byTheme = thresholds.themes[typedActivity as keyof typeof thresholds.themes];
+    if (byTheme) return byTheme;
+  }
+
+  // 3) défaut
+  return thresholds.default;
+}
+
+// util pour créer les <ReferenceLine /> depuis un ThresholdSet
+function buildReferenceLines(ts: ThresholdSet) {
+  const items: Array<{ kind: "min" | "ok" | "max"; y: number; label: string }> = [];
+  if (typeof ts.min === "number") items.push({ kind: "min", y: ts.min, label: ts.labels?.min ?? "min" });
+  if (typeof ts.ok === "number") items.push({ kind: "ok", y: ts.ok, label: ts.labels?.ok ?? "ok" });
+  if (typeof ts.max === "number") items.push({ kind: "max", y: ts.max, label: ts.labels?.max ?? "max" });
+
+  return items.map(({ kind, y, label }) => (
+    <ReferenceLine
+      key={`${kind}-${y}`}
+      y={y}
+      stroke={LINE_COLORS[kind]}
+      strokeWidth={2} // <--- épaisseur de la ligne
+      strokeDasharray={LINE_DASH[kind]}
+      label={{
+        value: label,
+        position: "left",
+        fill: LINE_COLORS[kind],
+        fontSize: 12,
+        dx: -60,
+      }}
+    />
+  ));
+}
+
 
 export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
   const [selectedActivity, setSelectedActivity] = useState<string>("all");
@@ -186,7 +263,10 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
     // const type = activity.split('-')[1].includes("productive") ? "productive" : "distracting";
     acc[activity] = {
       label: activity.split('–')[0] || activity.split('-')[0],
-      color: type === "productive" ? "hsl(var(--chart-1))" : type === "passive" ? "hsl(var(--destructive))" : type === "ressource" ? "hsl(var(--chart-3))" : type === "blocks" ? "hsl(var(--primary))" : "hsl(var(--chart-4))",
+      color: type === "productive" ? "hsl(var(--chart-1))" : type === "passive" ? "hsl(var(--destructive))" : type === "ressource" ?
+        // "hsl(var(--chart-3))" 
+        "hsl(260, 45%, 60%)"
+        : type === "blocks" ? "hsl(var(--primary))" : "hsl(var(--chart-4))",
       // color: colors[index % colors.length],
     };
     return acc;
@@ -200,7 +280,6 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
 
   const displayedActivities = typedActivities.filter((activity) => filteredActivities.includes(activity));
   const displayedGoalActivities = displayedActivities.map((activity) => `${activity}_goalAvg`);
-
 
 
 
@@ -271,7 +350,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
               <XAxis dataKey="week" tickLine={false} axisLine={false} tickMargin={8} angle={45} />
               <YAxis tickMargin={8} tickFormatter={(value) => formatTime(minutesToTime(value))} />
 
-              <ReferenceLine
+              {/* <ReferenceLine
                 y={1440} // 24h en minutes
                 stroke="hsl(var(--muted-foreground))"
                 strokeDasharray="3 3"
@@ -281,7 +360,8 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
                   fill: "hsl(var(--muted-foreground))",
                   fontSize: 12
                 }}
-              />
+              /> */}
+              {buildReferenceLines(resolveThresholds(selectedActivity, typedActivity))}
               <ChartTooltip
                 // formatter={(value, name, entry) => {
                 //   return [name, formatTime(minutesToTime(Number(value)))];
