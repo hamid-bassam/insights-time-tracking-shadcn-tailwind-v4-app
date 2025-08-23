@@ -46,18 +46,18 @@ export default function ChronoRingGradient({
 
       <g filter={glow ? `url(#${glowId})` : undefined} strokeLinecap="round" strokeLinejoin="round">
         {/* anneau principal (centre 128,128) */}
-        <circle cx="128" cy="128" r="88" stroke={`url(#${gradId})`} strokeWidth="10" />
+        <circle cx="128" cy="128" r="98" stroke={`url(#${gradId})`} strokeWidth="10" />
         {/* cerne intérieur subtil */}
-        <circle cx="128" cy="128" r="74" stroke={`url(#${gradId})`} strokeWidth="2" opacity=".22" />
+        <circle cx="128" cy="128" r="84" stroke={`url(#${gradId})`} strokeWidth="2" opacity=".22" />
         {/* tige + bouton top */}
-        <path d="M128 58v18" stroke={`url(#${gradId})`} strokeWidth="8" />
+        <path d="M128 40v18" stroke={`url(#${gradId})`} strokeWidth="8" />
         <rect x="92" y="4" width="72" height="18" rx="9" fill={`url(#${gradId})`} opacity=".65" />
         {/* ergots NE / NW */}
         <rect x="120" y="24" width="16" height="8" rx="4"
-          transform="rotate(30 128 128) translate(0,16)"
+          transform="rotate(50 128 128) translate(0,16)"
           fill={`url(#${gradId})`} opacity=".7" />
         <rect x="120" y="24" width="16" height="8" rx="4"
-          transform="rotate(-30 128 128) translate(0,16)"
+          transform="rotate(-50 128 128) translate(0,16)"
           fill={`url(#${gradId})`} opacity=".7" />
       </g>
     </svg>

@@ -52,9 +52,9 @@ export default function ActivityPieChart({ weekData }: ActivityPieChartProps) {
     neutral: "hsl(var(--muted))",
   };
   const INNER = 52           // même valeur que ton innerRadius
-  const IMG_SCALE = 2.5     // ajuste 1.3–1.9 selon le look
+  const IMG_SCALE = 3.5     // ajuste 1.3–1.9 selon le look
 
-  const p = chronoPresetsPremium.champagne;
+  const p = chronoPresetsPremium.opalMint;
   return (
     // bg-card p-6 rounded-xl shadow-lg border border-gray-700 transition-all
     <motion.div
@@ -215,14 +215,14 @@ export default function ActivityPieChart({ weekData }: ActivityPieChartProps) {
 
 
         <div className="absolute inset-0 grid place-items-center pointer-events-none z-10"
-          style={{ "--inner": `${INNER}px` } as React.CSSProperties}>
+          style={{ "--inner": `${INNER * 2}px` } as React.CSSProperties}>
           {/* <ChronoRing className="text-sky-200/90 w-[calc(var(--inner)*2.3px)] h-[calc(var(--inner)*2.3px)]
           
     [filter:drop-shadow(0_0_16px_rgba(180,220,255,.35))]" /> */}
           {/* text-sky-200/90 */}
           <ChronoRingGradient
             className="pointer-events-none
-             w-[calc(var(--inner)*2.3px)] h-[calc(var(--inner)*2.3px)]
+             w-[calc(var(--inner)*4.3px)] h-[calc(var(--inner)*4.3px)]
              [mix-blend:screen]"       // aide à ressortir sur dark
             from={p.from}
             by={p.by}
