@@ -215,7 +215,7 @@ export default function ActivityPieChart({ weekData }: ActivityPieChartProps) {
 
 
         <div className="absolute inset-0 grid place-items-center pointer-events-none z-10"
-          style={{ ["--inner" as any]: INNER }}>
+          style={{ "--inner": `${INNER}px` } as React.CSSProperties}>
           {/* <ChronoRing className="text-sky-200/90 w-[calc(var(--inner)*2.3px)] h-[calc(var(--inner)*2.3px)]
           
     [filter:drop-shadow(0_0_16px_rgba(180,220,255,.35))]" /> */}
