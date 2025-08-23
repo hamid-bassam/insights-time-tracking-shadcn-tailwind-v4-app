@@ -946,7 +946,7 @@ const weekly_data_json =
         "hours": 0,
         "minutes": 0
       },
-      "type": "neutral",
+      "type": "productive",
       "description": "Tracking work - productive – neutral time.",
       "icon": "activity",
       "impressions": []
@@ -961,7 +961,7 @@ const weekly_data_json =
         "hours": 0,
         "minutes": 0
       },
-      "type": "neutral",
+      "type": "blocks",
       "description": "Tracking work - blocks – neutral time.",
       "icon": "activity",
       "impressions": []
@@ -976,7 +976,7 @@ const weekly_data_json =
         "hours": 0,
         "minutes": 0
       },
-      "type": "neutral",
+      "type": "ressource",
       "description": "Tracking work - ressource – neutral time.",
       "icon": "activity",
       "impressions": []

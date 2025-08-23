@@ -3,11 +3,9 @@
 import { ActivityData, WeekData } from "@/types/activity";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import ActivityList from "./ActivityList";
 import ActivityPieChart from "./ActivityPieChart";
 import ActivityStats from "./ActivityStats";
 import GlobalEvolution from "./GlobalEvolution";
-import GoalComparison from "./GoalComparison";
 import WeeklyOverview from "./WeeklyOverview";
 import WeekSelector from "./WeekSelector";
 
@@ -47,10 +45,6 @@ export default function ActivityDashboard({ data }: ActivityDashboardProps) {
         Weekly Performance Overview
       </motion.h1>
 
-      {/* 🔹 Week Selector (placé ici pour ne pas gêner le graphique) */}
-      <motion.div variants={itemVariants} className="max-w-md mx-auto">
-        <WeekSelector weeks={data} selectedWeek={selectedWeek} onSelectWeek={setSelectedWeek} />
-      </motion.div>
 
       {/* 📊 Graphique Principal */}
       <motion.div variants={itemVariants} className="p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
@@ -58,8 +52,12 @@ export default function ActivityDashboard({ data }: ActivityDashboardProps) {
       </motion.div>
 
       {/* 🎯 Comparaison Objectifs */}
-      <motion.div variants={itemVariants} className="p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
+      {/* <motion.div variants={itemVariants} className="p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
         <GoalComparison weekData={selectedWeek} />
+      </motion.div> */}
+      {/* 🔹 Week Selector (placé ici pour ne pas gêner le graphique) */}
+      <motion.div variants={itemVariants} className="max-w-md mx-auto">
+        <WeekSelector weeks={data} selectedWeek={selectedWeek} onSelectWeek={setSelectedWeek} />
       </motion.div>
 
       {/* 🏆 Aperçu Hebdomadaire et Insights */}
@@ -77,9 +75,9 @@ export default function ActivityDashboard({ data }: ActivityDashboardProps) {
       </div>
 
       {/* 📋 Liste des Activités */}
-      <motion.div variants={itemVariants} className="p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
+      {/* <motion.div variants={itemVariants} className="p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
         <ActivityList activities={selectedWeek.activities} />
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   );
 }

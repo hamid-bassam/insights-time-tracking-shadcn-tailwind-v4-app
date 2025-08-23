@@ -31284,7 +31284,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
-            "name": "Work - ressource",
+            "name": "Work",
             "trackedAvgPerDay": {
               "hours": 3,
               "minutes": 15
@@ -31293,8 +31293,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 0
             },
-            "type": "ressource",
-            "description": "Tracking work – ressource time.",
+            "type": "neutral",
+            "description": "Tracking work – neutral time.",
             "icon": "activity",
             "impressions": []
           },
@@ -31419,6 +31419,21 @@ export const mockActivityData: ActivityData = JSON.parse(
             "impressions": []
           },
           {
+            "name": "Coaching Tennis - productive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking coaching tennis – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
             "name": "Work - productive",
             "trackedAvgPerDay": {
               "hours": 2,
@@ -31428,8 +31443,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 0
             },
-            "type": "neutral",
-            "description": "Tracking work - productive – neutral time.",
+            "type": "productive",
+            "description": "Tracking work - productive – productive time.",
             "icon": "activity",
             "impressions": []
           },
@@ -31443,8 +31458,8 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 0
             },
-            "type": "neutral",
-            "description": "Tracking work - blocks – neutral time.",
+            "type": "blocks",
+            "description": "Tracking work - blocks – blocks time.",
             "icon": "activity",
             "impressions": []
           },
@@ -31458,8 +31473,23 @@ export const mockActivityData: ActivityData = JSON.parse(
               "hours": 0,
               "minutes": 0
             },
-            "type": "neutral",
-            "description": "Tracking work - ressource – neutral time.",
+            "type": "ressource",
+            "description": "Tracking work - ressource – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "Work - passive",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "passive",
+            "description": "Tracking work - passive – passive time.",
             "icon": "activity",
             "impressions": []
           }
