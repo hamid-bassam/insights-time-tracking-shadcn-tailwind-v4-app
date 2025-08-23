@@ -35,14 +35,14 @@ export default function ActivityPieChart({ weekData }: ActivityPieChartProps) {
     ? [...topActivities, { name: "Other Activities", value: otherTotal, type: "neutral" }]
     : topActivities;
 
-  const COLORS = [
-    "hsl(var(--chart-1))",
-    "hsl(var(--chart-2))",
-    "hsl(var(--chart-3))",
-    "hsl(var(--chart-1))",
-    "hsl(var(--chart-5))",
-    "hsl(var(--muted))"
-  ];
+  // const COLORS = [
+  //   "hsl(var(--chart-1))",
+  //   "hsl(var(--chart-2))",
+  //   "hsl(var(--chart-3))",
+  //   "hsl(var(--chart-1))",
+  //   "hsl(var(--chart-5))",
+  //   "hsl(var(--muted))"
+  // ];
 
   const TYPE_COLORS: Record<string, string> = {
     productive: "hsl(var(--chart-1))",
