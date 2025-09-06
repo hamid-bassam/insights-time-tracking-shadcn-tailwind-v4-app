@@ -669,5 +669,25 @@ export const JsonListGoal =
       "type": "productive",
       "description": "Default description",
       "includedInTotal": true
+    },
+    {
+      "name": "Day Score Card",
+      "goalAvgPerDay": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "type": "productive",
+      "description": "Default description",
+      "includedInTotal": true
+    },
+    {
+      "name": "Extra work",
+      "goalAvgPerDay": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "type": "productive",
+      "description": "Default description",
+      "includedInTotal": true
     }
   ]

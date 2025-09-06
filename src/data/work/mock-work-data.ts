@@ -3642,5 +3642,1169 @@ export const mockWorkActivityData: WorkActivityData = JSON.parse(
         "globalRate": -1
       },
       // end week 6 = 38 
+      //start week 7 = 39 
+      {
+        "weekNumber": 7,
+        "startDate": "2025-08-21",
+        "endDate": "2025-08-27",
+        "weekly_insights": [
+          {
+            "totalWork": {
+              "hours": 33,
+              "minutes": 16
+            },
+            "nbDays": 5,
+            "avgPerDay": {
+              "hours": 6,
+              "minutes": 39
+            },
+            "byCategory": {
+              "avg_productive": {
+                "hours": 5,
+                "minutes": 45
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 12
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 40
+              }
+            },
+            "productivity_ratio": 86.62
+          }
+        ],
+        "daily_insights": [
+          {
+            "day": "jeudi 21/08",
+            "totalWork": {
+              "hours": 2,
+              "minutes": 58
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 2,
+                "minutes": 54
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 4
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 0
+              }
+            },
+            "entry": "15:07",
+            "exit": "18:05",
+            "presence": {
+              "hours": 2,
+              "minutes": 58
+            }
+          },
+          {
+            "day": "vendredi 22/08",
+            "totalWork": {
+              "hours": 6,
+              "minutes": 55
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 6,
+                "minutes": 25
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 30
+              }
+            },
+            "entry": "09:31",
+            "exit": "18:10",
+            "presence": {
+              "hours": 8,
+              "minutes": 39
+            }
+          },
+          {
+            "day": "lun 25/08",
+            "totalWork": {
+              "hours": 9,
+              "minutes": 15
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 6,
+                "minutes": 58
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 40
+              },
+              "ressource": {
+                "hours": 1,
+                "minutes": 37
+              }
+            },
+            "entry": "09:32",
+            "exit": "18:47",
+            "presence": {
+              "hours": 9,
+              "minutes": 15
+            }
+          },
+          {
+            "day": "mardi 26/08",
+            "totalWork": {
+              "hours": 7,
+              "minutes": 41
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 6,
+                "minutes": 39
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 10
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 52
+              }
+            },
+            "entry": "10:30",
+            "exit": "18:22",
+            "presence": {
+              "hours": 7,
+              "minutes": 52
+            }
+          },
+          {
+            "day": "Mer 27/08",
+            "totalWork": {
+              "hours": 6,
+              "minutes": 27
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 5,
+                "minutes": 53
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 3
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 6
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 25
+              }
+            },
+            "entry": "09:44",
+            "exit": "17:40",
+            "presence": {
+              "hours": 7,
+              "minutes": 56
+            }
+          }
+        ],
+        "activities": [
+          {
+            "name": "afk",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "passive",
+            "description": "Tracking afk – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "apm",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 3
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking apm – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "atelier",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Athena",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "bio",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 2
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking bio – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "br",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 23
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "clope",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "cdp",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 54
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "elecinvoice #livrable #risques",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "daily",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 18
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking daily – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "fp",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "livrables niveau de rattachement",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "log",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 7
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking log – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "meal",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "flan",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "off",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 2
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "sophie",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "outillage",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 11
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "aqbli",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "pf",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 11
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "maia + #eleinvoice",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "planif",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 34
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "tradesurveillance #olivier bersot",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "planifcap",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 29
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "gmrc cross border + avis expert",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "prep",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "daily",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "report",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking report – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "reportime",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking reportime – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "reqcdp",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 7
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "support cap passé imad",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "resp",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "blocks",
+            "description": "cafe",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "synthese",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking synthese – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "tarmac",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 58
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "sensi",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "teete",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "avisExperts",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "todo",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 2
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking todo – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "trete",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "avisExperts",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "work",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 2
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "resp",
+            "icon": "activity",
+            "impressions": []
+          }
+        ],
+        "globalRate": -1
+      }
+      ,
+      // end week 7 = 39
+      // start week 8 = 40 
+      {
+        "weekNumber": 8,
+        "startDate": "2025-08-28",
+        "endDate": "2025-09-03",
+        "weekly_insights": [
+          {
+            "totalWork": {
+              "hours": 35,
+              "minutes": 47
+            },
+            "nbDays": 5,
+            "avgPerDay": {
+              "hours": 7,
+              "minutes": 9
+            },
+            "byCategory": {
+              "avg_productive": {
+                "hours": 5,
+                "minutes": 22
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 29
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 25
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 52
+              }
+            },
+            "productivity_ratio": 75.08
+          }
+        ],
+        "daily_insights": [
+          {
+            "day": "jeu 28/08",
+            "totalWork": {
+              "hours": 6,
+              "minutes": 3
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 2,
+                "minutes": 20
+              },
+              "passive": {
+                "hours": 2,
+                "minutes": 27
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "ressource": {
+                "hours": 1,
+                "minutes": 16
+              }
+            },
+            "entry": "09:00",
+            "exit": "16:07",
+            "presence": {
+              "hours": 7,
+              "minutes": 7
+            }
+          },
+          {
+            "day": "ven 29/08",
+            "totalWork": {
+              "hours": 3,
+              "minutes": 16
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 2,
+                "minutes": 1
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 29
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 46
+              }
+            },
+            "entry": "09:55",
+            "exit": "15:15",
+            "presence": {
+              "hours": 5,
+              "minutes": 20
+            }
+          },
+          {
+            "day": "lundi 01/09",
+            "totalWork": {
+              "hours": 9,
+              "minutes": 15
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 8,
+                "minutes": 4
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 26
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 45
+              }
+            },
+            "entry": "09:30",
+            "exit": "18:45",
+            "presence": {
+              "hours": 9,
+              "minutes": 15
+            }
+          },
+          {
+            "day": "mar 02/09",
+            "totalWork": {
+              "hours": 8,
+              "minutes": 36
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 7,
+                "minutes": 32
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 44
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 20
+              }
+            },
+            "entry": "10:10",
+            "exit": "18:46",
+            "presence": {
+              "hours": 8,
+              "minutes": 36
+            }
+          },
+          {
+            "day": "merc 03/09",
+            "totalWork": {
+              "hours": 8,
+              "minutes": 37
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 6,
+                "minutes": 55
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 27
+              },
+              "ressource": {
+                "hours": 1,
+                "minutes": 15
+              }
+            },
+            "entry": "10:09",
+            "exit": "18:46",
+            "presence": {
+              "hours": 8,
+              "minutes": 37
+            }
+          }
+        ],
+        "activities": [
+          {
+            "name": "acccdp",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "sandrino",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "afk",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 11
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "passive",
+            "description": "prq pas motivé ?",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "bio",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking bio – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "br",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 33
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "clope",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "cdp",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "demandes",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "check",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 3
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking check – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "copilcap",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "orga docs",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "daily",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 26
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Sophie",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "fp",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 19
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "atelier divers",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "log",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 5
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking log – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "mail",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking mail – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "meal",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking meal – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "off",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking off – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "outillage",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 9
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "aqbli",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "pf",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 34
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "thierry",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "planif",
+            "trackedAvgPerDay": {
+              "hours": 1,
+              "minutes": 26
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "cap",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "planifperso",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 3
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking planifperso – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "prep",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 21
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "daily",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "resp",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 25
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "blocks",
+            "description": "cafet",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "strat",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 1
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking strat – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "synthese",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 19
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Thierry",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "synthèse",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 16
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "prep",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "tarmac",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 40
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "suivi+ com",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "trete",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 7
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "avisExpert Payet",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "tw",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 18
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "passive",
+            "description": "Tracking tw – passive time.",
+            "icon": "activity",
+            "impressions": []
+          }
+        ],
+        "globalRate": -1
+      }
+      // end week 8 = 40 
     ]
   ));
