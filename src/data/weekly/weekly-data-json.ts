@@ -966,7 +966,7 @@ const weekly_data_json = {
       "impressions": []
     },
     {
-      "name": "Extra work",
+      "name": "Extra work - productive",
       "trackedAvgPerDay": {
         "hours": 0,
         "minutes": 18
@@ -975,8 +975,8 @@ const weekly_data_json = {
         "hours": 0,
         "minutes": 0
       },
-      "type": "neutral",
-      "description": "Tracking extra work – neutral time.",
+      "type": "productive",
+      "description": "Tracking extra work – productive time.",
       "icon": "activity",
       "impressions": []
     },
