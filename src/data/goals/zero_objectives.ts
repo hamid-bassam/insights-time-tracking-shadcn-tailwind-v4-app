@@ -689,5 +689,6 @@ export const JsonListGoal =
       "type": "productive",
       "description": "Default description",
       "includedInTotal": true
-    }
+    },
+
   ]
