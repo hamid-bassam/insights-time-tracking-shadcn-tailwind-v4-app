@@ -6256,32 +6256,18 @@ export const mockWorkActivityData: WorkActivityData = JSON.parse(
             "name": "suivicdp",
             "trackedAvgPerDay": {
               "hours": 0,
-              "minutes": 7
+              "minutes": 18
             },
             "goalAvgPerDay": {
               "hours": 0,
               "minutes": 0
             },
             "type": "productive",
-            "description": "tarmac",
+            "description": "tarmac sophie fichier excel",
             "icon": "activity",
             "impressions": []
           },
-          {
-            "name": "suiviecdp",
-            "trackedAvgPerDay": {
-              "hours": 0,
-              "minutes": 11
-            },
-            "goalAvgPerDay": {
-              "hours": 0,
-              "minutes": 0
-            },
-            "type": "productive",
-            "description": "sophie fichier excel",
-            "icon": "activity",
-            "impressions": []
-          },
+
           {
             "name": "tarmac",
             "trackedAvgPerDay": {
