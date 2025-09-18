@@ -4811,7 +4811,7 @@ export const mockWorkActivityData: WorkActivityData = JSON.parse(
       {
         "weekNumber": 9,
         "startDate": "2025-09-04",
-        "endDate": "2025-09-03",
+        "endDate": "2025-09-10",
         "weekly_insights": [
           {
             "totalWork": {
