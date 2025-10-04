@@ -690,5 +690,15 @@ export const JsonListGoal =
       "description": "Default description",
       "includedInTotal": true
     },
+    {
+      "name": "Sing",
+      "goalAvgPerDay": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "type": "ressource",
+      "description": "Default description",
+      "includedInTotal": true
+    },
 
   ]
