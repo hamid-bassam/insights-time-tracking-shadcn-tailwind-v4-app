@@ -259,7 +259,7 @@ const weekly_data_work_json = {
       "name": "check",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 15
+        "minutes": 20
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -303,8 +303,8 @@ const weekly_data_work_json = {
     {
       "name": "copilcap",
       "trackedAvgPerDay": {
-        "hours": 1,
-        "minutes": 38
+        "hours": 2,
+        "minutes": 14
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -334,7 +334,7 @@ const weekly_data_work_json = {
       "name": "daily",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 27
+        "minutes": 36
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -496,6 +496,21 @@ const weekly_data_work_json = {
       "impressions": []
     },
     {
+      "name": "revueaq",
+      "trackedAvgPerDay": {
+        "hours": 0,
+        "minutes": 7
+      },
+      "goalAvgPerDay": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "type": "productive",
+      "description": "elec",
+      "icon": "activity",
+      "impressions": []
+    },
+    {
       "name": "suiviaction",
       "trackedAvgPerDay": {
         "hours": 0,
@@ -509,27 +524,10 @@ const weekly_data_work_json = {
       "description": "Tracking suiviaction – productive time.",
       "icon": "activity",
       "impressions": []
-    },
-    {
-      "name": "work",
-      "trackedAvgPerDay": {
-        "hours": 0,
-        "minutes": 57
-      },
-      "goalAvgPerDay": {
-        "hours": 0,
-        "minutes": 0
-      },
-      "type": "productive",
-      "description": "a refaire",
-      "icon": "activity",
-      "impressions": []
     }
   ],
   "globalRate": -1
 }
-
-
 // ---- Activities -------------------------------------------------------------
 const activities: Activity[] = (weekly_data_work_json.activities ?? []).map((activity: any) => ({
   name: activity.name,

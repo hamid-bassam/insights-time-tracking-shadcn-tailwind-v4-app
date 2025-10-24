@@ -54,7 +54,7 @@ const weekly_data_json = {
       "name": "prep ptit dej - blocks",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 6
+        "minutes": 8
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -69,7 +69,7 @@ const weekly_data_json = {
       "name": "Bio Needs (shower, toilet) - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 41
+        "minutes": 36
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -189,7 +189,7 @@ const weekly_data_json = {
       "name": "Pauses - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 22
+        "minutes": 23
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -834,7 +834,7 @@ const weekly_data_json = {
       "name": "Petit dej - ressource",
       "trackedAvgPerDay": {
         "hours": 0,
-        "minutes": 10
+        "minutes": 11
       },
       "goalAvgPerDay": {
         "hours": 0,
@@ -1073,8 +1073,6 @@ const weekly_data_json = {
   ],
   "globalRate": -1
 }
-
-
 
 const activities: Activity[] = [];
 weekly_data_json.activities.forEach((activity) => {

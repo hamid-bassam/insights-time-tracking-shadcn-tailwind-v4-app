@@ -39967,7 +39967,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "name": "prep ptit dej - blocks",
             "trackedAvgPerDay": {
               "hours": 0,
-              "minutes": 6
+              "minutes": 8
             },
             "goalAvgPerDay": {
               "hours": 0,
@@ -39982,7 +39982,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "name": "Bio Needs (shower, toilet) - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
-              "minutes": 41
+              "minutes": 36
             },
             "goalAvgPerDay": {
               "hours": 0,
@@ -40102,7 +40102,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "name": "Pauses - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
-              "minutes": 22
+              "minutes": 23
             },
             "goalAvgPerDay": {
               "hours": 0,
@@ -40747,7 +40747,7 @@ export const mockActivityData: ActivityData = JSON.parse(
             "name": "Petit dej - ressource",
             "trackedAvgPerDay": {
               "hours": 0,
-              "minutes": 10
+              "minutes": 11
             },
             "goalAvgPerDay": {
               "hours": 0,
