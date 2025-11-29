@@ -10767,5 +10767,535 @@ export const mockWorkActivityData: WorkActivityData = JSON.parse(
       }
       // end week 18 = 50 
       ,
+      // start week 19 = 51 
+      {
+        "weekNumber": 19,
+        "startDate": "2025-11-13",
+        "endDate": "2025-11-19",
+        "weekly_insights": [
+          {
+            "totalWork": {
+              "hours": 21,
+              "minutes": 6
+            },
+            "nbDays": 5,
+            "avgPerDay": {
+              "hours": 4,
+              "minutes": 13
+            },
+            "byCategory": {
+              "avg_productive": {
+                "hours": 3,
+                "minutes": 50
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 12
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 10
+              }
+            },
+            "productivity_ratio": 91.15
+          }
+        ],
+        "daily_insights": [
+          {
+            "day": "jeu 13/11",
+            "totalWork": {
+              "hours": 1,
+              "minutes": 0
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 1,
+                "minutes": 0
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 0
+              }
+            },
+            "entry": "14:00",
+            "exit": "15:00",
+            "presence": {
+              "hours": 1,
+              "minutes": 0
+            }
+          },
+          {
+            "day": "ven 14/11",
+            "totalWork": {
+              "hours": 5,
+              "minutes": 35
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 5,
+                "minutes": 30
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 5
+              }
+            },
+            "entry": "09:30",
+            "exit": "17:00",
+            "presence": {
+              "hours": 7,
+              "minutes": 30
+            }
+          },
+          {
+            "day": "lun 17/11",
+            "totalWork": {
+              "hours": 4,
+              "minutes": 27
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 4,
+                "minutes": 27
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 0
+              }
+            },
+            "entry": "09:55",
+            "exit": "17:00",
+            "presence": {
+              "hours": 7,
+              "minutes": 5
+            }
+          },
+          {
+            "day": "mar 18/11",
+            "totalWork": {
+              "hours": 5,
+              "minutes": 11
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 4,
+                "minutes": 1
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 30
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 40
+              }
+            },
+            "entry": "08:30",
+            "exit": "17:00",
+            "presence": {
+              "hours": 8,
+              "minutes": 30
+            }
+          },
+          {
+            "day": "merc 19/11",
+            "totalWork": {
+              "hours": 4,
+              "minutes": 53
+            },
+            "byCategory": {
+              "productive": {
+                "hours": 4,
+                "minutes": 16
+              },
+              "passive": {
+                "hours": 0,
+                "minutes": 30
+              },
+              "blocks": {
+                "hours": 0,
+                "minutes": 0
+              },
+              "ressource": {
+                "hours": 0,
+                "minutes": 7
+              }
+            },
+            "entry": "09:30",
+            "exit": "18:00",
+            "presence": {
+              "hours": 8,
+              "minutes": 30
+            }
+          }
+        ],
+        "activities": [
+          {
+            "name": "acccdp",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 18
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "métier",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "accmetier",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 15
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "meet acc",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "bio",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 6
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "Tracking bio – ressource time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "br",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "ressource",
+            "description": "clope",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "cap",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 8
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking cap – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "check",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 16
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking check – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "codir",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 3
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Stéphane",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "copilcap",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 39
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking copilcap – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "cr",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 3
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking cr – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "crcap",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 17
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking crcap – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "daily",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 32
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking daily – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "obcdpaq",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 21
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking obcdpaq – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "op",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 1
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking op – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "outil",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking outil – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "pepcsi",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking pepcsi – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "planifcap",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking planifcap – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "prepcap",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 14
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "pure",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "requestboss",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 4
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "Tracking requestboss – productive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "requestcdp",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 10
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "aq",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "revueaq",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 3
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "pure",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "tw",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 12
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "passive",
+            "description": "Tracking tw – passive time.",
+            "icon": "activity",
+            "impressions": []
+          },
+          {
+            "name": "work",
+            "trackedAvgPerDay": {
+              "hours": 0,
+              "minutes": 3
+            },
+            "goalAvgPerDay": {
+              "hours": 0,
+              "minutes": 0
+            },
+            "type": "productive",
+            "description": "br clope",
+            "icon": "activity",
+            "impressions": []
+          }
+        ],
+        "globalRate": -1
+      }
+      // end 19 = 51 
+      ,
     ]
   ));
