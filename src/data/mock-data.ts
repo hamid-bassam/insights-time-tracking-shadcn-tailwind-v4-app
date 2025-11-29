@@ -43149,8 +43149,8 @@ export const mockActivityData: ActivityData = JSON.parse(
           {
             "name": "Sleep - ressource",
             "trackedAvgPerDay": {
-              "hours": 6,
-              "minutes": 10
+              "hours": 9,
+              "minutes": 2
             },
             "goalAvgPerDay": {
               "hours": 0,
@@ -43899,8 +43899,8 @@ export const mockActivityData: ActivityData = JSON.parse(
           {
             "name": "Ko - passive",
             "trackedAvgPerDay": {
-              "hours": 3,
-              "minutes": 35
+              "hours": 0,
+              "minutes": 44
             },
             "goalAvgPerDay": {
               "hours": 0,
