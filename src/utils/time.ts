@@ -7,7 +7,7 @@ export const timeToMinutes = (time: TimeValue): number => {
 export const minutesToTime = (minutes: number): TimeValue => {
   return {
     hours: Math.floor(minutes / 60),
-    minutes: minutes % 60
+    minutes: Math.floor(minutes % 60)
   };
 };
 

@@ -25,3 +25,19 @@ export type WeekData = {
 };
 
 export type ActivityData = WeekData[];
+
+export type Phase = {
+  id: string;
+  name: string;
+  focus: string;
+  startWeek: number;
+  endWeek: number;
+  color: string;
+  description?: string;
+  goals?: string[];
+};
+
+export type YearTimeline = {
+  year: number;
+  phases: Phase[];
+};
