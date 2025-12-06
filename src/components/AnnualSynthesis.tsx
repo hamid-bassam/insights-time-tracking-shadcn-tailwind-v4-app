@@ -196,9 +196,16 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
     ? typeSummaries
     : typeSummaries.filter(s => s.type === selectedType);
 
+  // Total excluding neutral
+  const totalTrackedMinutes = useMemo(() => {
+    return typeSummaries
+      .filter(s => s.type !== "neutral")
+      .reduce((sum, s) => sum + s.totalMinutes, 0);
+  }, [typeSummaries]);
+
   // Global activities for global pie chart (excluding neutral)
   const globalActivities = useMemo(() => {
-    const activities: Array<ActivityAverage & { color: string }> = [];
+    const activities: Array<ActivityAverage & { color: string; globalPercentage: number }> = [];
 
     typeSummaries
       .filter(s => s.type !== "neutral")
@@ -206,21 +213,59 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
         summary.activities.forEach(activity => {
           activities.push({
             ...activity,
-            color: summary.color
+            color: summary.color,
+            globalPercentage: 0 // Will be calculated below
           });
         });
       });
 
-    // Sort by total minutes and take top activities
-    return activities.sort((a, b) => b.totalMinutes - a.totalMinutes);
-  }, [typeSummaries]);
+    // Sort by total minutes
+    const sorted = activities.sort((a, b) => b.totalMinutes - a.totalMinutes);
 
-  // Total excluding neutral
-  const totalTrackedMinutes = useMemo(() => {
-    return typeSummaries
-      .filter(s => s.type !== "neutral")
-      .reduce((sum, s) => sum + s.totalMinutes, 0);
-  }, [typeSummaries]);
+    // Calculate global percentages based on total tracked time (excluding neutral)
+    sorted.forEach(activity => {
+      activity.globalPercentage = totalTrackedMinutes > 0
+        ? (activity.totalMinutes / totalTrackedMinutes) * 100
+        : 0;
+    });
+
+    // Find how many activities we need to cover ~22 hours (1320 minutes)
+    const targetMinutes = 1320; // 22 hours
+    let cumulativeMinutes = 0;
+    let topActivitiesCount = 0;
+
+    for (let i = 0; i < sorted.length; i++) {
+      cumulativeMinutes += sorted[i].totalMinutes / (filteredData.length || 1);
+      topActivitiesCount = i + 1;
+      if (cumulativeMinutes >= targetMinutes) break;
+    }
+
+    // Take at least top activities that cover 22h, minimum 15, maximum 30
+    const displayCount = Math.min(Math.max(topActivitiesCount, 15), 30);
+    const topActivities = sorted.slice(0, displayCount);
+    const remainingActivities = sorted.slice(displayCount);
+
+    // Create "Other Activities" entry if there are remaining activities
+    if (remainingActivities.length > 0) {
+      const otherTotalMinutes = remainingActivities.reduce((sum, act) => sum + act.totalMinutes, 0);
+      const otherPercentage = totalTrackedMinutes > 0
+        ? (otherTotalMinutes / totalTrackedMinutes) * 100
+        : 0;
+
+      topActivities.push({
+        name: `Other Activities (${remainingActivities.length})`,
+        fullName: "other-activities",
+        totalMinutes: otherTotalMinutes,
+        avgPerDay: minutesToTime(otherTotalMinutes / (filteredData.length || 1)),
+        percentage: 0,
+        type: "neutral" as ActivityType,
+        color: "hsl(var(--muted))",
+        globalPercentage: otherPercentage
+      });
+    }
+
+    return topActivities;
+  }, [typeSummaries, totalTrackedMinutes, filteredData.length]);
 
   // Calculate selected activities summary
   const selectedSummary = useMemo(() => {
@@ -627,10 +672,10 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
             <div className="flex items-start gap-8">
               {/* Global Pie Chart */}
               <div className="flex-shrink-0 relative">
-                <ResponsiveContainer width={400} height={400}>
+                <ResponsiveContainer width={450} height={450}>
                   <PieChart>
                     <defs>
-                      {globalActivities.slice(0, 12).map((activity, i) => (
+                      {globalActivities.map((activity, i) => (
                         <radialGradient id={`global-grad-${i}`} key={i}>
                           <stop offset="0%" stopColor={activity.color} stopOpacity="0.85" />
                           <stop offset="100%" stopColor={activity.color} stopOpacity="1" />
@@ -643,14 +688,14 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
                       </filter>
                     </defs>
                     <Pie
-                      data={globalActivities.slice(0, 12)}
+                      data={globalActivities}
                       cx="50%"
                       cy="50%"
-                      innerRadius={90}
-                      outerRadius={160}
+                      innerRadius={100}
+                      outerRadius={180}
                       dataKey="totalMinutes"
-                      paddingAngle={2}
-                      cornerRadius={8}
+                      paddingAngle={1}
+                      cornerRadius={6}
                       stroke="hsl(var(--background))"
                       strokeWidth={2}
                       startAngle={90}
@@ -671,7 +716,7 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
                       animationDuration={1000}
                       animationEasing="ease-out"
                     >
-                      {globalActivities.slice(0, 12).map((_, index) => (
+                      {globalActivities.map((_, index) => (
                         <Cell
                           key={`global-cell-${index}`}
                           fill={`url(#global-grad-${index})`}
@@ -689,13 +734,16 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
                 <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
                   {activePieIndex != null && globalActivities[activePieIndex] ? (
                     <div className="text-center">
-                      <div className="text-sm font-semibold text-muted-foreground max-w-[160px] truncate">
+                      <div className="text-sm font-semibold text-muted-foreground max-w-[180px] truncate">
                         {globalActivities[activePieIndex].name}
                       </div>
                       <div className="text-3xl font-bold" style={{ color: globalActivities[activePieIndex].color }}>
                         {fmtHM(globalActivities[activePieIndex].avgPerDay)}
                       </div>
-                      <div className="text-xs text-muted-foreground capitalize">
+                      <div className="text-sm text-muted-foreground">
+                        {globalActivities[activePieIndex].globalPercentage.toFixed(1)}%
+                      </div>
+                      <div className="text-xs text-muted-foreground capitalize mt-1">
                         {globalActivities[activePieIndex].type}
                       </div>
                     </div>
@@ -712,8 +760,8 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
               </div>
 
               {/* Activity Legend */}
-              <div className="flex-1 grid grid-cols-2 gap-3 max-h-[400px] overflow-y-auto pr-2">
-                {globalActivities.slice(0, 12).map((activity, idx) => (
+              <div className="flex-1 grid grid-cols-2 gap-2 max-h-[450px] overflow-y-auto pr-2">
+                {globalActivities.map((activity, idx) => (
                   <div
                     key={`${activity.fullName}-${idx}`}
                     className={cn(
@@ -730,7 +778,7 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
                     <div className="flex-1 min-w-0">
                       <div className="font-medium truncate text-sm">{activity.name}</div>
                       <div className="text-xs text-muted-foreground">
-                        {fmtHM(activity.avgPerDay)} • {activity.type}
+                        {fmtHM(activity.avgPerDay)} • {activity.globalPercentage.toFixed(1)}%
                       </div>
                     </div>
                   </div>
