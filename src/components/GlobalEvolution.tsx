@@ -30,6 +30,7 @@ import {
 import { cn } from "../lib/utils";
 import { thresholds, ThresholdSet } from "../utils/threshold";
 import { TypeFilterPills } from "./TypedFilterPills";
+import { Button } from "./ui/button";
 import { SearchBar } from "./ui/search-bar";
 
 interface GlobalEvolutionProps {
@@ -96,7 +97,9 @@ function resolveThresholds(
   // 1) si une activité précise est sélectionnée, on tente un match
   if (selectedActivity !== "all") {
     const key = baseLabel(selectedActivity);
+    console.log("key ", key)
     const byActivity = thresholds.activities[key];
+    console.log('by cat', byActivity)
     if (byActivity) return byActivity;
   }
 
@@ -137,12 +140,20 @@ function buildReferenceLines(ts: ThresholdSet) {
 
 
 export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
-  const [selectedActivity, setSelectedActivity] = useState<string>("all");
+  const [selectedActivity, setSelectedActivity] = useState<string[]>(["all"]);
   const [typedActivity, setTypedActivity] = useState<string>("all");
   const [stack, setStack] = useState<boolean>(true);
   const [displayGoal, setDisplayGoal] = useState<boolean>(false);
   const [counting24h, setCounting24h] = useState<boolean>(true);
 
+  const addSelectedActivity = (act: string) => {
+    setSelectedActivity(prev => prev.length === 1 && prev[0] !== "all" ? [act, ...prev] : [act])
+  }
+
+  const clearSelectedActivity = () => {
+    setSelectedActivity(["all"]);
+    setTypedActivity("all");
+  }
   const switchStack = () => {
     setStack(prev => !prev);
   }
@@ -270,7 +281,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
   const typedActivities = typedActivity === "all" ? allActivities : allActivities.filter((activity) => getType(activity) === typedActivity);
 
 
-  const filteredActivities = selectedActivity === "all" ? allActivities : [selectedActivity];
+  const filteredActivities = selectedActivity.length === 1 && selectedActivity[0] === "all" ? allActivities : selectedActivity;
 
   const displayedActivities = typedActivities.filter((activity) => filteredActivities.includes(activity));
   const displayedGoalActivities = displayedActivities.map((activity) => `${activity}_goalAvg`);
@@ -287,19 +298,21 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
             <SearchBar
               className="w-48"
               options={["all", ...allActivities]}
-              onSelect={(v) => { setSelectedActivity(v); setTypedActivity("all") }}
+              onSelect={(v) => { addSelectedActivity(v); setTypedActivity("all") }}
             />
+            <Button variant={'destructive'} className="rounded-full h-5" onClick={clearSelectedActivity} />
           </div>
 
           {/* Center: title + typed filter */}
           <div className="flex flex-col items-center text-center gap-2">
             <CardTitle className="leading-tight">
               {(() => {
-                const typeLabel = typedActivity === "all" ? "All types" : typedActivity;
-                const actLabel = selectedActivity === "all"
-                  ? "All activities"
-                  : selectedActivity.split("–")[0].split("-")[0];
-                return `${actLabel} · ${typeLabel}`;
+                // const typeLabel = typedActivity === "all" ? "All types" : typedActivity;
+                // const actLabel = selectedActivity 
+                //   ? "All activities"
+                //   : selectedActivity.split("–")[0].split("-")[0];
+                // return `${actLabel} · ${typeLabel}`;
+                return selectedActivity.map(act => act.split("–")[0].split("-")[0]).join("·")
               })()}
             </CardTitle>
             <CardDescription>Activity tracking progress over time</CardDescription>
@@ -307,7 +320,7 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
             {/* <-- le filtre typedActivity revient ici */}
             <TypeFilterPills
               value={typedActivity as ActivityType}
-              onChange={(v) => { setSelectedActivity("all"); setTypedActivity(v) }}
+              onChange={(v) => { setSelectedActivity(["all"]); setTypedActivity(v) }}
             />
           </div>
 
@@ -366,8 +379,9 @@ export default function GlobalEvolution({ data }: GlobalEvolutionProps) {
               <XAxis dataKey="week" tickLine={false} axisLine={false} tickMargin={8} angle={45} />
               <YAxis tickMargin={8} tickFormatter={(value) => formatTime(minutesToTime(value))} />
 
+              {/* change list ! filter  */}
+              {selectedActivity.length === 1 && buildReferenceLines(resolveThresholds(selectedActivity[0], typedActivity))}
 
-              {buildReferenceLines(resolveThresholds(selectedActivity, typedActivity))}
               <ChartTooltip
 
                 content={< ChartTooltipContent
