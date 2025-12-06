@@ -13,6 +13,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
+import { Slider } from "@/components/ui/slider";
 import { ActivityData, ActivityType, TimeValue } from "@/types/activity";
 import { fmtHM, minutesToTime, timeToMinutes } from "@/utils/time";
 import { useState, useMemo } from "react";
@@ -25,9 +26,10 @@ import {
   Download,
   PieChart as PieChartIcon,
   BarChart2,
-  X
+  X,
+  Calendar
 } from "lucide-react";
-import { Cell, Pie, PieChart, ResponsiveContainer } from "recharts";
+import { Cell, Pie, PieChart, ResponsiveContainer, Sector, SectorProps } from "recharts";
 
 interface AnnualSynthesisProps {
   data: ActivityData;
@@ -98,8 +100,20 @@ const TYPE_CONFIG: Record<ActivityType, { color: string; bgColor: string; label:
 
 export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
   const [selectedType, setSelectedType] = useState<ActivityType | "all">("all");
-  const [viewMode, setViewMode] = useState<"progress" | "pie">("progress");
+  const [viewMode, setViewMode] = useState<"progress" | "pie" | "global">("progress");
   const [selectedActivities, setSelectedActivities] = useState<Set<string>>(new Set());
+  const [activePieIndex, setActivePieIndex] = useState<number | null>(null);
+
+  // Week range selection
+  const minWeek = data.length > 0 ? Math.min(...data.map(w => w.weekNumber)) : 1;
+  const maxWeek = data.length > 0 ? Math.max(...data.map(w => w.weekNumber)) : 52;
+  const [startWeek, setStartWeek] = useState(minWeek);
+  const [endWeek, setEndWeek] = useState(maxWeek);
+
+  // Filtered data based on week range
+  const filteredData = useMemo(() => {
+    return data.filter(week => week.weekNumber >= startWeek && week.weekNumber <= endWeek);
+  }, [data, startWeek, endWeek]);
 
   // Calculate annual synthesis
   const typeSummaries = useMemo(() => {
@@ -111,8 +125,8 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
       summaryMap.set(type, { totalMinutes: 0, activities: new Map() });
     });
 
-    // Aggregate data across all weeks
-    data.forEach(week => {
+    // Aggregate data across filtered weeks
+    filteredData.forEach(week => {
       week.activities.forEach(activity => {
         const type = getActivityType(activity.name);
         const minutes = typeof activity.trackedAvgPerDay === "object"
@@ -131,7 +145,7 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
     });
 
     // Convert to TypeSummary array
-    const numWeeks = data.length || 1;
+    const numWeeks = filteredData.length || 1;
     const result: TypeSummary[] = [];
 
     summaryMap.forEach((summary, type) => {
@@ -176,11 +190,30 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
     result.sort((a, b) => b.totalMinutes - a.totalMinutes);
 
     return result;
-  }, [data]);
+  }, [filteredData]);
 
   const filteredSummaries = selectedType === "all"
     ? typeSummaries
     : typeSummaries.filter(s => s.type === selectedType);
+
+  // Global activities for global pie chart (excluding neutral)
+  const globalActivities = useMemo(() => {
+    const activities: Array<ActivityAverage & { color: string }> = [];
+
+    typeSummaries
+      .filter(s => s.type !== "neutral")
+      .forEach(summary => {
+        summary.activities.forEach(activity => {
+          activities.push({
+            ...activity,
+            color: summary.color
+          });
+        });
+      });
+
+    // Sort by total minutes and take top activities
+    return activities.sort((a, b) => b.totalMinutes - a.totalMinutes);
+  }, [typeSummaries]);
 
   // Total excluding neutral
   const totalTrackedMinutes = useMemo(() => {
@@ -200,14 +233,14 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
       });
     });
 
-    const numWeeks = data.length || 1;
+    const numWeeks = filteredData.length || 1;
     return {
       count: selectedActivities.size,
       totalMinutes,
       avgPerDay: minutesToTime(totalMinutes / numWeeks),
       percentage: totalTrackedMinutes > 0 ? (totalMinutes / totalTrackedMinutes) * 100 : 0,
     };
-  }, [selectedActivities, typeSummaries, totalTrackedMinutes, data.length]);
+  }, [selectedActivities, typeSummaries, totalTrackedMinutes, filteredData.length]);
 
   // Toggle activity selection
   const toggleActivity = (fullName: string) => {
@@ -265,7 +298,7 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
       }
     });
 
-    const numWeeks = data.length || 1;
+    const numWeeks = filteredData.length || 1;
     return {
       count,
       totalMinutes,
@@ -276,11 +309,11 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
 
   // Generate AI Analysis Report
   const downloadAIReport = () => {
-    const numWeeks = data.length;
+    const numWeeks = filteredData.length;
 
-    let report = `# Annual Activity Synthesis Report\n\n`;
-    report += `**Period:** ${numWeeks} weeks\n`;
-    report += `**Date Range:** ${data[0]?.startDate} to ${data[data.length - 1]?.endDate}\n\n`;
+    let report = `# Activity Synthesis Report\n\n`;
+    report += `**Period:** ${numWeeks} weeks (Week ${startWeek} to Week ${endWeek})\n`;
+    report += `**Date Range:** ${filteredData[0]?.startDate} to ${filteredData[filteredData.length - 1]?.endDate}\n\n`;
 
     report += `## Global Summary\n\n`;
     report += `- **Total Tracked Time (excluding neutral):** ${fmtHM(minutesToTime(totalTrackedMinutes / numWeeks))} per day\n\n`;
@@ -321,11 +354,51 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `annual-activity-synthesis-${new Date().toISOString().split('T')[0]}.md`;
+    a.download = `activity-synthesis-w${startWeek}-w${endWeek}-${new Date().toISOString().split('T')[0]}.md`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
+  };
+
+  // Reset week range
+  const resetWeekRange = () => {
+    setStartWeek(minWeek);
+    setEndWeek(maxWeek);
+  };
+
+  // Get month label for a week
+  const getMonthFromWeek = (weekNumber: number): string => {
+    const weekData = data.find(w => w.weekNumber === weekNumber);
+    if (!weekData) return "";
+    const date = new Date(weekData.startDate);
+    return date.toLocaleDateString('en-US', { month: 'short' });
+  };
+
+  // Generate month markers for the timeline
+  const monthMarkers = useMemo(() => {
+    const markers: { week: number; month: string; isFirst: boolean }[] = [];
+    let lastMonth = "";
+
+    data.forEach(week => {
+      const month = getMonthFromWeek(week.weekNumber);
+      if (month !== lastMonth) {
+        markers.push({
+          week: week.weekNumber,
+          month,
+          isFirst: lastMonth === ""
+        });
+        lastMonth = month;
+      }
+    });
+
+    return markers;
+  }, [data]);
+
+  // Handle range slider change
+  const handleRangeChange = (values: number[]) => {
+    setStartWeek(values[0]);
+    setEndWeek(values[1]);
   };
 
   return (
@@ -335,9 +408,9 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
         <CardHeader>
           <div className="flex items-center justify-between">
             <div>
-              <CardTitle className="text-3xl">Annual Activity Synthesis</CardTitle>
+              <CardTitle className="text-3xl">Activity Synthesis</CardTitle>
               <CardDescription className="mt-2">
-                Comprehensive breakdown of your activity types over {data.length} weeks
+                Analysis of {filteredData.length} weeks {startWeek !== minWeek || endWeek !== maxWeek ? `(Week ${startWeek}-${endWeek})` : `(all ${data.length} weeks)`}
               </CardDescription>
             </div>
             <div className="flex items-center gap-3">
@@ -361,6 +434,15 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
                   <PieChartIcon className="h-4 w-4" />
                   Pie
                 </Button>
+                <Button
+                  variant={viewMode === "global" ? "default" : "ghost"}
+                  size="sm"
+                  onClick={() => setViewMode("global")}
+                  className="gap-2"
+                >
+                  <TrendingUp className="h-4 w-4" />
+                  Global
+                </Button>
               </div>
 
               {/* Download Button */}
@@ -373,14 +455,98 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
         </CardHeader>
       </Card>
 
+      {/* Week Range Selector */}
+      <Card>
+        <CardHeader className="pb-6">
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2">
+              <Calendar className="h-4 w-4" />
+              <CardTitle className="text-lg">Period Selection</CardTitle>
+            </div>
+            <div className="flex items-center gap-3">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={resetWeekRange}
+                disabled={startWeek === minWeek && endWeek === maxWeek}
+              >
+                Reset to Full Year
+              </Button>
+              <Badge variant="secondary" className="px-3 py-2 text-sm">
+                {filteredData.length} weeks
+              </Badge>
+            </div>
+          </div>
+
+          {/* Timeline Range Slider */}
+          <div className="space-y-6">
+            {/* Month Labels */}
+            <div className="relative h-8">
+              {monthMarkers.map((marker, idx) => {
+                const position = ((marker.week - minWeek) / (maxWeek - minWeek)) * 100;
+                return (
+                  <div
+                    key={idx}
+                    className="absolute flex flex-col items-center"
+                    style={{ left: `${position}%`, transform: 'translateX(-50%)' }}
+                  >
+                    <div className="h-2 w-px bg-border" />
+                    <span className="text-xs text-muted-foreground mt-1 font-medium">
+                      {marker.month}
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Range Slider */}
+            <div className="px-2">
+              <Slider
+                min={minWeek}
+                max={maxWeek}
+                step={1}
+                value={[startWeek, endWeek]}
+                onValueChange={handleRangeChange}
+                className="w-full"
+              />
+            </div>
+
+            {/* Week Range Display */}
+            <div className="flex items-center justify-between text-sm">
+              <div className="flex flex-col">
+                <span className="text-muted-foreground">Start</span>
+                <span className="font-semibold">Week {startWeek}</span>
+                {filteredData[0] && (
+                  <span className="text-xs text-muted-foreground">{filteredData[0].startDate}</span>
+                )}
+              </div>
+              <div className="flex items-center gap-2 text-muted-foreground">
+                <div className="h-px flex-1 bg-border min-w-[100px]" />
+                <span className="text-xs font-medium">{endWeek - startWeek + 1} weeks</span>
+                <div className="h-px flex-1 bg-border min-w-[100px]" />
+              </div>
+              <div className="flex flex-col items-end">
+                <span className="text-muted-foreground">End</span>
+                <span className="font-semibold">Week {endWeek}</span>
+                {filteredData[filteredData.length - 1] && (
+                  <span className="text-xs text-muted-foreground">
+                    {filteredData[filteredData.length - 1].endDate}
+                  </span>
+                )}
+              </div>
+            </div>
+          </div>
+        </CardHeader>
+      </Card>
+
       {/* Global & Local Averages */}
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
         {/* Global Average Card */}
         <Card className="border-2 border-primary/50">
           <CardHeader className="pb-3">
-            <CardDescription className="text-xs">Global Average</CardDescription>
+            <CardDescription className="text-xs">Period Average</CardDescription>
             <CardTitle className="text-2xl">
-              {fmtHM(minutesToTime(totalTrackedMinutes / (data.length || 1)))}
+              {fmtHM(minutesToTime(totalTrackedMinutes / (filteredData.length || 1)))}
             </CardTitle>
             <p className="text-xs text-muted-foreground">per day (excl. neutral)</p>
           </CardHeader>
@@ -434,11 +600,141 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
                 <div className="text-xs text-muted-foreground">of total tracked</div>
               </div>
               <div>
-                <div className="text-sm text-muted-foreground">Total Annual</div>
+                <div className="text-sm text-muted-foreground">Total Period</div>
                 <div className="text-2xl font-bold">
-                  {fmtHM(minutesToTime(selectedSummary.totalMinutes / (data.length || 1)))}
+                  {fmtHM(minutesToTime(selectedSummary.totalMinutes / (filteredData.length || 1)))}
                 </div>
                 <div className="text-xs text-muted-foreground">average per day</div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
+      {/* Global Pie Chart View */}
+      {viewMode === "global" && (
+        <Card className="overflow-hidden">
+          <CardHeader>
+            <CardTitle className="text-2xl flex items-center gap-2">
+              <TrendingUp className="h-6 w-6" />
+              Global Activity Distribution
+            </CardTitle>
+            <CardDescription>
+              All activities across all types (excluding neutral) - {globalActivities.length} total activities
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="flex items-start gap-8">
+              {/* Global Pie Chart */}
+              <div className="flex-shrink-0 relative">
+                <ResponsiveContainer width={400} height={400}>
+                  <PieChart>
+                    <defs>
+                      {globalActivities.slice(0, 12).map((activity, i) => (
+                        <radialGradient id={`global-grad-${i}`} key={i}>
+                          <stop offset="0%" stopColor={activity.color} stopOpacity="0.85" />
+                          <stop offset="100%" stopColor={activity.color} stopOpacity="1" />
+                        </radialGradient>
+                      ))}
+                      <filter id="globalInnerShadow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feOffset dy="0.5" />
+                        <feGaussianBlur stdDeviation="2" result="blur" />
+                        <feComposite in="SourceGraphic" in2="blur" operator="arithmetic" k2="-1" k3="1" />
+                      </filter>
+                    </defs>
+                    <Pie
+                      data={globalActivities.slice(0, 12)}
+                      cx="50%"
+                      cy="50%"
+                      innerRadius={90}
+                      outerRadius={160}
+                      dataKey="totalMinutes"
+                      paddingAngle={2}
+                      cornerRadius={8}
+                      stroke="hsl(var(--background))"
+                      strokeWidth={2}
+                      startAngle={90}
+                      endAngle={-270}
+                      style={{ filter: "url(#globalInnerShadow)" }}
+                      onMouseEnter={(_, index) => setActivePieIndex(index)}
+                      onMouseLeave={() => setActivePieIndex(null)}
+                      activeIndex={activePieIndex ?? undefined}
+                      activeShape={(props: SectorProps) => (
+                        <Sector
+                          {...props}
+                          outerRadius={props.outerRadius ? props.outerRadius + 12 : 0}
+                          stroke="hsl(var(--foreground)/0.08)"
+                          strokeWidth={8}
+                        />
+                      )}
+                      isAnimationActive
+                      animationDuration={1000}
+                      animationEasing="ease-out"
+                    >
+                      {globalActivities.slice(0, 12).map((_, index) => (
+                        <Cell
+                          key={`global-cell-${index}`}
+                          fill={`url(#global-grad-${index})`}
+                          style={{
+                            filter: activePieIndex === index ? "brightness(1.2)" : "brightness(0.85)",
+                            transition: "all 0.3s ease-in-out"
+                          }}
+                        />
+                      ))}
+                    </Pie>
+                  </PieChart>
+                </ResponsiveContainer>
+
+                {/* Center Overlay */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
+                  {activePieIndex != null && globalActivities[activePieIndex] ? (
+                    <div className="text-center">
+                      <div className="text-sm font-semibold text-muted-foreground max-w-[160px] truncate">
+                        {globalActivities[activePieIndex].name}
+                      </div>
+                      <div className="text-3xl font-bold" style={{ color: globalActivities[activePieIndex].color }}>
+                        {fmtHM(globalActivities[activePieIndex].avgPerDay)}
+                      </div>
+                      <div className="text-xs text-muted-foreground capitalize">
+                        {globalActivities[activePieIndex].type}
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="text-center">
+                      <div className="text-xs uppercase text-muted-foreground">Total Tracked</div>
+                      <div className="text-3xl font-bold">
+                        {fmtHM(minutesToTime(totalTrackedMinutes / (filteredData.length || 1)))}
+                      </div>
+                      <div className="text-xs text-muted-foreground">per day</div>
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              {/* Activity Legend */}
+              <div className="flex-1 grid grid-cols-2 gap-3 max-h-[400px] overflow-y-auto pr-2">
+                {globalActivities.slice(0, 12).map((activity, idx) => (
+                  <div
+                    key={`${activity.fullName}-${idx}`}
+                    className={cn(
+                      "flex items-center gap-2 p-2 rounded-md transition-all cursor-pointer",
+                      activePieIndex === idx ? "bg-accent" : "hover:bg-accent/50"
+                    )}
+                    onMouseEnter={() => setActivePieIndex(idx)}
+                    onMouseLeave={() => setActivePieIndex(null)}
+                  >
+                    <div
+                      className="h-3 w-3 rounded-full flex-shrink-0"
+                      style={{ backgroundColor: activity.color }}
+                    />
+                    <div className="flex-1 min-w-0">
+                      <div className="font-medium truncate text-sm">{activity.name}</div>
+                      <div className="text-xs text-muted-foreground">
+                        {fmtHM(activity.avgPerDay)} • {activity.type}
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </CardContent>
@@ -556,37 +852,92 @@ export default function AnnualSynthesis({ data }: AnnualSynthesisProps) {
                     ))}
                   </div>
                 ) : (
-                  /* Pie Chart Mode */
+                  /* Pie Chart Mode - Inspired by ActivityPieChart */
                   <div className="pt-2">
                     <div className="flex items-start gap-6">
-                      {/* Pie Chart */}
-                      <div className="flex-shrink-0">
-                        <ResponsiveContainer width={250} height={250}>
+                      {/* Elegant Pie Chart */}
+                      <div className="flex-shrink-0 relative">
+                        <ResponsiveContainer width={280} height={280}>
                           <PieChart>
+                            <defs>
+                              {summary.activities.slice(0, 8).map((_, i) => (
+                                <radialGradient id={`grad-${summary.type}-${i}`} key={i}>
+                                  <stop offset="0%" stopColor={summary.color} stopOpacity="0.85" />
+                                  <stop offset="100%" stopColor={summary.color} stopOpacity="1" />
+                                </radialGradient>
+                              ))}
+                              <filter id="innerShadow" x="-50%" y="-50%" width="200%" height="200%">
+                                <feOffset dy="0.5" />
+                                <feGaussianBlur stdDeviation="1.5" result="blur" />
+                                <feComposite in="SourceGraphic" in2="blur" operator="arithmetic" k2="-1" k3="1" />
+                              </filter>
+                            </defs>
                             <Pie
                               data={summary.activities.slice(0, 8)}
                               cx="50%"
                               cy="50%"
-                              innerRadius={60}
-                              outerRadius={100}
+                              innerRadius={65}
+                              outerRadius={110}
                               dataKey="totalMinutes"
                               paddingAngle={2}
+                              cornerRadius={6}
+                              stroke="hsl(var(--background))"
+                              strokeWidth={2}
+                              startAngle={90}
+                              endAngle={-270}
+                              style={{ filter: "url(#innerShadow)" }}
+                              onMouseEnter={(_, index) => setActivePieIndex(index)}
+                              onMouseLeave={() => setActivePieIndex(null)}
+                              activeIndex={activePieIndex ?? undefined}
+                              activeShape={(props: SectorProps) => (
+                                <Sector
+                                  {...props}
+                                  outerRadius={props.outerRadius ? props.outerRadius + 8 : 0}
+                                  stroke="hsl(var(--foreground)/0.08)"
+                                  strokeWidth={6}
+                                />
+                              )}
+                              isAnimationActive
+                              animationDuration={800}
+                              animationEasing="ease-out"
                             >
                               {summary.activities.slice(0, 8).map((_, index) => (
                                 <Cell
                                   key={`cell-${index}`}
-                                  fill={summary.color}
-                                  opacity={1 - (index * 0.08)}
+                                  fill={`url(#grad-${summary.type}-${index})`}
+                                  style={{
+                                    filter: activePieIndex === index ? "brightness(1.2)" : "brightness(0.85)",
+                                    transition: "all 0.3s ease-in-out"
+                                  }}
                                 />
                               ))}
                             </Pie>
                           </PieChart>
                         </ResponsiveContainer>
-                        <div className="text-center -mt-8">
-                          <div className="text-sm text-muted-foreground">Total</div>
-                          <div className="text-xl font-bold" style={{ color: summary.color }}>
-                            {fmtHM(summary.avgPerDay)}
-                          </div>
+
+                        {/* Center Overlay */}
+                        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
+                          {activePieIndex != null && summary.activities[activePieIndex] ? (
+                            <div className="text-center">
+                              <div className="text-sm font-semibold text-muted-foreground max-w-[120px] truncate">
+                                {summary.activities[activePieIndex].name}
+                              </div>
+                              <div className="text-2xl font-bold" style={{ color: summary.color }}>
+                                {fmtHM(summary.activities[activePieIndex].avgPerDay)}
+                              </div>
+                              <div className="text-xs text-muted-foreground">
+                                {summary.activities[activePieIndex].percentage.toFixed(1)}%
+                              </div>
+                            </div>
+                          ) : (
+                            <div className="text-center">
+                              <div className="text-xs uppercase text-muted-foreground">Total</div>
+                              <div className="text-2xl font-bold" style={{ color: summary.color }}>
+                                {fmtHM(summary.avgPerDay)}
+                              </div>
+                              <div className="text-xs text-muted-foreground">per day</div>
+                            </div>
+                          )}
                         </div>
                       </div>
 
